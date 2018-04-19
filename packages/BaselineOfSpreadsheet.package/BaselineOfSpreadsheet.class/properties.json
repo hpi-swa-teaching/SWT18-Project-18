@@ -1,14 +1,14 @@
 {
-	"category" : "Counter-Core",
+	"category" : "BaselineOfSpreadsheet",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentValue" ],
-	"name" : "Counter",
+		 ],
+	"name" : "BaselineOfSpreadsheet",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }
