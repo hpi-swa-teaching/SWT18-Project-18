@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestSpreadsheetColumn",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

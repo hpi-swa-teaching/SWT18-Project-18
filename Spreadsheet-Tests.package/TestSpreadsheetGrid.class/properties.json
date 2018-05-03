@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"builder" ],
+	"name" : "TestSpreadsheetGrid",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

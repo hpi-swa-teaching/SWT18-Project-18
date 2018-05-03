@@ -1,2 +1,5 @@
-OrderedDictionary { }'packages\/Spreadsheet-Core.package' : #SquotCypressCodeSerializer
+OrderedDictionary {
+	'BaselineOfSpreadsheet.package' : #SquotCypressCodeSerializer,
+	'Spreadsheet-Core.package' : #SquotCypressCodeSerializer,
+	'Spreadsheet-Tests.package' : #SquotCypressCodeSerializer
 }

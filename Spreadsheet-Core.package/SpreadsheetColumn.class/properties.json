@@ -1,0 +1,16 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cells",
+		"index",
+		"grid" ],
+	"name" : "SpreadsheetColumn",
+	"pools" : [
+		 ],
+	"super" : "TextMorph",
+	"type" : "normal" }

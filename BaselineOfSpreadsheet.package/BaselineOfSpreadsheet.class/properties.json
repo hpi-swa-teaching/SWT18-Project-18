@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSpreadsheet",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSpreadsheet",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
