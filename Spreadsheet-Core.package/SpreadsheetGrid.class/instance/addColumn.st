@@ -1,7 +1,7 @@
-as yet unclassified
+accessing
 addColumn
 	
-	| col |
-	col := SpreadsheetColumn newWithIndex: self columns size + 1 on: self.
-	self rows do: [ :row |  SpreadsheetCell row: row column: col on: self].
-	self columns add: col
+	| aColumn |
+	aColumn := SpreadsheetLabel newWithIndex: self columns size on: self.
+	self rows do: [ :aRow |  SpreadsheetCell row: aRow column: aColumn on: self].
+	self columns add: aColumn

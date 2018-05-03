@@ -1,14 +1,16 @@
 {
-	"category" : "Spreadsheet-Tests",
+	"category" : "Spreadsheet-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TestSpreadsheetColumn",
+		"cells",
+		"index",
+		"grid" ],
+	"name" : "SpreadsheetLabel",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TextMorph",
 	"type" : "normal" }

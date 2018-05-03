@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addColumn" : "AS 5/3/2018 18:47",
-		"addRow" : "AS 5/3/2018 18:47",
+		"addColumn" : "LH 5/3/2018 22:32",
+		"addRow" : "LH 5/3/2018 22:32",
+		"buttonSize" : "LH 5/3/2018 22:49",
 		"columns" : "AS 5/3/2018 17:02",
-		"initialize" : "AS 5/3/2018 18:43",
-		"removeColumn" : "AS 5/3/2018 18:29",
+		"initialize" : "LH 5/3/2018 22:52",
+		"removeColumn" : "LH 5/3/2018 22:06",
+		"removeRow" : "LH 5/3/2018 22:06",
 		"rows" : "AS 5/3/2018 17:04",
 		"standardGridSize" : "AS 5/3/2018 17:08",
 		"standardPosition" : "AS 5/3/2018 18:34" } }

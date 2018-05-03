@@ -1,6 +1,6 @@
 as yet unclassified
 newWithIndex: anIndex on: aGrid
 
-	self new 
+	^(self new)
 		index: anIndex;
-		grid: aGrid 
+		grid: aGrid

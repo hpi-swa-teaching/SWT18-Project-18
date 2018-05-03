@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 standardPosition 
 
 	^ 200 @ 200

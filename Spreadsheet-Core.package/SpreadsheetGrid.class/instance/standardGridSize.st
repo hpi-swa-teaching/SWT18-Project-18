@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 standardGridSize 
 
 	^ 5 @ 5

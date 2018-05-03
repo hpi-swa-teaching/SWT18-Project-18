@@ -1,9 +1,8 @@
 as yet unclassified
 row: aRow column: aCol on: aGrid
 
-	^ self new
+	^(self new)
 		row: aRow;
 		column: aCol;
 		grid: aGrid;
-		openInSpreadsheet.
-		
+		openInSpreadsheet
