@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rows",
-		"columns",
-		"frame" ],
-	"name" : "SpreadsheetGrid",
+		 ],
+	"name" : "SpreadsheetWindow",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }
