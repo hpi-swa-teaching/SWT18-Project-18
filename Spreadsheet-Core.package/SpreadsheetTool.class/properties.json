@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "LH 5/5/2018 23:20",
 	"instvars" : [
-		 ],
-	"name" : "SpreadsheetWindow",
+		"tablesWindow" ],
+	"name" : "SpreadsheetTool",
 	"pools" : [
 		 ],
 	"super" : "Object",

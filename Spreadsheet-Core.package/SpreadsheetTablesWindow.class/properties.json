@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LH 5/5/2018 23:24",
+	"commentStamp" : "LH 5/5/2018 23:22",
 	"instvars" : [
-		"cells",
-		"index",
+		"tool",
 		"grid" ],
-	"name" : "SpreadsheetLabel",
+	"name" : "SpreadsheetTablesWindow",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "TransformMorph",
 	"type" : "normal" }

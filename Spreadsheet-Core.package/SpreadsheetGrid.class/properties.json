@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "LH 5/5/2018 23:29",
 	"instvars" : [
 		"rows",
-		"columns",
-		"frame" ],
+		"columns" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [
 		 ],
