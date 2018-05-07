@@ -1,4 +1,4 @@
 constants
 standardHeight
 
-	^ 20
+	^ 30
