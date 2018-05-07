@@ -8,7 +8,12 @@
 	"instvars" : [
 		"row",
 		"column",
-		"grid" ],
+		"grid",
+		"bottomSide",
+		"topSide",
+		"leftSide",
+		"rightSide",
+		"wasInitialized" ],
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],

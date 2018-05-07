@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 removeColumnHoles
 	| activeCell currentPosX nextPosX nextCells diff|
 

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 changeHeight: aHeight at: aRow
 	| cells |
 

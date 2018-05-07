@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 removeRowHoles
 	| activeCell currentPosY nextPosY nextCells diff|
 

@@ -10,3 +10,5 @@ initialize
 		autoFit: false;
 		width: self standardWidth;
 		height: self standardHeight.
+	self addEdgeGrips.
+	self setPosition.
