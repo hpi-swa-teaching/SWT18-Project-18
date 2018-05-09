@@ -8,4 +8,5 @@ initialize
 		borderColor: Color black;
 		color: Color black;
 		width: self standardWidth;
-		height: self standardHeight .
+		height: self standardHeight;
+		contentsWrapped: ''.
