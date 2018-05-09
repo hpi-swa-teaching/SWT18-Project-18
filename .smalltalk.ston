@@ -6,5 +6,12 @@ SmalltalkCISpec {
       #directory : 'packages',
       #load : [ 'tests' ]
     }
-  ]
+  ],
+  #testing : {
+    #coverage : {
+      #categories : [ 
+			  'Spreadsheet-Core', 
+      ]
+    }
+}
 }
