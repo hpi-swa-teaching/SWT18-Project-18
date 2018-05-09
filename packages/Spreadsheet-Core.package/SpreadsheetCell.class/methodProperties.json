@@ -2,13 +2,15 @@
 	"class" : {
 		"row:column:on:" : "LH 5/3/2018 19:54" },
 	"instance" : {
+		"acceptOnCR" : "JU 5/7/2018 19:25",
 		"column" : "AS 5/3/2018 18:03",
 		"column:" : "AS 5/3/2018 18:03",
+		"crAction" : "JU 5/9/2018 13:05",
 		"grid" : "AS 5/3/2018 18:44",
 		"grid:" : "AS 5/3/2018 18:44",
-		"initialize" : "AS 5/3/2018 17:46",
+		"initialize" : "JU 5/7/2018 18:50",
 		"offset" : "LH 5/3/2018 22:49",
-		"openInSpreadsheet" : "LH 5/3/2018 22:47",
+		"openInSpreadsheet" : "JU 5/7/2018 16:49",
 		"row" : "AS 5/3/2018 18:03",
 		"row:" : "AS 5/3/2018 18:03",
 		"standardHeight" : "AS 5/3/2018 17:46",
