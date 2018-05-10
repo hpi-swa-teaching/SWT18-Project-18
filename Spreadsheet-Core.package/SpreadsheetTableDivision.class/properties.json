@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "LH 5/5/2018 23:24",
 	"instvars" : [
-		"row",
-		"column",
-		"grid",
-		"type" ],
-	"name" : "SpreadsheetLabel",
+		"cells",
+		"index",
+		"grid" ],
+	"name" : "SpreadsheetTableDivision",
 	"pools" : [
 		 ],
 	"super" : "TextMorph",

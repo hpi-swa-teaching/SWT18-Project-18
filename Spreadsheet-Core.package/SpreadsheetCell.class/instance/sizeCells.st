@@ -5,8 +5,8 @@ sizeCells
 	x := self position x.
 	y := self position y.
 	
-	row := self getRowIDAt: self row.
-	col := self getColumnIDAt: self column.
+	row := self row index.
+	col := self column index.
 		
 	self wasInitialized == true ifTrue: [
 		((self topSide ~= x) or: (self bottomSide ~= (x + self height))) ifTrue: [

@@ -1,8 +1,11 @@
 initialization
-initialize
+initialize 
 
-	super initialize.
+	super initialize.	
 	self 
-		backgroundColor: Color white;
-		color: Color black.
-		
+		backgroundColor: Color gray;
+		color: Color white;
+		borderWidth: 1;
+		autoFit: false;
+		width: self standardWidth;
+		height: self standardHeight.

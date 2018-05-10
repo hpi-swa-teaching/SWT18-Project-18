@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addColumn" : "LH 5/3/2018 22:32",
-		"addRow" : "LH 5/3/2018 22:32",
+		"addColLabel:" : "LB 5/10/2018 21:05",
+		"addColumn" : "LB 5/10/2018 20:00",
+		"addRow" : "LB 5/10/2018 19:32",
+		"addRowLabel:" : "LB 5/10/2018 20:23",
 		"buttonSize" : "LH 5/3/2018 22:49",
 		"changeHeight:at:" : "LB 5/7/2018 15:14",
 		"changeWidth:at:" : "LB 5/7/2018 15:15",
