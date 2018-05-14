@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LH 5/5/2018 23:20",
+	"instvars" : [
+		"tablesWindow" ],
+	"name" : "SpreadsheetTool",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
