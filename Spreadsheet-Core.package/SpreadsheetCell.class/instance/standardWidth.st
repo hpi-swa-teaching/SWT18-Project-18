@@ -1,4 +1,0 @@
-constants
-standardWidth
-
-	^ 80

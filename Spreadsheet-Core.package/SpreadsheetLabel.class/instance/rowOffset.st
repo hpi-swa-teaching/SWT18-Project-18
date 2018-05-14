@@ -1,4 +1,0 @@
-initialization
-rowOffset 
-
-	^ 45

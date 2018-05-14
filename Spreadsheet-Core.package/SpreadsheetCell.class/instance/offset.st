@@ -1,4 +1,0 @@
-constants
-offset
-
-	^45

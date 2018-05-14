@@ -1,4 +1,0 @@
-initialization
-standardHeight
-
-	^ 30
