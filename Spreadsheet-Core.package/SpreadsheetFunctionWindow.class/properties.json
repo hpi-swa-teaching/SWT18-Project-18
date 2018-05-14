@@ -4,14 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LH 5/5/2018 23:25",
+	"commentStamp" : "",
 	"instvars" : [
-		"row",
-		"column",
-		"grid",
-		"calcRepresentation",
-		"functionWindow" ],
-	"name" : "SpreadsheetCell",
+		"currentActiveCell" ],
+	"name" : "SpreadsheetFunctionWindow",
 	"pools" : [
 		 ],
 	"super" : "TextMorph",

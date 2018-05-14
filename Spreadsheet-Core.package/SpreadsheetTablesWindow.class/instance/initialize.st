@@ -2,5 +2,9 @@ initialization
 initialize
 	
 	super initialize.
-	self grid: SpreadsheetGrid new;
+	self functionWindow: SpreadsheetFunctionWindow new;
+		addMorph: self functionWindow;
+		grid: (SpreadsheetGrid newWith: functionWindow);
 		addMorph: self grid.
+	
+	

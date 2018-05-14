@@ -6,6 +6,7 @@ keyboardFocusChange: weHaveFocus
 	weHaveFocus
 		ifTrue: [ "A hand is wanting to send us characters..."
 			self fetchCalcRepresentation.
+			self sendSelfToFunctionWindow.
 			self hasFocus ifFalse: [self editor	"Forces install"].
 			Editor blinkingCursor
 				ifTrue: [self startBlinking]
