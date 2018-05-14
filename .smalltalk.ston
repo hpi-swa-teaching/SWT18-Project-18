@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : ['Spreadsheet-Core.*']
+      #categories : ['Spreadsheet-Core']
     }
 }
 }
