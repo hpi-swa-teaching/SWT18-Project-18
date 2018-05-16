@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "PH 5/16/2018 19:10" },
 	"instance" : {
 		"addColLabel:" : "LB 5/10/2018 21:05",
 		"addColumn" : "LB 5/10/2018 20:00",
@@ -10,6 +10,8 @@
 		"changeHeight:at:" : "LB 5/7/2018 15:14",
 		"changeWidth:at:" : "LB 5/7/2018 15:15",
 		"columns" : "AS 5/3/2018 17:02",
+		"functionWindow" : "PH 5/16/2018 18:58",
+		"functionWindow:" : "PH 5/16/2018 18:58",
 		"grabbed" : "LH 5/6/2018 13:32",
 		"grabbed:" : "LH 5/6/2018 13:32",
 		"handlesMouseDown:" : "LH 5/6/2018 13:30",
