@@ -1,3 +1,0 @@
-accessing
-functionWindow: aSpreadsheetFunctionWindow
-	functionWindow := aSpreadsheetFunctionWindow.

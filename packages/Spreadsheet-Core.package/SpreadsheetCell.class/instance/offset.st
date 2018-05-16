@@ -1,4 +1,3 @@
 constants
 offset
 	^45
-

@@ -8,8 +8,7 @@
 	"instvars" : [
 		"rows",
 		"columns",
-		"grabbed",
-		"functionWindow" ],
+		"grabbed" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [
 		 ],
