@@ -10,4 +10,5 @@ initialize
 		autoFit: false;
 		width: self standardWidth;
 		height: self standardHeight;		
-		setPosition.
+		setPosition;
+		contentsWrapped: ''.

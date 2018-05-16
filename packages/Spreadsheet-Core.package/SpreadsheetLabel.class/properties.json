@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "LH 5/5/2018 23:24",
 	"instvars" : [
-		"row",
-		"column",
-		"grid",
-		"type" ],
+		"cells",
+		"index",
+		"grid" ],
 	"name" : "SpreadsheetLabel",
 	"pools" : [
 		 ],
