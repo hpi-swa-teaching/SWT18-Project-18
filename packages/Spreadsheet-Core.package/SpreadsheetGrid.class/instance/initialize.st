@@ -7,4 +7,5 @@ initialize
 		width: self buttonSize;
 		color: Color gray.
 	(1 to: self standardGridSize x) do: [ :a | self addRow ].
-	(1 to: self standardGridSize y) do: [ :a | self addColumn ].
+	(1 to: self standardGridSize y) do: [ :a | self addColumn ]
+	
