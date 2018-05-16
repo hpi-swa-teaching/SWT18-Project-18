@@ -6,5 +6,3 @@ initialize
 		addMorph: self functionWindow;
 		grid: (SpreadsheetGrid newWith: functionWindow);
 		addMorph: self grid.
-	
-	

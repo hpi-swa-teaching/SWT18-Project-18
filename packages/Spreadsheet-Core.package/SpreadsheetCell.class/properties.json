@@ -10,7 +10,12 @@
 		"column",
 		"grid",
 		"calcRepresentation",
-		"functionWindow" ],
+		"functionWindow" ,
+		"bottomSide",
+		"topSide",
+		"leftSide",
+		"rightSide",
+		"wasInitialized" ],
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],

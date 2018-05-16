@@ -1,0 +1,4 @@
+initialization
+standardWidth
+
+	^ 80

@@ -1,0 +1,4 @@
+initialization
+step
+	
+	self sizeCells.
