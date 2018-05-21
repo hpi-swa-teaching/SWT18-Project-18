@@ -1,0 +1,15 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"drag",
+		"targetLabel" ],
+	"name" : "SpreadsheetEdgeGrip",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

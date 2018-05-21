@@ -1,0 +1,16 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LH 5/5/2018 23:29",
+	"instvars" : [
+		"rows",
+		"columns",
+		"grabbed" ],
+	"name" : "SpreadsheetGrid",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

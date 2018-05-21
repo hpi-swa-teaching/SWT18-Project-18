@@ -1,0 +1,3 @@
+constants
+standardHeight
+	^ 30

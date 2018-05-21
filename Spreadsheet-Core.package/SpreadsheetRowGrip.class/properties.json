@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SpreadsheetRowGrip",
+	"pools" : [
+		 ],
+	"super" : "SpreadsheetEdgeGrip",
+	"type" : "normal" }

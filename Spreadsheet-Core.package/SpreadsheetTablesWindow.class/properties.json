@@ -1,0 +1,15 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LH 5/5/2018 23:22",
+	"instvars" : [
+		"tool",
+		"grid" ],
+	"name" : "SpreadsheetTablesWindow",
+	"pools" : [
+		 ],
+	"super" : "TransformMorph",
+	"type" : "normal" }
