@@ -1,7 +1,8 @@
-accessing
+layout
 addRow 
 	
 	| row |
-	row := SpreadsheetLabel newWithIndex: self rows size on: self.
-	self columns do: [ :col | SpreadsheetCell row: row column: col on: self].
-	self rows add: row
+	row := SpreadsheetLabel newWithIndex: self rows size + 1 on: self type: #rowLabel.
+	self columns do: [ :col | self createCellAtRow:  row col: col].
+	self rows add: row.
+	self addRowLabel: row

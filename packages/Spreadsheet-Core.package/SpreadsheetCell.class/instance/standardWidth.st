@@ -1,4 +1,3 @@
-constants
+initialization
 standardWidth
-
 	^ 80

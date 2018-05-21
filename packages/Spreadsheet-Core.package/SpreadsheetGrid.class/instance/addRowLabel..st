@@ -1,9 +1,7 @@
-as yet unclassified
+layout
 addRowLabel: aRow
-	| label |
 	
-	label := SpreadsheetLabel row: aRow on: self.
-	label 
+	aRow 
 		width: 30;
-		contents: (aRow index + 1) asString.
+		contents: aRow index asString.
 		

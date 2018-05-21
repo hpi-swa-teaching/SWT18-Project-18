@@ -1,0 +1,23 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LH 5/5/2018 23:25",
+	"instvars" : [
+		"row",
+		"column",
+		"grid",
+		"cell",
+		"bottomSide",
+		"topSide",
+		"leftSide",
+		"rightSide",
+		"wasInitialized",
+		"active" ],
+	"name" : "SpreadsheetCellTextMorph",
+	"pools" : [
+		 ],
+	"super" : "TextMorph",
+	"type" : "normal" }

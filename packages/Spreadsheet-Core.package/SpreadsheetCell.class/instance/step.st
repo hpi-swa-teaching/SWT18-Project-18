@@ -1,4 +1,4 @@
 initialization
 step
 	
-	self sizeCells.
+	self sizeCells

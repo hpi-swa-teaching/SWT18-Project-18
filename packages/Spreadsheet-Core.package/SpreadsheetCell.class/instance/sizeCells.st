@@ -20,5 +20,3 @@ sizeCells
 			self grid removeColumnHoles.
 			].
 	].
-	
-	self setPosition.

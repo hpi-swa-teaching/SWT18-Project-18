@@ -3,12 +3,15 @@ initialize
 
 	super initialize.
 	self 
-		backgroundColor: Color white;
-		borderWidth: 1;
-		borderColor: Color black;
-		color: Color black;
-		autoFit: false;
+		color: Color white;
+		borderWidth: 0;
+		height: self standardHeight;
 		width: self standardWidth;
-		height: self standardHeight;		
 		setPosition;
-		contentsWrapped: ''.
+		contentMorph: (StringMorph new
+			color: Color black;
+			position: 2@4;
+			height: self height - 4;
+			width: self width - 2;
+			contents: '').
+	self addMorph: self contentMorph
