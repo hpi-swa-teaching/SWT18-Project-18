@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "PH 5/21/2018 20:50" },
 	"instance" : {
 		"addColumn" : "LB 5/21/2018 13:30",
 		"addRow" : "LB 5/21/2018 15:40",
@@ -8,12 +8,14 @@
 		"changeHeight:at:" : "LB 5/7/2018 15:14",
 		"changeWidth:at:" : "LB 5/7/2018 15:15",
 		"columns" : "AS 5/3/2018 17:02",
+		"functionWindow" : "PH 5/21/2018 20:52",
+		"functionWindow:" : "PH 5/21/2018 20:52",
 		"grabbed" : "LH 5/6/2018 13:32",
 		"grabbed:" : "LH 5/6/2018 13:32",
 		"handlesMouseDown:" : "LH 5/6/2018 13:30",
 		"handlesMouseStillDown:" : "LH 5/6/2018 13:30",
 		"handlesMouseUp:" : "LH 5/6/2018 13:34",
-		"initialize" : "LB 5/7/2018 15:37",
+		"initialize" : "PH 5/21/2018 21:04",
 		"mouseDown:" : "LH 5/6/2018 13:32",
 		"mouseStillDown:" : "LH 5/6/2018 13:34",
 		"mouseUp:" : "LH 5/6/2018 13:35",

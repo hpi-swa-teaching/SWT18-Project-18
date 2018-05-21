@@ -1,3 +1,3 @@
 accessing
 functionWindow
-	^functionWindow
+	^ functionWindow
