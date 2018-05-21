@@ -1,0 +1,4 @@
+initialization
+openInWorld 
+
+	sysWindow openInWorld

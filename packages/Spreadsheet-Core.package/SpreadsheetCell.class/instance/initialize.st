@@ -4,6 +4,7 @@ initialize
 	super initialize.
 	self 
 		color: Color white;
+		colorUnselected: Color white;
 		borderWidth: 0;
 		height: self standardHeight;
 		width: self standardWidth;

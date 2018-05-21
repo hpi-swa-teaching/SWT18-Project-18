@@ -1,3 +1,3 @@
-initialization
+constants
 standardHeight
 	^ 20

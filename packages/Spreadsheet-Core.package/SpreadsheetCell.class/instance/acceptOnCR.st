@@ -1,4 +1,0 @@
-editing
-acceptOnCR
-
-	^ true

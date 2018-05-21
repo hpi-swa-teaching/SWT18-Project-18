@@ -1,4 +1,4 @@
-as yet unclassified
+visual properties
 unmarkAsSelected
 
-	^ self color: Color white
+	^ self color: self colorUnselected

@@ -1,4 +1,4 @@
-as yet unclassified
+visual properties
 markAsSelected
 
-	self color: Color lightBlue
+	self color: self colorSelected.
