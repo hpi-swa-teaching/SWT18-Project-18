@@ -13,7 +13,9 @@
 		"topSide",
 		"leftSide",
 		"rightSide",
-		"wasInitialized" ],
+		"wasInitialized",
+		"calcRepresentation",
+		"functionWindow" ],
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],

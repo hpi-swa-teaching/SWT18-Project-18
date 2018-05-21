@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentActiveCell" ],
+	"name" : "SpreadsheetFunctionWindow",
+	"pools" : [
+		 ],
+	"super" : "TextMorph",
+	"type" : "normal" }

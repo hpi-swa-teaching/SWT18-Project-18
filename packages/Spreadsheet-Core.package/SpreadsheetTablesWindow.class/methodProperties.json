@@ -2,8 +2,10 @@
 	"class" : {
 		"newWithTool:" : "LH 5/5/2018 18:35" },
 	"instance" : {
+		"functionWindow" : "PH 5/16/2018 19:02",
+		"functionWindow:" : "PH 5/16/2018 19:02",
 		"grid" : "LH 5/5/2018 18:17",
 		"grid:" : "LH 5/5/2018 18:17",
-		"initialize" : "AS 5/16/2018 12:34",
+		"initialize" : "PH 5/16/2018 19:13",
 		"tool" : "LH 5/5/2018 18:17",
 		"tool:" : "LH 5/5/2018 18:17" } }
