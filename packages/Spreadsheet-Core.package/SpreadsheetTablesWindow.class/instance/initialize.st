@@ -8,5 +8,5 @@ initialize
 		addMorph: (SimpleButtonMorph new label: 'Add Column'; actionSelector: #addColumn; target: self grid; position: 100@10);
 		addMorph: (SimpleButtonMorph new label: 'Remove Row';  actionSelector: #removeRow; target: self grid; position: 200@10);
 		addMorph: (SimpleButtonMorph new label: 'Remove Column'; actionSelector: #removeColumn; target: self grid; position: 300@10);
-		
+		addMorph: (SimpleButtonMorph new label: 'Change Column'; actionSelector: #changeWidth; target: self grid; position: 450@10);		
 		addMorph: self grid.

@@ -6,8 +6,11 @@
 		 ],
 	"commentStamp" : "LH 5/5/2018 23:29",
 	"instvars" : [
+		"editor",
 		"rows",
 		"columns",
+		"markedColumns",
+		"selection",
 		"grabbed" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [

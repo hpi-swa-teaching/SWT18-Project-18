@@ -1,4 +1,4 @@
-accessing
+layout
 removeColumnHoles
 	| activeCell currentPosX nextPosX nextCells diff|
 

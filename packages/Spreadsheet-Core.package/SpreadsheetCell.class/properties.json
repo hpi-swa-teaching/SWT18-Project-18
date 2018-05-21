@@ -6,16 +6,18 @@
 		 ],
 	"commentStamp" : "LH 5/5/2018 23:25",
 	"instvars" : [
+		"contentMorph",
 		"row",
 		"column",
 		"grid",
+		"wasInitialized",
+		"dragging",
 		"bottomSide",
 		"topSide",
 		"leftSide",
-		"rightSide",
-		"wasInitialized" ],
+		"rightSide" ],
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "RectangleMorph",
 	"type" : "normal" }

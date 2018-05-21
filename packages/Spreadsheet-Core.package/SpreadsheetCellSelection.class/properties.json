@@ -1,0 +1,17 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cells",
+		"startCell",
+		"currentCell",
+		"selectionBounds" ],
+	"name" : "SpreadsheetCellSelection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

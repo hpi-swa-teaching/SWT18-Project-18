@@ -1,4 +1,4 @@
 event handling
-handlesMouseStillDown: anEvent
+handlesMouseStillDown: evt
 
 	^true

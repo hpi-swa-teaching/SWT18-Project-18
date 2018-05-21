@@ -1,10 +1,9 @@
-as yet unclassified
+layout
 addColLabel: aCol
-	| label char text amount |
+	| char text amount |
 	
-	label := SpreadsheetLabel col: aCol on: self.
-	char := ((aCol index + 1) asString asCharacter asciiValue + 16) asCharacter.
+	char := (aCol index asString asCharacter asciiValue + 16) asCharacter.
 	amount := (aCol index / 26) asInteger + 1 .
 	text := ''.
 	1 to: amount do: [:d | text := text, char.].
-	label contents: text.
+	aCol contents: text.

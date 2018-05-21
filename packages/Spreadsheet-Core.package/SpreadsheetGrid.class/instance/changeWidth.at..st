@@ -1,4 +1,4 @@
-accessing
+layout
 changeWidth: aWidth at: aCol
 	| cells |
 
