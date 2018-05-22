@@ -1,3 +1,3 @@
 accessing
-functionWindow: aSpreadsheetFunctionWindow
-	functionWindow := aSpreadsheetFunctionWindow.
+functionWindow: anObject
+	functionWindow := anObject
