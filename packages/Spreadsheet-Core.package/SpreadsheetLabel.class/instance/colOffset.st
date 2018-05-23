@@ -1,4 +1,4 @@
 initialization
 colOffset 
 
-	^ 15
+	^ 0

@@ -1,4 +1,4 @@
 accessing
 type: aSymbol
-"can be #row or #column"
+"can be #rowLabel or #columnLabel"
 	type := aSymbol

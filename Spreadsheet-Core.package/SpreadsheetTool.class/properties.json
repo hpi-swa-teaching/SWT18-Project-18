@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "LH 5/5/2018 23:20",
 	"instvars" : [
-		"tablesWindow" ],
+		"tablesWindow",
+		"sysWindow" ],
 	"name" : "SpreadsheetTool",
 	"pools" : [
 		 ],

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cell" ],
+		"cell",
+		"gridCell",
+		"grid" ],
 	"name" : "TestSpreadsheetCell",
 	"pools" : [
 		 ],

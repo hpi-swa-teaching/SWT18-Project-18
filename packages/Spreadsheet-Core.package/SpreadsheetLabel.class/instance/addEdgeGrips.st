@@ -1,7 +1,7 @@
 initialization
 addEdgeGrips 
 
-	self type == #row ifTrue: [
-		self addMorphFront: (SpreadsheetRowGrip newOn: self)].
-	self type == #column ifTrue: [
-		self addMorphFront: (SpreadsheetColumnGrip newOn: self)].
+	self type == #rowLabel ifTrue: [
+		self addMorphBack: (BottomGripMorph new target: self; position: self position).].
+	self type == #columnLabel ifTrue: [
+		self addMorphBack: (RightGripMorph new target: self; position: self position).].

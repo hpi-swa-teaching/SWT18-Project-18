@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "LH 5/5/2018 23:24",
 	"instvars" : [
+		"contentMorph",
 		"cells",
 		"index",
 		"grid",
@@ -15,5 +16,5 @@
 	"name" : "SpreadsheetLabel",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "RectangleMorph",
 	"type" : "normal" }

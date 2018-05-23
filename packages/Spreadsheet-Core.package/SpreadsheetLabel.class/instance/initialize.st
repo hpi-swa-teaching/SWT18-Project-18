@@ -3,9 +3,12 @@ initialize
 
 	super initialize.	
 	self 
-		backgroundColor: Color lightGray;
-		color: Color white;
+		color: Color gray;
 		borderWidth: 1;
-		autoFit: false;
 		width: self standardWidth;
-		height: self standardHeight.
+		height: self standardHeight;
+		contentMorph: (StringMorph new
+			color: Color black;
+			position: 0@4;
+			contents: '').
+	self addMorph: self contentMorph
