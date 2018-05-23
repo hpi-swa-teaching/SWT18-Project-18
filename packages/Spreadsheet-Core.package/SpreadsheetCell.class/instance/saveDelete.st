@@ -1,8 +1,8 @@
 initialization
 saveDelete 
 
-	{ self leftSide.
-	self rightSide.
-	self topSide.
-	self bottomSide} do: [ :edge | edge deleteReference: self ].
+	{ self leftEdge.
+	self rightEdge.
+	self topEdge.
+	self bottomEdge} do: [ :edge | edge deleteReference: self ].
 	self delete
