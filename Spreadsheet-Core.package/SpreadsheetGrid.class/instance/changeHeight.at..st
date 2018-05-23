@@ -1,4 +1,4 @@
-accessing
+layout
 changeHeight: aHeight at: aRow
 	| cells |
 

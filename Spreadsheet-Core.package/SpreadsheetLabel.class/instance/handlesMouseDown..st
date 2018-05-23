@@ -1,4 +1,4 @@
 as yet unclassified
-handlesMouseDown: anEvent
+handlesMouseDown: evt
 
-	^false
+	^ true

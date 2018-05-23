@@ -1,0 +1,15 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cell",
+		"textMorph" ],
+	"name" : "TestSpreadsheetCellTextMorph",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

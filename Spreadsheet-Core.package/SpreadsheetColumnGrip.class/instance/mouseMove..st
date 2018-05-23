@@ -8,8 +8,7 @@ mouseMove: anEvent
 		diff := currentPosition - (label position x + label width). 
 		newWidth := label width + diff.
 		newWidth <= 10 ifTrue: [^false].
-		label width: newWidth.
+		label updateWidth: newWidth.
 		label cells do: [:cell | cell width: cell width + diff].
 		self position: self position x + diff @ self position y.
-		label changed.
-		].
+		label changed].

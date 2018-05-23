@@ -1,6 +1,6 @@
 initialization
 initialize 
-	| model sysWindow |
+	| model |
 
 	model := Model new.
       sysWindow := SystemWindow new.
@@ -10,4 +10,4 @@ initialize
 	self tablesWindow: (SpreadsheetTablesWindow newWithTool: self).
       sysWindow addMorph: self tablesWindow frame: (0@0 corner: 1@1).
 
-      sysWindow openInWorld. 
+      

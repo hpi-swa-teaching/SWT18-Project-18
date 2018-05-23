@@ -1,4 +1,4 @@
 initialization
 rowOffset 
 
-	^ 45
+	^ 30

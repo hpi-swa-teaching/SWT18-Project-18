@@ -1,4 +1,4 @@
 as yet unclassified
 updateCurrentActiveCell
 	
-	self currentActiveCell contentsWrapped: self contents.
+	self grid editor contentsWrapped: self contents.

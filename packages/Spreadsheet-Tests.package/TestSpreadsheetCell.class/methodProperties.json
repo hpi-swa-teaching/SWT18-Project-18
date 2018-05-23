@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JU 5/8/2018 17:16",
+		"setUp" : "AS 5/23/2018 12:20",
 		"tearDown" : "JU 5/8/2018 17:09",
-		"testSimpleOperation" : "JU 5/8/2018 17:24" } }
+		"testContentsAccessor" : "AS 5/21/2018 19:48",
+		"testNeighbourAccessors" : "AS 5/21/2018 20:02" } }

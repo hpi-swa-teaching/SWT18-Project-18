@@ -1,4 +1,4 @@
-accessing
+layout
 removeColumnHoles
 	| activeCell currentPosX nextPosX nextCells diff activeLabel nextLabel|
 
@@ -13,7 +13,6 @@ removeColumnHoles
 		
 		diff := currentPosX - nextPosX.
 		
-		nextCells do: [:nc | nc position: (nc position x + diff)@(nc position y)].
+		nextCells do: [:nc | nc updatePosition: (nc position x + diff)@(nc position y)].
 		nextLabel position: nextLabel position x + diff @ nextLabel position y.
 		].	
-	

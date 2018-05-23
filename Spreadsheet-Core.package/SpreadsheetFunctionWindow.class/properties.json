@@ -6,15 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cells",
-		"index",
-		"grid",
-		"row",
-		"column",
-		"type",
-		"currentActiveCell" ],
+		"grid" ],
 	"name" : "SpreadsheetFunctionWindow",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "SpreadsheetAbstractTextMorph",
 	"type" : "normal" }

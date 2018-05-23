@@ -1,4 +1,4 @@
 constants
 standardGridSize 
-
-	^ 5 @ 5
+	" rows @ cols "
+	^ 12 @ 6

@@ -1,3 +1,3 @@
-as yet unclassified
-calcRepresentation: aString
-	calcRepresentation := aString
+accessing
+calcRepresentation: anObject
+	calcRepresentation := anObject
