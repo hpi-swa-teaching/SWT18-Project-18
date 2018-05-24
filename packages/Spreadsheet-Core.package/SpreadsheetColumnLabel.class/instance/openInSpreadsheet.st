@@ -7,7 +7,8 @@ openInSpreadsheet
 	text := ''.
 	1 to: amount do: [:d | text := text, char.].
 	self contents: text.	
-	self position: ((self index) * self width + self grid position x + self rowOffset)@(self grid position y + self colOffset).
+	"self position: ((self index) * self width + self grid position x + self rowOffset)@(self grid position y + self colOffset)."
+	self position: (self grid right) @ (self grid markAllLabel position y).
 	self grid addMorph: self.
 	
 	self edgeGrip: (SpreadsheetColumnGrip newFor: self on: self grid).

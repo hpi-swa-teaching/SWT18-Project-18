@@ -11,7 +11,8 @@
 		"columns",
 		"markedColumns",
 		"selection",
-		"grabbed" ],
+		"grabbed",
+		"markAllLabel" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [
 		 ],
