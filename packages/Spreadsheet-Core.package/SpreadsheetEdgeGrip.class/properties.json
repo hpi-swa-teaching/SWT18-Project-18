@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"grid",
 		"drag",
-		"targetLabel" ],
+		"targetLabel",
+		"moveLine" ],
 	"name" : "SpreadsheetEdgeGrip",
 	"pools" : [
 		 ],

@@ -1,6 +1,6 @@
 accessing
 openColLabelInSpreadsheet 
-	| char text amount edgeGrip |
+	| char text amount |
 	
 	char := (self index + 1 asString asCharacter asciiValue + 16) asCharacter.
 	amount := (self index / 26) asInteger + 1 .
@@ -10,8 +10,8 @@ openColLabelInSpreadsheet
 	self position: ((self index) * self width + self grid position x + self rowOffset)@(self grid position y + self colOffset).
 	self grid addMorph: self.
 	
-	edgeGrip := SpreadsheetColumnGrip newOn: self.
+	edgeGrip := SpreadsheetColumnGrip newFor: self on: self grid.
 	edgeGrip
 		height: self height;
-		position: (self position x + self width - (edgeGrip width / 2)) @ self position y.
+		position: (self right - (edgeGrip width)) @ self position y.
 	self addMorphFront: edgeGrip.

@@ -1,14 +1,15 @@
 as yet unclassified
 mouseMove: anEvent
-	| currentPosition label diff newWidth |
+	| currentPosition |
 
 	self drag ifTrue: [	
 		currentPosition := anEvent cursorPoint x.
-		label := self targetLabel.
-		diff := currentPosition - (label position x + label width). 
-		newWidth := label width + diff.
-		newWidth <= 10 ifTrue: [^false].
-		label updateWidth: newWidth.
-		label cells do: [:cell | cell width: cell width + diff].
-		self position: self position x + diff @ self position y.
-		label changed].
+		(currentPosition -  self targetLabel position x > 10) 
+		ifFalse: [
+			self position: self targetLabel position + (5@0).
+			self moveLine position: self targetLabel position + (self width @ 0) + (5@0)]
+		ifTrue: [
+			self position: currentPosition @ self position y.
+			self moveLine position: currentPosition + self width @  (self moveLine position y).
+			].
+		self moveLine changed; comeToFront]

@@ -12,7 +12,8 @@
 		"grid",
 		"row",
 		"column",
-		"type" ],
+		"type",
+		"edgeGrip" ],
 	"name" : "SpreadsheetLabel",
 	"pools" : [
 		 ],
