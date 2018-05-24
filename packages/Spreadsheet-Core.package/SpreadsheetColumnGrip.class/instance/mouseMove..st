@@ -12,4 +12,5 @@ mouseMove: anEvent
 			self position: currentPosition @ self position y.
 			self moveLine position: currentPosition + self width @  (self moveLine position y).
 			].
-		self moveLine changed; comeToFront]
+		self moveLine changed; comeToFront.
+		self changed; comeToFront]

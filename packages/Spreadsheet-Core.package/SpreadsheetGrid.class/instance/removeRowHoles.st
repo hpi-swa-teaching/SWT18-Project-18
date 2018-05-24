@@ -14,7 +14,7 @@ removeRowHoles
 		diff := currentPosY - nextPosY.
 		
 		nextCells do: [:c | c updatePosition: (c position x)@(c position y + diff)].
-		nextLabel position: nextLabel position x @ (nextLabel position y + diff).
+		nextLabel updatePosition: nextLabel position x @ (nextLabel position y + diff).
 		].
 	
 	

@@ -2,6 +2,6 @@ as yet unclassified
 mouseDown: anEvent
 	| markerPosition |
 	
-	markerPosition := self position + (0 @ self height/2).
+	markerPosition := self position + (0 @ self height).
 	super mouseDown: anEvent.
-	self drawLineFrom: markerPosition to: markerPosition x @ self grid right.
+	self drawLineFrom: markerPosition to: self grid right @ markerPosition y.
