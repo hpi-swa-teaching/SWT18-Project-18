@@ -1,4 +1,4 @@
 as yet unclassified
 open
 
-	self new openInWorld
+	SpreadsheetWindow new openInWindowLabeled: 'SpreadsheetTool'

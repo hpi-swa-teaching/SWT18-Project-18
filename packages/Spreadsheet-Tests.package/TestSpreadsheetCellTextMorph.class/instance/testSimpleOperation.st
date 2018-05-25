@@ -4,6 +4,6 @@ testSimpleOperation
 	| operation |
 	
 	operation := '=1 + 1'.
-	textMorph contents: operation.
+	textMorph text: operation.
 	textMorph perform: #crAction.
-	self assert: [textMorph contents = '2']
+	self assert: [textMorph text = '2']

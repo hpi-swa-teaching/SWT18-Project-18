@@ -9,8 +9,8 @@
 		"tool",
 		"grid",
 		"functionWindow" ],
-	"name" : "SpreadsheetTablesWindow",
+	"name" : "SpreadsheetWindow",
 	"pools" : [
 		 ],
-	"super" : "TransformMorph",
+	"super" : "PHWidget",
 	"type" : "normal" }

@@ -16,5 +16,5 @@
 	"name" : "SpreadsheetGrid",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "PHWidget",
 	"type" : "normal" }

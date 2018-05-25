@@ -7,7 +7,7 @@ initialize
       sysWindow model: model.
 	sysWindow setLabel: 'Spreadsheet Tool'.
 
-	self tablesWindow: (SpreadsheetTablesWindow newWithTool: self).
+	self tablesWindow: (SpreadsheetWindow newWithTool: self).
       sysWindow addMorph: self tablesWindow frame: (0@0 corner: 1@1).
 
       

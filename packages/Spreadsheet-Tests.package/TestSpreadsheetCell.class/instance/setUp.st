@@ -1,6 +1,8 @@
 as yet unclassified
 setUp
 	
+	super setUp.
+	
 	cell := SpreadsheetCell new.
 	grid := SpreadsheetGrid new.
 	self assert: grid ~= nil.

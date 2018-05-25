@@ -5,8 +5,8 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				
-				package: 'Spreadsheet-Core';
+				baseline: 'Pheno' with: [spec repository: 'github://tom95/Pheno:master/src'; loads: #(tests)];
+				package: 'Spreadsheet-Core'with:[spec requires: #('Pheno')];
 				package: 'Spreadsheet-Tests' with: [spec requires: #('Spreadsheet-Core')];
 				yourself.
 			spec
