@@ -2,7 +2,7 @@ editing
 writeContent
 
 	self cell ifNotNil: [
-		self cell contents: self text.
+		self cell text: self text.
 		self calcRepresentation 
 			ifNil: [
 				self cell calcRepresentation: self text.]

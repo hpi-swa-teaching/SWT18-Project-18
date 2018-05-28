@@ -1,3 +1,0 @@
-accessing
-topSide
-	^ topSide

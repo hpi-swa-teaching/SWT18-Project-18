@@ -9,6 +9,5 @@ mouseUp: anEvent
 		diff := currentPosition - (label position y + label height). 
 		newHeight := label height + diff.
 		label height: newHeight.
-		label cells do: [:cell | cell height: cell height + diff].
 		label changed].
 	

@@ -8,16 +8,10 @@
 	"instvars" : [
 		"calcRepresentation",
 		"colorUnselected",
-		"contentMorph",
 		"row",
 		"column",
 		"grid",
-		"wasInitialized",
 		"dragging",
-		"bottomSide",
-		"topSide",
-		"leftSide",
-		"rightSide",
 		"leftEdge",
 		"rightEdge",
 		"topEdge",
@@ -25,5 +19,5 @@
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "PHTextEntry",
 	"type" : "normal" }
