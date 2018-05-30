@@ -12,6 +12,7 @@ calculateResult
 				function ifNotNil: [
 						cellPointCollection := SpreadsheetRegexMatcher getCellIndicesForString: expression.
 						cellTextCollection := self grid getCellContentForPointCollection: cellPointCollection.
+						Transcript show: cellTextCollection.
 						result := SpreadsheetMath perform: function on: cellTextCollection.
 					]
 				ifNil: [
