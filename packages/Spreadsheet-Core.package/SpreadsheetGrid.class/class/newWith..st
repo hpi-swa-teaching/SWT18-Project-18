@@ -3,4 +3,4 @@ newWith: aFunctionWindow
 
 	^ (self new)
 		functionWindow: aFunctionWindow;
-		addFunctionWindow
+		addDependencies

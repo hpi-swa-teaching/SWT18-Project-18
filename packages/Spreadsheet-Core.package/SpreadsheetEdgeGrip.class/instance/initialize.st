@@ -4,6 +4,6 @@ initialize
 	super initialize.
 	
 	self 
-		width: 2;
-		height: 2;
-		color: Color red.
+		width: 4;
+		height: 4;
+		color: Color transparent.

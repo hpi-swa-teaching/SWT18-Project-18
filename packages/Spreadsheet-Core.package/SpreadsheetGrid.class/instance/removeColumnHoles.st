@@ -14,5 +14,5 @@ removeColumnHoles
 		diff := currentPosX - nextPosX.
 		
 		nextCells do: [:nc | nc updatePosition: (nc position x + diff)@(nc position y)].
-		nextLabel position: nextLabel position x + diff @ nextLabel position y.
+		nextLabel updatePosition: nextLabel position x + diff @ nextLabel position y.
 		].	

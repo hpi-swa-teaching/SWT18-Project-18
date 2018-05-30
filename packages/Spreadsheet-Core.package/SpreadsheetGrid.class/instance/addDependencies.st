@@ -1,0 +1,6 @@
+initialization
+addDependencies 
+	
+	self addFunctionWindow.
+	
+	

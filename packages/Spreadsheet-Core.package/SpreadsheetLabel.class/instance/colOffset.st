@@ -1,4 +1,0 @@
-initialization
-colOffset 
-
-	^ 0

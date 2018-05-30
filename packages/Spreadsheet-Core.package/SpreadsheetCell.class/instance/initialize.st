@@ -6,8 +6,6 @@ initialize
 		color: Color white;
 		colorUnselected: Color white;
 		borderWidth: 0;
-		height: self standardHeight;
-		width: self standardWidth;
 		calcRepresentation: '';
 		contentMorph: (StringMorph new
 			color: Color black;
