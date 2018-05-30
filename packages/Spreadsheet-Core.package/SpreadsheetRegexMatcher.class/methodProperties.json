@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"functionsDict" : "JU 5/29/2018 15:35",
-		"getCellIndicesForString:" : "JU 5/29/2018 23:50",
+		"getCellIndicesForString:" : "AS 5/30/2018 13:30",
 		"getCellstringFromString:" : "JU 5/29/2018 23:46",
 		"getColumnAndRowFromCellLabel:" : "JU 5/29/2018 16:27",
 		"getFunctionFromString:" : "JU 5/29/2018 17:25",

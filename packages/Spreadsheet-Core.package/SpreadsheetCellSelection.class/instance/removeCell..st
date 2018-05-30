@@ -1,4 +1,4 @@
-as yet unclassified
+cell
 removeCell: aCell
 
 	self cells remove: aCell.

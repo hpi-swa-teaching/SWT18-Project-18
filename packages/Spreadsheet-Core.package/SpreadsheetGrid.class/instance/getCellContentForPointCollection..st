@@ -6,10 +6,9 @@ getCellContentForPointCollection: aCollection
 	cellContentCollection := OrderedCollection new.
 	aCollection do: [ :each |
 			singleCell := self cellAtRowIndex: each y colIndex: each x.
-			Transcript show: each.
-			Transcript show: singleCell contentMorph.
-			cellText := singleCell cell contents.
+			cellText := singleCell text.
 			(cellText) ifNotEmpty: [
 					cellContentCollection add: cellText
 				]
-		]
+		].
+	^ cellContentCollection
