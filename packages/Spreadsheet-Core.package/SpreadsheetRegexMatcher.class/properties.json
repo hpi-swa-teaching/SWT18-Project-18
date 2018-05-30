@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		"statements" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SpreadsheetRegexMatcher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
