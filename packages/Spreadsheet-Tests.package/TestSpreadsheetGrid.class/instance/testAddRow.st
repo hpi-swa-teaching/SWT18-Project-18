@@ -1,8 +1,8 @@
 as yet unclassified
 testAddRow
 
-	|rows|
+	|numberOfRows|
 	
-	rows := builder rows size.
+	numberOfRows := builder rows size.
 	builder addRow.
-	self assert: [builder rows size =  (rows + 1)]
+	self assert: [builder rows size =  (numberOfRows + 1)]

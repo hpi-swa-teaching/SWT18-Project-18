@@ -1,14 +1,10 @@
-layout
+accessing
 getCellContentForPointCollection: aCollection
 	"return a cell collection for a collection of points"
 	
-	| cellContentCollection singleCell cellText |
+	| cellContentCollection cellText |
 	cellContentCollection := OrderedCollection new.
-	aCollection do: [ :each |
-			singleCell := self cellAtRowIndex: each y colIndex: each x.
-			cellText := singleCell text.
-			(cellText) ifNotEmpty: [
-					cellContentCollection add: cellText
-				]
-		].
-	^ cellContentCollection
+	aCollection do: [ :aPoint |
+			cellText := (self cellAtRowIndex: aPoint y colIndex: aPoint x) text.
+			(cellText) ifNotEmpty: [cellContentCollection add: cellText]].
+	^cellContentCollection
