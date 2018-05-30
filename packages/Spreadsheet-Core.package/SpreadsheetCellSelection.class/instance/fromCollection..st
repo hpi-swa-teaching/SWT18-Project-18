@@ -1,4 +1,4 @@
-as yet unclassified
+cell
 fromCollection: aCollection
 
 	self removeAllCells.

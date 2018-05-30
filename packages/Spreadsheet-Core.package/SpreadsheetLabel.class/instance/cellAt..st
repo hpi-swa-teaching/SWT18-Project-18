@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 cellAt: anIndex
 
 	^ self cells at: anIndex

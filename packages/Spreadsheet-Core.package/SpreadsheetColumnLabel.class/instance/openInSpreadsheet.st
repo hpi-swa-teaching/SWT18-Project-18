@@ -2,8 +2,8 @@ as yet unclassified
 openInSpreadsheet 
 	| char text amount |
 	
-	char := (self index + 1 asString asCharacter asciiValue + 16) asCharacter.
-	amount := (self index / 26) asInteger + 1 .
+	char := (self index asString asCharacter asciiValue + 16) asCharacter.
+	amount := (self index / 26) asInteger + 1.
 	text := ''.
 	1 to: amount do: [:d | text := text, char.].
 	self text: text.	

@@ -6,9 +6,9 @@ initialize
 		color: Color gray;
 		width: self standardWidth;
 		height: self standardHeight;
-		align: #(center start);
+		alignment:  #center;
 		addStyleClass: #labelStyle;
 		addApplicationStyles: ((PHStyle for: #labelStyle)
-			boxSizing: #borderBox;
+			boxSizing: #content;
 			border: 1 color: Color black;
 			padding: 4@2)

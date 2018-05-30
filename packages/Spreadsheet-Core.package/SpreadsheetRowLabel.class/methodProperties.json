@@ -2,6 +2,8 @@
 	"class" : {
 		"newWithIndex:on:" : "AS 5/24/2018 07:31" },
 	"instance" : {
+		"bottomLabel" : "AS 5/30/2018 11:26",
 		"initialize" : "AS 5/24/2018 07:32",
-		"openInSpreadsheet" : "AS 5/28/2018 17:27",
+		"openInSpreadsheet" : "AS 5/30/2018 10:03",
+		"topLabel" : "AS 5/30/2018 11:25",
 		"updatePosition:" : "AS 5/28/2018 17:27" } }

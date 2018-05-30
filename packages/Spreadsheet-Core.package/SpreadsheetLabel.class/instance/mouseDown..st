@@ -1,6 +1,7 @@
-as yet unclassified
+event handling
 mouseDown: evt
 	
 	super mouseDown: evt.
 	self grid editCell: self cells first event: evt.
-	self grid selection fromCollection: self cells.
+	self dragging: true.
+	self grid startDragAtLabel: self.
