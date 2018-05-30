@@ -1,24 +1,12 @@
-as yet unclassified
+Expression Evaluation
 calculateResult
 
-	| currentContent expression result function cellPointCollection cellTextCollection |
-	currentContent := self text asString.
-	self calcRepresentation: currentContent.
+	| expression function |
 	
-	(currentContent isEmpty) ifFalse: [ 
-		((currentContent first) = $=) ifTrue: [
-				expression := currentContent allButFirst.
-				function := SpreadsheetRegexMatcher getFunctionFromString: expression.
-				function ifNotNil: [
-						cellPointCollection := SpreadsheetRegexMatcher getCellIndicesForString: expression.
-						cellTextCollection := self grid getCellContentForPointCollection: cellPointCollection.
-						Transcript show: cellTextCollection.
-						result := SpreadsheetMath perform: function on: cellTextCollection.
-					]
-				ifNil: [
-						result := Compiler evaluate: expression.
-					].
-				self text: result asString.
-			].
-		].
-	 self writeContent.
+	self calcRepresentation: self text.
+	(self isExpression: self text)  ifTrue: [
+			expression := (self text) allButFirst.
+			function := SpreadsheetRegexMatcher getFunctionFromString: expression.
+			function
+				ifNil: [^ Compiler evaluate: expression]
+				ifNotNil: [^ SpreadsheetMath perform: function on: (self parameterValuesFrom: expression)] ].
