@@ -1,4 +1,0 @@
-initialization
-step
-
-	self sizeCells

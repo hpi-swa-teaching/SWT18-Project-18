@@ -8,6 +8,5 @@ mouseUp: anEvent
 		label := self targetLabel.
 		diff := currentPosition - (label position x + label width). 
 		newWidth := label width + diff.
-		label updateWidth: newWidth.
-		label cells do: [:cell | cell width: cell width + diff].
+		label width: newWidth.
 		label changed].

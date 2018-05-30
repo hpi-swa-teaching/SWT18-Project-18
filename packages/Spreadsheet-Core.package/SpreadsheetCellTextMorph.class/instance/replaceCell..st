@@ -1,14 +1,11 @@
 editing
 replaceCell: aCell
 	
-	self writeContent.
-	self 
-		position: aCell position;
-		width: aCell width;
-		height: aCell height;
-		text: aCell contents;
+	self
+		writeContent;
+		text: aCell text;
 		calcRepresentation: aCell calcRepresentation;
 		cell: aCell;
-		yourself.
+		adjustToCell.
 	self grid functionWindow text:  aCell calcRepresentation.
 	self grid addMorph: self

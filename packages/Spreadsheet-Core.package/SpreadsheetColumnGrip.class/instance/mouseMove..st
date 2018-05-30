@@ -10,7 +10,6 @@ mouseMove: anEvent
 			self moveLine position: self targetLabel position + (self width @ 0) + (5@0)]
 		ifTrue: [
 			self position: currentPosition @ self position y.
-			self moveLine position: currentPosition + self width @  (self moveLine position y).
-			].
+			self moveLine position: currentPosition + self width @  (self moveLine position y)].
 		self moveLine changed; comeToFront.
 		self changed; comeToFront]

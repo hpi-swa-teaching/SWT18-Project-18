@@ -2,6 +2,3 @@ initialization
 initialize
 
 	super initialize.
-	
-		
-		
