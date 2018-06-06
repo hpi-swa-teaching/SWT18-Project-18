@@ -2,7 +2,7 @@ as yet unclassified
 openInSpreadsheet 
 
 	self width: 30;
-		text: (self index) asString.
+		updateLabelText.
 	self position: (self grid markAllLabel position x) @ ( self grid bottom).
 	self grid addMorph: self.
 
