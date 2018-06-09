@@ -1,10 +1,10 @@
 as yet unclassified
 updateLabelText
 
-	| char aText amount |
+	| characterIndex labelText numberOfCharacters |
 	
-	char := (self index asString asCharacter asciiValue + 16) asCharacter.
-	amount := (self index / 26) asInteger + 1.
-	aText := ''.
-	1 to: amount do: [:d | aText := aText, char].
-	self text: aText
+	characterIndex := ($A asciiValue + ((self index - 1) \\ 26)) asCharacter.
+	numberOfCharacters := (self index / 26) ceiling.
+	labelText := String new.
+	numberOfCharacters timesRepeat: [labelText := labelText, characterIndex].
+	self text: labelText.

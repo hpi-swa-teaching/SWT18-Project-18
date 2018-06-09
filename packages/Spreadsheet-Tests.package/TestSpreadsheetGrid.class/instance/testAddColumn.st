@@ -4,5 +4,5 @@ testAddColumn
 	|numberOfColumns|
 	
 	numberOfColumns := builder columns size.
-	builder addColumn.
+	builder addColumnAfter.
 	self assert: [builder columns size =  (numberOfColumns + 1)]

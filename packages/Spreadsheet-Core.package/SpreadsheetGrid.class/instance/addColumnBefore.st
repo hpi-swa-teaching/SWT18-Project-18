@@ -1,10 +1,9 @@
 layout
-removeColumn 
+addColumnBefore
 	
 	| aColumnIndex |
 	
-	(self columns size <= 1) ifTrue: [^ self].
 	self selection singleColumnSelected 
 		ifTrue: [aColumnIndex := self selection cells asOrderedCollection first column index]
-		ifFalse: [aColumnIndex := self columns last index].
-	self removeColumnWithIndex: aColumnIndex.
+		ifFalse: [aColumnIndex := self columns first index].
+	self addColumnWithIndex: aColumnIndex.
