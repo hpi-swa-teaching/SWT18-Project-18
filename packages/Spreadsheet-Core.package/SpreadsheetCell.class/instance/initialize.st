@@ -5,7 +5,7 @@ initialize
 	self 
 		color: Color white;
 		colorUnselected: Color white;
-		borderWidth: 0;
+		borderWidth: 0.5;
 		calcRepresentation: '';
 		text: '';
 		addStyleClass: #spreadsheetCell;

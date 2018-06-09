@@ -11,11 +11,7 @@
 		"row",
 		"column",
 		"grid",
-		"dragging",
-		"leftEdge",
-		"rightEdge",
-		"topEdge",
-		"bottomEdge" ],
+		"dragging" ],
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],
