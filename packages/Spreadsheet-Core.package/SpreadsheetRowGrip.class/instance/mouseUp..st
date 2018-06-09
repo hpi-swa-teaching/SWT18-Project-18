@@ -9,5 +9,6 @@ mouseUp: anEvent
 		diff := currentPosition - (label position y + label height). 
 		newHeight := label height + diff.
 		label height: newHeight.
+		self drag: false.
 		label changed].
 	
