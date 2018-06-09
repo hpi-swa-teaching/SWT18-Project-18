@@ -7,6 +7,6 @@ initialize
 		color: Color white;
 		editor: (SpreadsheetCellTextMorph on: self);
 		markAllLabel: (SpreadsheetMarkAllLabel on: self).
-	(1 to: self standardGridSize x) do: [ :a | self addRow ].
-	(1 to: self standardGridSize y) do: [ :a | self addColumnAfter ].
+	(self standardGridSize x) timesRepeat: [self addRowAfter].
+	(self standardGridSize y) timesRepeat: [self addColumnAfter].
 	self layoutPolicy: SpreadsheetGridLayout new.

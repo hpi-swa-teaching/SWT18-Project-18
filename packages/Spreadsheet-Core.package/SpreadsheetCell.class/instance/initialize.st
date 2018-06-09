@@ -12,5 +12,5 @@ initialize
 		addApplicationStyles: ((PHStyle for: #spreadsheetCell)
 			boxSizing: #borderBox;
 			padding: 4 @ 2;
-			color: Color black;
+			border: 1 color: Color black;
 			backgroundColor: Color white).

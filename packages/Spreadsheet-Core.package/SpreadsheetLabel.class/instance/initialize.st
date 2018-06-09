@@ -8,7 +8,9 @@ initialize
 		height: self standardHeight;
 		alignment:  #center;
 		addStyleClass: #labelStyle;
-		addApplicationStyles: ((PHStyle for: #labelStyle)
-			boxSizing: #content;
-			border: 1 color: Color black;
-			padding: 4@2)
+		addApplicationStyles: 
+			((PHStyle for: #labelStyle)
+				boxSizing: #borderBox;
+				border: 1 color: Color black;
+				padding: 4@2;
+				yourself)

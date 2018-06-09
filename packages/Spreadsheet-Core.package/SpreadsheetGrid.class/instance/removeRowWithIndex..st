@@ -1,8 +1,8 @@
-layout
-removeRowWithIndex: anInteger
+managing rows
+removeRowWithIndex: anIndex
 	
-	(self rows size < anInteger) ifTrue: [^ self].
-	(self rows at: anInteger) remove.
-	self rows removeAt: anInteger.
-	self	columns do: [:aColumn |  (aColumn cells removeAt: anInteger) saveDelete].
+	(self rows size < anIndex) ifTrue: [^ self].
+	(self rows at: anIndex) remove.
+	self rows removeAt: anIndex.
 	self rows do: [:aRow | aRow updateIndex].
+	self	columns do: [:aColumn |  (aColumn cells removeAt: anIndex) saveDelete].

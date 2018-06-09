@@ -1,4 +1,4 @@
-layout
+managing columns
 addColumnWithIndex: anInteger
 
 	| newColumn |

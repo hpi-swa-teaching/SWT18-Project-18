@@ -1,9 +1,9 @@
-layout
+managing columns
 addColumnBefore
 	
 	| aColumnIndex |
 	
 	self selection singleColumnSelected 
-		ifTrue: [aColumnIndex := self selection cells asOrderedCollection first column index]
+		ifTrue: [aColumnIndex := self selection startCell index]
 		ifFalse: [aColumnIndex := self columns first index].
 	self addColumnWithIndex: aColumnIndex.
