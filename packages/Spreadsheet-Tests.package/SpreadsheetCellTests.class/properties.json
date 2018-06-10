@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"builder" ],
-	"name" : "TestSpreadsheetGrid",
+		"cell",
+		"gridCell",
+		"grid" ],
+	"name" : "SpreadsheetCellTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

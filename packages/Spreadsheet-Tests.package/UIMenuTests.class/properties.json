@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cell",
-		"textMorph" ],
-	"name" : "TestSpreadsheetCellTextMorph",
+		"window",
+		"matcher" ],
+	"name" : "UIMenuTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PHEventTestCase",
 	"type" : "normal" }
