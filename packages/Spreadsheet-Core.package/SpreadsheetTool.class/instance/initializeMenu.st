@@ -16,5 +16,4 @@ initializeMenu
 					when: #clicked send: #addColumnBefore to: self grid);
 				add: ((PHDropdownItem label: 'Remove Column')
 					when: #clicked send: #removeColumn to: self grid)
-				))).	
-	
+				))).
