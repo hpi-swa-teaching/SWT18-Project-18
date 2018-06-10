@@ -1,10 +1,13 @@
 as yet unclassified
 testAddColumnBefore
 	
-	| columnNumber |
+	| lastColumnLabel dropdown expectedNewColumnLabel|
 	
-	columnNumber := tool grid columns size.
-	self click: (matcher haveA: PHButton labelled: 'Menü') buttons: #(left).
-	self click: (matcher haveA: PHDropdownItem labelled: 'Add Column Before') buttons: #(left).
+	lastColumnLabel := tool grid columns last text asCharacter.
+	self click: (tool findWidgetOfKind: PHButton labelled: 'Menü').
+	dropdown := world findToplevelOfKind: PHDropdown.
+	self click: (dropdown findWidgetOfKind: PHDropdownItem labelled: 'Add Column Before').
 	
-	(self expect: tool grid columns size) to equal: columnNumber + 1.
+	expectedNewColumnLabel := (lastColumnLabel asciiValue + 1) asCharacter asString.
+	
+	(self expect: tool) to haveA: SpreadsheetColumnLabel labelled: expectedNewColumnLabel.

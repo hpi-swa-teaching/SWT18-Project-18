@@ -3,6 +3,5 @@ setUp
 	
 	super setUp.
 	tool := SpreadsheetTool new 
-					openInWindowLabeled: 'SpreadsheetTool';
+					openInWindowLabeled: 'SpreadsheetTool' inWorld: world;
 					yourself.
-	matcher := PHTestMatcher new subject: tool.

@@ -1,10 +1,13 @@
 as yet unclassified
 testAddRowBefore
 	
-	| rowNumber |
+	| lastRowLabel dropdown expectedNewRowLabel|
 	
-	rowNumber := tool grid rows size.
-	self click: (matcher haveA: PHButton labelled: 'Menü') buttons: #(left).
-	self click: (matcher haveA: PHDropdownItem labelled: 'Add Row Before') buttons: #(left).
+	lastRowLabel := tool grid rows last text.
+	self click: (tool findWidgetOfKind: PHButton labelled: 'Menü').
+	dropdown := world findToplevelOfKind: PHDropdown.
+	self click: (dropdown findWidgetOfKind: PHDropdownItem labelled: 'Add Row Before').
 	
-	(self expect: tool grid rows size) to equal: rowNumber + 1.
+	expectedNewRowLabel := (lastRowLabel asInteger + 1) asString.
+	
+	(self expect: tool) to haveA: SpreadsheetRowLabel labelled: expectedNewRowLabel.

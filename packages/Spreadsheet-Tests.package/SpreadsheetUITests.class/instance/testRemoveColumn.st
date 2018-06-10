@@ -1,10 +1,14 @@
 as yet unclassified
 testRemoveColumn
+
+	| lastColumnLabel dropdown|
 	
-	| columnNumber |
+	lastColumnLabel := tool grid columns last text.
 	
-	columnNumber := tool grid columns size.
-	self click: (matcher haveA: PHButton labelled: 'Menü') buttons: #(left).
-	self click: (matcher haveA: PHDropdownItem labelled: 'Remove Column') buttons: #(left).
+	(self expect: tool) to haveA: SpreadsheetColumnLabel labelled: lastColumnLabel.
 	
-	(self expect: tool grid columns size) to equal: columnNumber - 1.
+	self click: (tool findWidgetOfKind: PHButton labelled: 'Menü').
+	dropdown := world findToplevelOfKind: PHDropdown.
+	self click: (dropdown findWidgetOfKind: PHDropdownItem labelled: 'Remove Column').
+	
+	(self expect: tool) not to haveA: SpreadsheetColumnLabel labelled: lastColumnLabel.

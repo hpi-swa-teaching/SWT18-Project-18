@@ -1,10 +1,14 @@
 as yet unclassified
 testRemoveRow
 	
-	| rowNumber |
+	| lastRowLabel dropdown|
 	
-	rowNumber := tool grid rows size.
-	self click: (matcher haveA: PHButton labelled: 'Menü') buttons: #(left).
-	self click: (matcher haveA: PHDropdownItem labelled: 'Remove Row') buttons: #(left).
+	lastRowLabel := tool grid rows last text.
 	
-	(self expect: tool grid rows size) to equal: rowNumber - 1.
+	(self expect: tool) to haveA: SpreadsheetRowLabel labelled: lastRowLabel.
+	
+	self click: (tool findWidgetOfKind: PHButton labelled: 'Menü').
+	dropdown := world findToplevelOfKind: PHDropdown.
+	self click: (dropdown findWidgetOfKind: PHDropdownItem labelled: 'Remove Row').
+	
+	(self expect: tool) not to haveA: SpreadsheetRowLabel labelled: lastRowLabel.
