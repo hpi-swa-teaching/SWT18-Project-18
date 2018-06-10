@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window",
-		"matcher" ],
-	"name" : "UIMenuTests",
+		"matcher",
+		"tool" ],
+	"name" : "SpreadsheetUITests",
 	"pools" : [
 		 ],
 	"super" : "PHEventTestCase",

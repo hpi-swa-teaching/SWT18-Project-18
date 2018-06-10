@@ -4,5 +4,5 @@ testAddRow
 	|numberOfRows|
 	
 	numberOfRows := builder rows size.
-	builder addRow.
+	builder addRowAfter.
 	self assert: [builder rows size =  (numberOfRows + 1)]
