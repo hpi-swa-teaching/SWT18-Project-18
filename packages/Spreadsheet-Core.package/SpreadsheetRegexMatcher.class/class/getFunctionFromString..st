@@ -7,8 +7,6 @@ getFunctionFromString: aString
 	functionsDict keys do: [ :each |
 			matcher := each asRegex.
 			(matcher matches: aString) ifTrue: [
-					^functionsDict at: each
-				]
-		].
+					^functionsDict at: each]].
 	^nil
 	

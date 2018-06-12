@@ -1,0 +1,20 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		"Grid" ],
+	"classvars" : [
+		"Grid" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"builder",
+		"cell1",
+		"cell2",
+		"cell3",
+		"cell4",
+		"cellResult",
+		"grid" ],
+	"name" : "SpreadsheetMathTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
