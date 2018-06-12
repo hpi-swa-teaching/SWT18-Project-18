@@ -1,8 +1,8 @@
 as yet unclassified
-row: aRow column: aCol on: aGrid
+newInRow: aRow column: aColumn on: aGrid
 
 	^self new
 		row: aRow;
-		column: aCol;
+		column: aColumn;
 		grid: aGrid;
 		openInSpreadsheet
