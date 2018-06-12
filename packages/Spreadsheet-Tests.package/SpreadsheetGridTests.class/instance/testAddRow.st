@@ -3,6 +3,6 @@ testAddRow
 
 	|numberOfRows|
 	
-	numberOfRows := builder rows size.
-	builder addRowAfter.
-	self assert: [builder rows size =  (numberOfRows + 1)]
+	numberOfRows := grid rows size.
+	grid addRowAfter.
+	self assert: [grid rows size =  (numberOfRows + 1)]

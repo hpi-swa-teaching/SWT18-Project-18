@@ -3,6 +3,6 @@ testAddColumn
 
 	|numberOfColumns|
 	
-	numberOfColumns := builder columns size.
-	builder addColumnAfter.
-	self assert: [builder columns size =  (numberOfColumns + 1)]
+	numberOfColumns := grid columns size.
+	grid addColumnAfter.
+	self assert: [grid columns size =  (numberOfColumns + 1)]
