@@ -1,7 +1,8 @@
 visual properties
 unmarkAsSelected
 
-	self 
+	self
+		selected: false; 
 		addStyleClass: #spreadsheetCell;
 		addApplicationStyles: ((PHStyle for: #spreadsheetCell)
 			boxSizing: #borderBox;

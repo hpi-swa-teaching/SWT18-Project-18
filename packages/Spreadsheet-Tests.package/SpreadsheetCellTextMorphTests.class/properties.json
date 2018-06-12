@@ -7,9 +7,14 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"cell",
-		"textMorph" ],
+		"textMorph",
+		"tool",
+		"grid",
+		"editor",
+		"gridCell",
+		"functionWindow" ],
 	"name" : "SpreadsheetCellTextMorphTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PHEventTestCase",
 	"type" : "normal" }

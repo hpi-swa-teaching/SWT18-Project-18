@@ -2,6 +2,7 @@ visual properties
 markAsSelected
 
 	self
+		selected: true;
 		addStyleClass: #spreadsheetCell;
 		addApplicationStyles: ((PHStyle for: #spreadsheetCell)
 			boxSizing: #borderBox;
