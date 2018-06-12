@@ -1,4 +1,6 @@
 as yet unclassified
 testInitialize
 
-	self assert: [ builder rows size = builder standardGridSize x and: [builder columns size = builder standardGridSize y]]
+	self 
+		assert: [grid rows size = grid standardGridSize x];
+		assert: [grid columns size = grid standardGridSize y].

@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 	
-	builder := SpreadsheetGrid new
+	grid := SpreadsheetGrid new
