@@ -6,4 +6,3 @@ updateDragPositionLabel: aPoint
 	(self currentCell class == SpreadsheetRowLabel) 
 		ifTrue: [self updateDragPositionRowLabel: aPoint]
 		ifFalse: [ ^ self ].
-	self updateDragPositionLabel: aPoint.

@@ -3,7 +3,7 @@ updateCurrentLabelLeft
 
 	|currentBounds|
 	currentBounds := self computeDistanceX.
-	(currentBounds negative) 
+	(currentBounds <= 0) 
 		ifTrue: [
 			self currentCell: (self currentCell leftLabel).
 			self addCollection: self currentCell cells]
