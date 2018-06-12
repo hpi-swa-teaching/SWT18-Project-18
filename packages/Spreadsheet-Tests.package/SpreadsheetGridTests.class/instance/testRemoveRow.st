@@ -1,8 +1,8 @@
 as yet unclassified
 testRemoveRow
 
-	|rows|
+	| numberOfRows |
 	
-	rows := builder rows size.
-	builder removeRow.
-	self assert: [builder rows size =  (rows - 1)]
+	numberOfRows := grid rows size.
+	grid removeRow.
+	self assert: [grid rows size =  (numberOfRows - 1)]

@@ -1,8 +1,8 @@
 as yet unclassified
 testRemoveColumn
 
-	|rows|
+	| numberOfColumns |
 	
-	rows := builder columns size.
-	builder removeColumn.
-	self assert: [builder columns size = ( rows - 1)]
+	numberOfColumns := grid columns size.
+	grid removeColumn.
+	self assert: [grid columns size = ( numberOfColumns - 1)]
