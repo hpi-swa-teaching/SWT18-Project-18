@@ -1,15 +1,12 @@
-as yet unclassified
+Expression Evaluation
 calculateResult
 
-	| currentContent expression result |
-	currentContent := self contents asString.
-	self calcRepresentation: currentContent.
+	| expression function |
 	
-	(currentContent isEmpty) ifFalse: [ 
-		((currentContent at: 1) = $=) ifTrue: [
-				expression := ((currentContent subStrings: '=') at: 1).
-				result := Compiler evaluate: expression.
-				self contents: result asString.
-			].
-		].
-	 self writeContent.
+	self calcRepresentation: self text.
+	(self isExpression: self text)  ifTrue: [
+			expression := (self text) allButFirst.
+			function := SpreadsheetRegexMatcher getFunctionFromString: expression.
+			function
+				ifNil: [^ Compiler evaluate: expression]
+				ifNotNil: [^ SpreadsheetMath perform: function on: (self parameterValuesFrom: expression)] ].

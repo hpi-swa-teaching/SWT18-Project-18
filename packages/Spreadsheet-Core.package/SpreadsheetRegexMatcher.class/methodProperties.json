@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"functionsDict" : "JU 5/29/2018 15:35",
+		"getCellIndicesForString:" : "AS 5/30/2018 13:30",
+		"getCellstringFromString:" : "JU 5/29/2018 23:46",
+		"getColumnAndRowFromCellLabel:" : "JU 5/29/2018 16:27",
+		"getFunctionFromString:" : "JU 5/29/2018 17:25",
+		"getNumberFromChar:" : "JU 5/29/2018 16:17",
+		"hasOperation:" : "JU 5/29/2018 16:55" },
+	"instance" : {
+		 } }

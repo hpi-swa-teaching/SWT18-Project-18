@@ -1,3 +1,3 @@
 editing
 setFunctionWindow
-	self grid functionWindow contents: (self calculatedContents).
+	self grid functionWindow text: (self calculatedContents).

@@ -1,4 +1,4 @@
 editing
 update
 	
-	self grid functionWindow contents: (self contents).
+	self grid functionWindow text: (self text).

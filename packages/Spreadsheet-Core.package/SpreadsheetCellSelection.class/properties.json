@@ -1,11 +1,12 @@
 {
 	"category" : "Spreadsheet-Core",
 	"classinstvars" : [
-		 ],
+		"grid" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"grid",
 		"cells",
 		"startCell",
 		"currentCell",

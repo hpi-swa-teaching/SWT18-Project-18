@@ -1,0 +1,16 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cell",
+		"gridCell",
+		"grid" ],
+	"name" : "SpreadsheetCellTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

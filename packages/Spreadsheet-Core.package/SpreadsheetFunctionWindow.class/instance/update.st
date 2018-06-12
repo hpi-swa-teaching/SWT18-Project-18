@@ -1,4 +1,4 @@
 as yet unclassified
 update
 
-	self grid editor contents: self contents.
+	self grid editor text: self text.

@@ -1,4 +1,4 @@
 accessing
 selection 
 
-	^ selection ifNil: [ selection := SpreadsheetCellSelection new]
+	^ selection ifNil: [ selection := SpreadsheetCellSelection on: self]

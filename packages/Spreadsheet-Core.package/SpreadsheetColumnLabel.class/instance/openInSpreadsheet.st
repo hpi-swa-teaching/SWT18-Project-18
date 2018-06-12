@@ -1,12 +1,7 @@
 as yet unclassified
 openInSpreadsheet 
-	| char text amount |
 	
-	char := (self index + 1 asString asCharacter asciiValue + 16) asCharacter.
-	amount := (self index / 26) asInteger + 1 .
-	text := ''.
-	1 to: amount do: [:d | text := text, char.].
-	self contents: text.	
+	self updateLabelText.
 	"self position: ((self index) * self width + self grid position x + self rowOffset)@(self grid position y + self colOffset)."
 	self position: (self grid right) @ (self grid markAllLabel position y).
 	self grid addMorph: self.

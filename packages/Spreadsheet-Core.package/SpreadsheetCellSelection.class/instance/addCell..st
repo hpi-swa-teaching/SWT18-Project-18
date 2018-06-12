@@ -1,4 +1,4 @@
-as yet unclassified
+cell
 addCell: aCell
 
 	aCell markAsSelected.

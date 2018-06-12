@@ -1,3 +1,3 @@
 accessing
 drag
-	^ drag
+	^ drag ifNil: [ drag := false ]

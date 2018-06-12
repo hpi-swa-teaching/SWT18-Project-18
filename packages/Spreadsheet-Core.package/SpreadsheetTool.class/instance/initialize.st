@@ -1,13 +1,14 @@
 initialization
 initialize 
-	| model |
 
-	model := Model new.
-      sysWindow := SystemWindow new.
-      sysWindow model: model.
-	sysWindow setLabel: 'Spreadsheet Tool'.
-
-	self tablesWindow: (SpreadsheetTablesWindow newWithTool: self).
-      sysWindow addMorph: self tablesWindow frame: (0@0 corner: 1@1).
-
+	super initialize.
+	self 
+		functionWindow: SpreadsheetFunctionWindow new;
+		grid: (SpreadsheetGrid newWith: functionWindow);
+		vertical: true;
+		withLayout;
+		initializeMenu;
+		add: (PHPage row
+			add: self functionWindow);
+		add: (self grid).
       

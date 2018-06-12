@@ -6,16 +6,15 @@
 		 ],
 	"commentStamp" : "LH 5/5/2018 23:24",
 	"instvars" : [
-		"contentMorph",
 		"cells",
 		"index",
 		"grid",
 		"row",
 		"column",
-		"type",
+		"dragging",
 		"edgeGrip" ],
 	"name" : "SpreadsheetLabel",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "PHLabel",
 	"type" : "normal" }

@@ -2,4 +2,4 @@ event handling
 updateDragPosition: aPoint
 	
 	(self gridBounds containsPoint: aPoint) ifFalse: [^self].
-	self selection updateDragPosition: aPoint
+	self selection updateDragPosition: aPoint.

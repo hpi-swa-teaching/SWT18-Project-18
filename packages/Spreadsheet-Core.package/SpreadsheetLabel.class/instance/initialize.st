@@ -4,11 +4,13 @@ initialize
 	super initialize.	
 	self 
 		color: Color gray;
-		borderWidth: 1;
 		width: self standardWidth;
 		height: self standardHeight;
-		contentMorph: (StringMorph new
-			color: Color black;
-			position: 0@4;
-			contents: '').
-	self addMorph: self contentMorph
+		alignment:  #center;
+		addStyleClass: #labelStyle;
+		addApplicationStyles: 
+			((PHStyle for: #labelStyle)
+				boxSizing: #borderBox;
+				border: 1 color: Color black;
+				padding: 4@2;
+				yourself)
