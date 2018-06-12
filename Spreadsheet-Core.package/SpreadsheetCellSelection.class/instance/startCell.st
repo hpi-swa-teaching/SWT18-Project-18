@@ -1,3 +1,0 @@
-accessing
-startCell
-	^ startCell
