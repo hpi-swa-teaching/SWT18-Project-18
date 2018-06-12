@@ -1,4 +1,0 @@
-constants
-buttonSize
-
-	^10

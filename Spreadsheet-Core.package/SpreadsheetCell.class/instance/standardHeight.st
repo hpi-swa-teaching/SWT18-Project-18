@@ -1,3 +1,0 @@
-constants
-standardHeight
-	^ 20
