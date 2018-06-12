@@ -1,4 +1,0 @@
-initialization
-standardWidth
-
-	^ 80

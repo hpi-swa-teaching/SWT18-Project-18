@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "AS 6/12/2018 20:30",
+		"testCellSelectionDoubleRight" : "AS 6/12/2018 20:47",
+		"testColumnLabelSelectionLeft" : "AS 6/12/2018 20:54",
+		"testRowLabelSelectionBottom" : "AS 6/12/2018 20:58" } }

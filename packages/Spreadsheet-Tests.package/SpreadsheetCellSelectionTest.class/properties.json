@@ -6,10 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cell",
-		"gridCell",
-		"grid" ],
-	"name" : "SpreadsheetCellTests",
+		"tool",
+		"grid",
+		"selection",
+		"editor",
+		"gridCell" ],
+	"name" : "SpreadsheetCellSelectionTest",
 	"pools" : [
 		 ],
 	"super" : "PHEventTestCase",
