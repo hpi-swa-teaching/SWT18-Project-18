@@ -5,4 +5,4 @@ removeColumnWithIndex: anIndex
 	(self columns at: anIndex) remove.
 	self columns removeAt: anIndex.
 	self columns do: [:aColumn | aColumn updateIndex].
-	self rows do: [:aRow |  (aRow cells removeAt: anIndex) saveDelete].
+	self rows do: [:aRow |  (aRow cells removeAt: anIndex) delete].
