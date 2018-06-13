@@ -1,7 +1,9 @@
 as yet unclassified
 layout: aMorph in: aBox
 
-	| x y |
+	| x y newEditorSize|
+	newEditorSize := (aMorph editor calculateSizeForWidth: aMorph editor width) naturalSize y.
+	aMorph editor cell ifNotNilDo: [ :cell | cell row height: (newEditorSize max: cell height)].
 	x := aMorph markAllLabel position x.
 	y := aMorph markAllLabel bottom.
 	aMorph rows do: [:row |

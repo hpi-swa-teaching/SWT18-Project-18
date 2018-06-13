@@ -2,4 +2,4 @@ cell
 fromCollection: aCollection
 
 	self removeAllCells.
-	aCollection do: [:cell | self addCell: cell]
+	aCollection do: [:cell | self addCell: cell].

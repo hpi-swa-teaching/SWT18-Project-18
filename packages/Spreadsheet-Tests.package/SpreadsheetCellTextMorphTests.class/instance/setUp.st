@@ -9,7 +9,7 @@ setUp
 	functionWindow := tool functionWindow.
 	grid := tool grid. 
 	editor := grid editor.
-	gridCell := grid cellAtRowIndex: 1 colIndex: 1.
+	gridCell := grid cellAtRowIndex: 3 colIndex: 3.
 	gridCell text: '6'.
 	gridCell calcRepresentation: '=3+3'.
 	gridCell width: 120.

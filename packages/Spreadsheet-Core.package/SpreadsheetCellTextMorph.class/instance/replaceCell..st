@@ -2,7 +2,8 @@ editing
 replaceCell: aCell
 	
 	self
-		writeContent;
+		calculateAndWriteContent.
+	self
 		text: aCell text;
 		calcRepresentation: aCell calcRepresentation;
 		cell: aCell;

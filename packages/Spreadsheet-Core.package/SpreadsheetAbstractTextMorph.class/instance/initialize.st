@@ -2,9 +2,8 @@ as yet unclassified
 initialize 
 
 	super initialize.
-	self 
+	self
 		text: '';
-		wrap: #never;
 		addStyleClass: #spreadsheetText;
 		addApplicationStyles: ((PHStyle for: #spreadsheetText)
 			boxSizing: #borderBox;

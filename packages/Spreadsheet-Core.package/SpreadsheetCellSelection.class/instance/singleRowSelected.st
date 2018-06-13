@@ -1,8 +1,10 @@
 accessing
 singleRowSelected
 
-	(self cells size <= 1) ifTrue: [^ false].
-	(self startCell isKindOf: SpreadsheetLabel) ifFalse: [^ false].
-	self cells do: [ :aCell | 
-		(aCell row index = self cells asOrderedCollection first row index) ifFalse: [^ false]].
+	| aRow |
+	
+	self cells ifEmpty: [^ false].
+	aRow := self cells asOrderedCollection first row.
+	aRow cells do: [:aCell |
+		(self cells includes: aCell) ifFalse: [^ false]].
 	^ true

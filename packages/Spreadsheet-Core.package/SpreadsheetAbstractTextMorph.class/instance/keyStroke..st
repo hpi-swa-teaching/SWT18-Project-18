@@ -7,6 +7,6 @@ keyStroke: evt
 			self update
 		]
 		ifTrue: [
-			self crAction
+			self crAction: evt
 		]
 		
