@@ -1,8 +1,8 @@
 label
 updateDragPositionRowLabel: aPoint
 	
-	((aPoint y) between: self currentCell top and: self currentCell bottom) ifTrue: [^ self ].
-	(aPoint y > self currentCell bottom)
+	((aPoint y) between: self currentLabel top and: self currentLabel bottom) ifTrue: [^ self ].
+	(aPoint y > self currentLabel bottom)
 		 ifTrue: [ 
 			self updateCurrentLabelBottom
 		]

@@ -5,8 +5,8 @@ updateCurrentLabelLeft
 	currentBounds := self computeDistanceX.
 	(currentBounds <= 0) 
 		ifTrue: [
-			self currentCell: (self currentCell leftLabel).
-			self addCollection: self currentCell cells]
+			self currentLabel: (self currentLabel leftLabel).
+			self addCollection: self currentLabel cells]
 		ifFalse: [
-			self removeCollection: self currentCell cells.
-			self currentCell: (self currentCell leftLabel).]
+			self removeCollection: self currentLabel cells.
+			self currentLabel: (self currentLabel leftLabel).]

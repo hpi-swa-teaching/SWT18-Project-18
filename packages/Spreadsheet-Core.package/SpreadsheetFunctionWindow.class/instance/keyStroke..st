@@ -3,4 +3,4 @@ keyStroke: evt
 	"Handle a keystroke event."
 	
 	super keyStroke: evt.
-	self updateCurrentActiveCell.
+	self update.

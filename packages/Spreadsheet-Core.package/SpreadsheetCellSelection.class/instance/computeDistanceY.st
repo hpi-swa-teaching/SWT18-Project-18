@@ -1,4 +1,4 @@
 label
 computeDistanceY
 
-	^ self currentCell position y - self startCell position y
+	^ self currentLabel position y - self startLabel position y

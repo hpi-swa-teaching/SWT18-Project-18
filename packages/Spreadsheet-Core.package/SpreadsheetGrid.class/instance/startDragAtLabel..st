@@ -2,6 +2,6 @@ event handling
 startDragAtLabel: aLabel
 
 	self selection
-		startCell: aLabel;
-		currentCell: aLabel;
+		startLabel:  aLabel;
+		currentLabel: aLabel;
 		fromCollection: aLabel cells.

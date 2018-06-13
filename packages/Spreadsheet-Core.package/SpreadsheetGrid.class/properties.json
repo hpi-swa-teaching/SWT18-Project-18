@@ -9,9 +9,7 @@
 		"editor",
 		"rows",
 		"columns",
-		"markedColumns",
 		"selection",
-		"grabbed",
 		"markAllLabel" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [
