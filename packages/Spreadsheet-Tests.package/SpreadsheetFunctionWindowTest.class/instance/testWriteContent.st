@@ -7,4 +7,3 @@ testWriteContent
 	functionWindow writeContent.
 	self assert: editor text = '10'.
 	self assert: editor calcRepresentation = '5+5'.
-	self assert: functionWindow text = '5+5'

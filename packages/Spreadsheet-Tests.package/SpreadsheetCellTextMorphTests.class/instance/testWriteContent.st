@@ -8,6 +8,5 @@ testWriteContent
 	self assert: gridCell text = '10'.
 	self assert: gridCell calcRepresentation = '5+5'.
 	self assert: editor active = false.
-	self assert: editor cell = nil.
 	
 	
