@@ -1,4 +1,5 @@
 accessing
 startLabel: anObject
-	self startCell: anObject cells first.
+	
+	anObject ifNotNil: [self startCell: anObject cells first].
 	startLabel := anObject
