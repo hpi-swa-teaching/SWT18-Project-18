@@ -4,8 +4,8 @@
 	"instance" : {
 		"setUp" : "LH 6/10/2018 19:44",
 		"tearDown" : "LH 6/10/2018 00:47",
-		"testAddColumnAfter" : "AS 6/13/2018 16:24",
-		"testAddColumnBefore" : "AS 6/13/2018 16:25",
+		"testAddColumnAfter" : "LH 6/13/2018 21:34",
+		"testAddColumnBefore" : "LH 6/13/2018 21:34",
 		"testAddRowAfter" : "LH 6/10/2018 20:31",
 		"testAddRowBefore" : "LH 6/10/2018 20:30",
 		"testRemoveColumn" : "LH 6/10/2018 20:22",

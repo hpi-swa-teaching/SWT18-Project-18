@@ -2,8 +2,8 @@
 	"class" : {
 		"newWith:" : "AS 5/24/2018 10:13" },
 	"instance" : {
-		"addColumnAfter" : "LH 6/13/2018 21:05",
-		"addColumnBefore" : "LH 6/13/2018 21:05",
+		"addColumnAfter" : "LH 6/13/2018 21:28",
+		"addColumnBefore" : "LH 6/13/2018 21:29",
 		"addColumnWithIndex:" : "LH 6/12/2018 20:36",
 		"addDependencies" : "AS 5/24/2018 10:39",
 		"addFunctionWindow" : "AS 5/22/2018 23:31",
@@ -26,7 +26,7 @@
 		"initialize" : "lh 6/9/2018 16:01",
 		"markAllLabel" : "AS 5/24/2018 10:04",
 		"markAllLabel:" : "AS 5/24/2018 10:04",
-		"removeColumn" : "LH 6/13/2018 21:05",
+		"removeColumn" : "LH 6/13/2018 21:30",
 		"removeColumnWithIndex:" : "LH 6/12/2018 20:39",
 		"removeRow" : "LH 6/13/2018 21:05",
 		"removeRowWithIndex:" : "LH 6/12/2018 20:39",

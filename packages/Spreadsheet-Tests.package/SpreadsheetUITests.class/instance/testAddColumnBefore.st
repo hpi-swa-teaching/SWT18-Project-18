@@ -3,7 +3,6 @@ testAddColumnBefore
 	
 	| lastColumnLabel dropdown expectedNewColumnLabel|
 	
-	self click: tool grid columns first.
 	lastColumnLabel := tool grid columns last text asCharacter.
 	self click: (tool findWidgetOfKind: PHButton labelled: 'Menü').
 	dropdown := world findToplevelOfKind: PHDropdown.
