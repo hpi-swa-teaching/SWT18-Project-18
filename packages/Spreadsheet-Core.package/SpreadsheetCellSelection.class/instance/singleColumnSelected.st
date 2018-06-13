@@ -1,8 +1,10 @@
 accessing
 singleColumnSelected
+
+	| aColumn |
 	
-	(self cells size <= 1) ifTrue: [^ false].
-	(self startLabel isKindOf: SpreadsheetLabel) ifFalse: [^ false].
-	self cells do: [ :aCell | 
-			(aCell column index = self cells asOrderedCollection first column index) ifFalse: [^ false] ].
+	self cells ifEmpty: [^ false].
+	aColumn := self cells asOrderedCollection first column.
+	aColumn cells do: [:aCell |
+		(self cells includes: aCell) ifFalse: [^ false]].
 	^ true

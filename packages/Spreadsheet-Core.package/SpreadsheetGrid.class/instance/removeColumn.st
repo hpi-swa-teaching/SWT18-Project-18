@@ -5,6 +5,6 @@ removeColumn
 	
 	(self columns size <= 1) ifTrue: [^ self].
 	self selection singleColumnSelected 
-		ifTrue: [aColumnIndex := self selection startLabel index]
+		ifTrue: [aColumnIndex := self selection startLabel column index]
 		ifFalse: [aColumnIndex := self columns last index].
 	self removeColumnWithIndex: aColumnIndex.
