@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "AS 6/13/2018 15:38",
+		"tearDown" : "AS 6/13/2018 16:23",
 		"testComplexFunction" : "AS 6/13/2018 15:47",
 		"testKeyEnter" : "AS 6/13/2018 15:40",
 		"testKeyStroke" : "AS 6/12/2018 20:02",
