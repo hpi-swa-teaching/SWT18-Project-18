@@ -15,6 +15,7 @@
 		"mouseDown:" : "AS 5/20/2018 22:09",
 		"mouseMove:" : "AS 5/18/2018 18:45",
 		"mouseUp:" : "AS 5/18/2018 18:46",
-		"replaceCell:" : "AS 5/28/2018 17:51",
+		"moveEditorToNextCell:" : "AS 6/13/2018 13:53",
+		"replaceCell:" : "AS 6/13/2018 14:05",
 		"update" : "AS 5/25/2018 09:48",
-		"writeContent" : "AS 5/28/2018 17:17" } }
+		"writeContent" : "AS 6/13/2018 14:23" } }

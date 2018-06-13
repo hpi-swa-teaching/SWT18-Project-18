@@ -4,11 +4,13 @@
 	"instance" : {
 		"calcRepresentation" : "AS 5/22/2018 22:44",
 		"calcRepresentation:" : "AS 5/22/2018 22:44",
-		"calculateResult" : "lh 5/30/2018 21:02",
-		"calculateSizeForWidth:" : "AS 5/28/2018 18:14",
-		"crAction" : "lh 5/30/2018 20:39",
-		"initialize" : "AS 5/25/2018 10:58",
+		"calculateAndWriteContent" : "AS 6/13/2018 14:03",
+		"calculateResult" : "AS 6/13/2018 14:12",
+		"crAction:" : "AS 6/13/2018 14:19",
+		"initialize" : "AS 6/13/2018 14:22",
 		"isExpression:" : "lh 5/30/2018 20:34",
-		"keyStroke:" : "AS 5/22/2018 22:58",
+		"keyStroke:" : "AS 6/13/2018 13:52",
+		"moveEditorToNextCell:" : "AS 6/13/2018 13:53",
 		"parameterValuesFrom:" : "lh 5/30/2018 20:52",
-		"update" : "AS 5/22/2018 22:53" } }
+		"update" : "AS 5/22/2018 22:53",
+		"writeContent" : "AS 6/13/2018 13:51" } }

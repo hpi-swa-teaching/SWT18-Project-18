@@ -2,7 +2,7 @@ as yet unclassified
 initialize 
 
 	super initialize.
-	self 
+	self
 		text: '';
 		wrap: #never;
 		addStyleClass: #spreadsheetText;
