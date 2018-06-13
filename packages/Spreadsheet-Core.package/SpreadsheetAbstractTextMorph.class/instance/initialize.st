@@ -4,7 +4,6 @@ initialize
 	super initialize.
 	self
 		text: '';
-		wrap: #never;
 		addStyleClass: #spreadsheetText;
 		addApplicationStyles: ((PHStyle for: #spreadsheetText)
 			boxSizing: #borderBox;

@@ -2,6 +2,7 @@ as yet unclassified
 layout: aMorph in: aBox
 
 	| x y |
+	aMorph editor cell ifNotNilDo: [ :cell | cell height: aMorph editor height.].
 	x := aMorph markAllLabel position x.
 	y := aMorph markAllLabel bottom.
 	aMorph rows do: [:row |

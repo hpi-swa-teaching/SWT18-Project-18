@@ -5,4 +5,5 @@ startDragAtLabel: aLabel
 		startLabel:  aLabel;
 		startCell: aLabel cells first;
 		currentLabel: aLabel;
+		currentCell: aLabel cells last;
 		fromCollection: aLabel cells.
