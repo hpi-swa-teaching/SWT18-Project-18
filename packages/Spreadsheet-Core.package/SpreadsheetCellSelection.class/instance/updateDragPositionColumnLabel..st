@@ -1,8 +1,8 @@
 label
 updateDragPositionColumnLabel: aPoint
 	
-	((aPoint x) between: self currentCell left and: self currentCell right) ifTrue: [ ^ self ].
-	(aPoint x > self currentCell right)
+	((aPoint x) between: self currentLabel left and: self currentLabel right) ifTrue: [ ^ self ].
+	(aPoint x > self currentLabel right)
 		 ifTrue: [ 
 			self updateCurrentLabelRight
 		]

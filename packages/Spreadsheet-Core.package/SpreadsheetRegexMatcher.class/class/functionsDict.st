@@ -5,5 +5,8 @@ functionsDict
 	^ Dictionary newFrom: {
 		#'sum(.*)' -> #sum.
 		#'max(.*)' -> #max.
+		#'min(.*)' -> #min.
+		#'count(.*)' -> #size.
+		#'average(.*)' -> #average.
 		#'prod(.*)' -> #*.
 	}

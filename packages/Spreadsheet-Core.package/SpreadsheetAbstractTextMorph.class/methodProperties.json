@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptContents" : "AS 5/22/2018 22:30",
-		"acceptOnCR" : "AS 5/22/2018 22:26",
 		"calcRepresentation" : "AS 5/22/2018 22:44",
 		"calcRepresentation:" : "AS 5/22/2018 22:44",
 		"calculateResult" : "lh 5/30/2018 21:02",
@@ -13,5 +11,4 @@
 		"isExpression:" : "lh 5/30/2018 20:34",
 		"keyStroke:" : "AS 5/22/2018 22:58",
 		"parameterValuesFrom:" : "lh 5/30/2018 20:52",
-		"update" : "AS 5/22/2018 22:53",
-		"writeContentOnCR" : "AS 5/22/2018 23:15" } }
+		"update" : "AS 5/22/2018 22:53" } }

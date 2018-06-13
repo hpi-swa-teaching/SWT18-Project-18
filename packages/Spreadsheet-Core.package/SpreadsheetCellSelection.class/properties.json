@@ -10,7 +10,8 @@
 		"cells",
 		"startCell",
 		"currentCell",
-		"selectionBounds" ],
+		"startLabel",
+		"currentLabel" ],
 	"name" : "SpreadsheetCellSelection",
 	"pools" : [
 		 ],
