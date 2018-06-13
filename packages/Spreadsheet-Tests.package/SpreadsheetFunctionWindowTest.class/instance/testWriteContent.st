@@ -1,5 +1,5 @@
 as yet unclassified
-testWriteContent 
+testWriteContent
 
 	editor cell: gridCell.
 	functionWindow text: '10'.
