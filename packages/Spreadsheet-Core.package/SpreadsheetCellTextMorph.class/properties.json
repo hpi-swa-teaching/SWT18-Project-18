@@ -12,5 +12,5 @@
 	"name" : "SpreadsheetCellTextMorph",
 	"pools" : [
 		 ],
-	"super" : "SpreadsheetAbstractTextMorph",
+	"super" : "PHTextEntry",
 	"type" : "normal" }

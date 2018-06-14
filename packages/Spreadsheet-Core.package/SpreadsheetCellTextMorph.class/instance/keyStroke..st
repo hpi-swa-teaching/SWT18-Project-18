@@ -1,4 +1,4 @@
-as yet unclassified
+calculateResult
 keyStroke: evt
 	
 	super keyStroke: evt.

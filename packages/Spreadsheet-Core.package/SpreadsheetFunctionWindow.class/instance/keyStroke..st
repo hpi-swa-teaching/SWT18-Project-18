@@ -3,4 +3,10 @@ keyStroke: evt
 	"Handle a keystroke event."
 	
 	super keyStroke: evt.
-	self update.
+	evt keyValue = 13 
+		ifFalse: [
+			self update
+		]
+		ifTrue: [
+			self grid editor crAction: evt
+		]

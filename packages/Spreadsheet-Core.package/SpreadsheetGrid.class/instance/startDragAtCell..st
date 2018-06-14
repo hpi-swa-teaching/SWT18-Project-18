@@ -7,5 +7,5 @@ startDragAtCell: aCell
 		currentCell: aCell;
 		currentLabel: nil;
 		startLabel: nil.
-	self selection cells add: aCell
+	self selection addCell: aCell
 	

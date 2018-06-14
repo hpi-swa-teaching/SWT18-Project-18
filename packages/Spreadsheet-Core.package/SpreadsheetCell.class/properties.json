@@ -12,7 +12,9 @@
 		"row",
 		"column",
 		"grid",
-		"dragging" ],
+		"dragging",
+		"observedCells",
+		"dependentCells" ],
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],

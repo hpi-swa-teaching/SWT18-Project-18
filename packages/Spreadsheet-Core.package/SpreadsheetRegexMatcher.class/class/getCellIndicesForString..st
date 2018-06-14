@@ -10,15 +10,9 @@ getCellIndicesForString: aString
 	cellCollection := cellRegex matchesIn: cellString.
 	cellPointCollection := OrderedCollection new.
 	
-	self assert: cellCollection size > 1.
+	(cellCollection size = 2) ifFalse: [^ self ].
 	fromCellPoint := self getColumnAndRowFromCellLabel: (cellCollection at: 1).
 	toCellPoint :=self getColumnAndRowFromCellLabel: (cellCollection at: 2).
 	
-	(fromCellPoint x) to: (toCellPoint x) do: [ :xDim |
-			(fromCellPoint y) to: (toCellPoint y) do: [ :yDim |
-					cellPointCollection add: (xDim@yDim)
-				]
-		].
-	Transcript show: cellPointCollection;cr.
-	^cellPointCollection
+	^ OrderedCollection with: fromCellPoint with: toCellPoint
 	
