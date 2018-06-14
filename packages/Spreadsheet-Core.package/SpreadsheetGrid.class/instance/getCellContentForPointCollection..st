@@ -7,5 +7,6 @@ getCellContentForPointCollection: aCollection
 	cellContentCollection := OrderedCollection new.
 	aCollection do: [ :aPoint |
 			cellText := (self cellAtRowIndex: aPoint y colIndex: aPoint x) text.
-			(cellText) ifNotEmpty: [cellContentCollection add: cellText]].
+			(cellText) ifNotEmpty: [cellContentCollection add: cellText asNumber]].
+	cellContentCollection ifEmpty: [ cellContentCollection add: 0 ].
 	^cellContentCollection
