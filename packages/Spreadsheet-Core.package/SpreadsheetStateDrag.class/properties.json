@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LH 5/5/2018 23:25",
+	"commentStamp" : "",
 	"instvars" : [
-		"grid",
-		"cell",
-		"state" ],
-	"name" : "SpreadsheetCellTextMorph",
+		 ],
+	"name" : "SpreadsheetStateDrag",
 	"pools" : [
 		 ],
-	"super" : "PHTextEntry",
+	"super" : "SpreadsheetCellState",
 	"type" : "normal" }

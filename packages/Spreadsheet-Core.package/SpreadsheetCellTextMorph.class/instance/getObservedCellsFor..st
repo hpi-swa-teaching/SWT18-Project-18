@@ -1,5 +1,5 @@
 calculateResult
-getDependentCellsFor: aString
+getObservedCellsFor: aString
 
 	| expression function |
 	

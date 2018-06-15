@@ -1,3 +1,3 @@
 accessing
 dependentCells
-	^ dependentCells
+	^ dependentCells ifNil: [ dependentCells := OrderedCollection new ].

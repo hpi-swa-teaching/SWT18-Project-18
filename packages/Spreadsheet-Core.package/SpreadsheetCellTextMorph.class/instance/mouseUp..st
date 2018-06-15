@@ -1,9 +1,10 @@
 event handling
 mouseUp: evt
 	
-	self active
-		ifTrue: [ super mouseUp: evt]
-		ifFalse: [
-			self cell dragging: false.
-			self grid stopDragAtCell: self cell]
-	
+	self state = #active ifTrue: [
+		super mouseUp: evt.
+		^ self].
+	self state = #drag ifTrue: [
+		self grid stopDragAtCell:  evt position.
+		self state: #passive.
+		^ self].

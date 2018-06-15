@@ -2,4 +2,6 @@ editing
 moveEditorToNextCell: evt
 
 	self grid selection removeAllCells.
-	self grid editCell: self cell bottomCell event: evt. 
+	(self cell bottomCell) ifNil: [
+		self grid addRowAfter].
+	self grid editCell: (self cell bottomCell) event: evt. 

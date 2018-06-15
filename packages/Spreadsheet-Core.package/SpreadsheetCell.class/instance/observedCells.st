@@ -1,3 +1,3 @@
 accessing
 observedCells
-	^ observedCells
+	^ observedCells ifNil: [ observedCells := OrderedCollection new ].
