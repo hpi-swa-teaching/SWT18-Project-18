@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lh 5/30/2018 18:17",
+		"setUp" : "AS 6/16/2018 00:33",
 		"tearDown" : "AS 5/24/2018 12:03",
 		"testMarkCellAsSelected" : "AS 6/12/2018 19:25",
 		"testMouseDown" : "AS 6/12/2018 19:16",
-		"testNeighbourAccessors" : "AS 5/21/2018 20:02" } }
+		"testNeighbourAccessors" : "AS 6/16/2018 00:34" } }

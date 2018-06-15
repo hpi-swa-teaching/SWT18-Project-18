@@ -1,9 +1,13 @@
 as yet unclassified
 testWriteContent
 
+	| nextCell |
 	editor cell: gridCell.
+	nextCell := gridCell bottomCell.
+	nextCell text: '5'.
 	functionWindow text: '10'.
-	functionWindow calcRepresentation: '5+5'.
-	functionWindow writeContent.
-	self assert: editor text = '10'.
-	self assert: editor calcRepresentation = '5+5'.
+	self click: functionWindow.
+	self keyStroke: editor key: Character cr.
+	self assert: gridCell text = '10'.
+	self assert: editor cell = nextCell.
+	self assert: editor text = '5'.
