@@ -11,7 +11,7 @@ keyStroke: evt
 				self crAction: evt
 			].
 		^ self].
-	self state = #passive ifTrue: [
+	(self state = #passive or: [self state = #doubleClick]) ifTrue: [
 		evt keyString = '<left>' ifTrue: [
 			^ self moveTo: #leftCell].
 		evt keyString = '<right>' ifTrue: [

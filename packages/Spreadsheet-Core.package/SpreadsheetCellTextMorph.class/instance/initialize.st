@@ -5,9 +5,9 @@ initialize
 	self
 		text: '';
 		state: #passive;
-		addApplicationStyles: ((PHStyle for: #textEntry)
-			boxSizing: #borderBox;
+		addFallbackStyles: ((PHStyle for: #textEntry)
+			boxSizing: #contentBox;
 			padding: 4 @ 2;
 			color: Color black;
 			backgroundColor: Color white;
-			border: 1 color: Color blue)
+			border: 2 color: Color blue)
