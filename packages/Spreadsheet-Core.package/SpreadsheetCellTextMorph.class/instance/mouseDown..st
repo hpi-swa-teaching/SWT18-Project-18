@@ -11,3 +11,7 @@ mouseDown: evt
 		self grid startDragAtCell: self cell.
 		self state: (#drag).
 		^ self].
+	self state = #doubleClick ifTrue: [
+		self editText: evt.
+		^ self.
+		]

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"grid",
 		"cell",
-		"state" ],
+		"state",
+		"timer" ],
 	"name" : "SpreadsheetCellTextMorph",
 	"pools" : [
 		 ],

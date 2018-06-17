@@ -6,5 +6,5 @@ mouseUp: evt
 		^ self].
 	self state = #drag ifTrue: [
 		self grid stopDragAtCell:  evt position.
-		self state: #passive.
+		self startWaitForDoubleClick.
 		^ self].
