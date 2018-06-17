@@ -9,8 +9,9 @@ initialize
 		calcRepresentation: '';
 		text: '';
 		addStyleClass: #spreadsheetCell;
-		addApplicationStyles: ((PHStyle for: #spreadsheetCell)
-			boxSizing: #borderBox;
-			padding: 4 @ 2;
-			border: 1 color: Color black;
-			backgroundColor: Color white).
+		addFallbackStyles: ((PHStyle for: #spreadsheetCell)
+				boxSizing: #borderBox;
+				padding: 4 @ 2;
+				border: 1 color: Color black;
+				backgroundColor: Color white).
+				

@@ -5,8 +5,7 @@ initialize
 	self
 		minSize: 300@20;
 		text: '';
-		addStyleClass: #spreadsheetText;
-		addApplicationStyles: ((PHStyle for: #spreadsheetText)
+		addFallbackStyles: ((PHStyle for: #textEntry)
 			boxSizing: #borderBox;
 			padding: 4 @ 2;
 			color: Color black;

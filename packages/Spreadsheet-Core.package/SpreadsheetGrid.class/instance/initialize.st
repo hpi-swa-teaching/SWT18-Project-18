@@ -10,6 +10,5 @@ initialize
 		markAllLabel: (SpreadsheetMarkAllLabel on: self).
 	(self standardGridSize x) timesRepeat: [self addRowAfter].
 	(self standardGridSize y) timesRepeat: [self addColumnAfter].
-	self editor replaceCell: (self cellAtRowIndex: 1 colIndex: 1).
 	
 	

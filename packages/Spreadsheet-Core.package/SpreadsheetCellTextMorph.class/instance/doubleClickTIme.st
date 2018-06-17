@@ -1,0 +1,4 @@
+constants
+doubleClickTIme
+
+	^ 200

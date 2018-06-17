@@ -5,8 +5,7 @@ initialize
 	self
 		text: '';
 		state: #passive;
-		addStyleClass: #spreadsheetText;
-		addApplicationStyles: ((PHStyle for: #spreadsheetText)
+		addApplicationStyles: ((PHStyle for: #textEntry)
 			boxSizing: #borderBox;
 			padding: 4 @ 2;
 			color: Color black;

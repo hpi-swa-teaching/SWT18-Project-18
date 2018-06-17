@@ -1,4 +1,6 @@
 editing
 moveTo: direction
 
-	self replaceCell: (self cell perform: direction)
+	self grid selection removeAllCells.
+	self replaceCell: (self cell perform: direction).
+	

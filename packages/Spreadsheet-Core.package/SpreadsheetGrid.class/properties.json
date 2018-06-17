@@ -10,7 +10,8 @@
 		"rows",
 		"columns",
 		"selection",
-		"markAllLabel" ],
+		"markAllLabel",
+		"dragging" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [
 		 ],

@@ -8,6 +8,7 @@ show: evt function: aSymbol
 	string := '=', aSymbol, '(', ((startPoint x) + 64) asCharacter, (startPoint y) asString, ':', ((cornerPoint x) + 64) asCharacter, (cornerPoint y) asString, ')'.
 	cell := self cellAtRowIndex: cornerPoint y + 1 colIndex: startPoint x.
 	cell calcRepresentation: string.
+	self selection addCell: self selection startCell.
 	self editCell: (cell) event: evt.
 	self editor editText: evt.
 	

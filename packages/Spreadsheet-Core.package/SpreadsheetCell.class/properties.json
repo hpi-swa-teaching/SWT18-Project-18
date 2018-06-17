@@ -18,5 +18,5 @@
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],
-	"super" : "PHTextEntry",
+	"super" : "PHLabel",
 	"type" : "normal" }
