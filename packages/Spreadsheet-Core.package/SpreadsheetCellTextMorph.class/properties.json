@@ -9,7 +9,8 @@
 		"grid",
 		"cell",
 		"state",
-		"timer" ],
+		"timer",
+		"moveMorphs" ],
 	"name" : "SpreadsheetCellTextMorph",
 	"pools" : [
 		 ],

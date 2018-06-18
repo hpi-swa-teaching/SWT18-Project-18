@@ -11,7 +11,8 @@
 		"columns",
 		"selection",
 		"markAllLabel",
-		"dragging" ],
+		"dragging",
+		"targetCell" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [
 		 ],

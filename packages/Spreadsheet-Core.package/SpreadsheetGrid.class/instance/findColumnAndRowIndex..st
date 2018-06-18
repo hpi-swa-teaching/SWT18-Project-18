@@ -1,4 +1,4 @@
-event handling
+grid access
 findColumnAndRowIndex: position
 	" Uses Binary search "
 	| row rowIndex col range colIndex|
