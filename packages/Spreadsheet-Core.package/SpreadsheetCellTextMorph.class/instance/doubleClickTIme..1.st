@@ -1,4 +1,0 @@
-constants
-doubleClickTIme
-
-	^ 200
