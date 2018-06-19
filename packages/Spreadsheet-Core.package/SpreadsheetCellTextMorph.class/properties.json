@@ -10,7 +10,8 @@
 		"cell",
 		"state",
 		"timer",
-		"moveMorphs" ],
+		"moveMorphs",
+		"copyMorph" ],
 	"name" : "SpreadsheetCellTextMorph",
 	"pools" : [
 		 ],

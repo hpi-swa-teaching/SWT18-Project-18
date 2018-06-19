@@ -1,4 +1,5 @@
 initialization
 addCopyMorph 
 
-	^ self
+	self copyMorph: (SpreadsheetCellCopyMorph on: self).
+	self addMorphFront: self copyMorph.

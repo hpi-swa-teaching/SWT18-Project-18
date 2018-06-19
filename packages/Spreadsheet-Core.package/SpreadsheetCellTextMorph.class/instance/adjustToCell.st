@@ -6,4 +6,4 @@ adjustToCell
 		width: self cell width;
 		height: self cell height;
 		maxSize: self cell width @ (self cell height);
-		updateMoveMorphs
+		updateDependentMorphs

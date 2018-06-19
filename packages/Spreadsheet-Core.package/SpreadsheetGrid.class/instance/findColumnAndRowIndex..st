@@ -21,7 +21,7 @@ findColumnAndRowIndex: position
 					colIndex := colIndex - 1]
 				ifFalse: [
 					colIndex := range x - 1 +  (((range y - range x) + 2) // 2)].
-			col := self rows at: colIndex]].
+			col := self columns at: colIndex]].
 	
 	range := (1@ self rows size).
 	rowIndex := (self rows size + 1) // 2.

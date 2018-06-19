@@ -11,9 +11,7 @@ updateCurrentLabel: labelDirection alignment: alignment
 	(condition) 
 		ifTrue: [
 			self currentLabel: (self currentLabel perform: labelDirection).
-			self currentCell: self currentLabel cells last.
-			self addCollection: self currentLabel cells]
+			self currentCell: self currentLabel cells last]
 		ifFalse: [
-			self removeCollection: self currentLabel cells.
 			self currentLabel: (self currentLabel perform: labelDirection).
 			self currentCell: self currentLabel cells last].

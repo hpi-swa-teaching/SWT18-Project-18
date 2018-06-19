@@ -1,0 +1,4 @@
+editing
+reset
+
+	self text: ''

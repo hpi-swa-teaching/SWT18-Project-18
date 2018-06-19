@@ -1,4 +1,5 @@
 event handling
 mouseUp: evt
 	
-	self dragging: false.
+	self dragging ifTrue: [self stopDrag: evt].
+	self dragging: false

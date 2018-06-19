@@ -8,5 +8,5 @@ updateDragPositionLabel: aPoint
 	(self currentLabel class == SpreadsheetRowLabel)
 		ifTrue: [
 			(aPoint y < self grid markAllLabel bottom) ifTrue: [^self].
-			self updateDragPosition: aPoint alignment: #y]
-		ifFalse: [ ^ self ].
+			self updateDragPosition: aPoint alignment: #y].
+	self adjustSize.
