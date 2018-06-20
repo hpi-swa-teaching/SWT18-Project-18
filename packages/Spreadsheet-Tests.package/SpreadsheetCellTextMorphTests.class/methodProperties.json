@@ -4,8 +4,10 @@
 	"instance" : {
 		"setUp" : "AS 6/13/2018 15:38",
 		"tearDown" : "AS 6/13/2018 16:23",
-		"testComplexFunction" : "AS 6/13/2018 15:47",
-		"testKeyEnter" : "AS 6/13/2018 15:40",
-		"testKeyStroke" : "AS 6/12/2018 20:02",
-		"testReplaceCell" : "AS 6/12/2018 19:37",
-		"testWriteContent" : "AS 6/13/2018 15:27" } }
+		"testCalculateAndWriteContent" : "AS 6/16/2018 01:06",
+		"testComplexFunction" : "AS 6/15/2018 19:42",
+		"testDoubleClick" : "AS 6/16/2018 11:52",
+		"testKeyEnter" : "AS 6/15/2018 19:42",
+		"testKeyStroke" : "AS 6/17/2018 15:55",
+		"testReplaceCell" : "AS 6/15/2018 19:23",
+		"testWriteContent" : "AS 6/15/2018 19:59" } }

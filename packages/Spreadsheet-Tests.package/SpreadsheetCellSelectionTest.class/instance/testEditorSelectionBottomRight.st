@@ -2,6 +2,7 @@ as yet unclassified
 testEditorSelectionBottomRight
 	
 	editor replaceCell: gridCell.
+	editor state: #passive.
 	self mousePress: editor buttons: #(left).
 	self simulateMouseEvent: #mouseMove at: ((grid cellAtRowIndex: 4 colIndex: 4) center) buttons: #(left) start: 0@0 morph: editor.
 	self simulateMouseEvent: #mouseMove at: ((grid cellAtRowIndex: 3 colIndex: 3) center) buttons: #(left) start: 0@0 morph: editor.

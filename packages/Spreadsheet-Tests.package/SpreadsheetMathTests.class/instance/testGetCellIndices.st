@@ -5,7 +5,5 @@ testGetCellIndices
 	testInput := 'A5:B6'.
 	result := OrderedCollection new.
 	result 	add: 1@5;
-	  		add: 1@6;
-			add: 2@5;
 			add: 2@6.	
 	self assert: [ ( SpreadsheetRegexMatcher getCellIndicesForString:  testInput) = result].

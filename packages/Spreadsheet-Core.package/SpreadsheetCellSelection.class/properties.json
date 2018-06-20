@@ -11,9 +11,11 @@
 		"startCell",
 		"currentCell",
 		"startLabel",
-		"currentLabel" ],
+		"currentLabel",
+		"dragging",
+		"copying" ],
 	"name" : "SpreadsheetCellSelection",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BorderedMorph",
 	"type" : "normal" }

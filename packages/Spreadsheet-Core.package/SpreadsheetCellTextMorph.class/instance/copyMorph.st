@@ -1,0 +1,3 @@
+accessing
+copyMorph
+	^ copyMorph

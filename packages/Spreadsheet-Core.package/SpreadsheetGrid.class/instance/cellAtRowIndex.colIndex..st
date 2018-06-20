@@ -1,4 +1,4 @@
-layout
+grid access
 cellAtRowIndex: aRow colIndex: aCol
 	|column|
 	(aCol >= 1 and:  [aCol <= self columns size])

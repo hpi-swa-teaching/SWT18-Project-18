@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"grid" ],
+		"grid",
+		"tool" ],
 	"name" : "SpreadsheetGridTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PHEventTestCase",
 	"type" : "normal" }

@@ -1,4 +1,8 @@
 as yet unclassified
 setUp
 	
-	grid := SpreadsheetGrid new
+	super setUp.
+	tool := SpreadsheetTool new 
+					openInWindowLabeled: 'SpreadsheetTool' inWorld: world;
+					yourself.
+	grid := tool grid.

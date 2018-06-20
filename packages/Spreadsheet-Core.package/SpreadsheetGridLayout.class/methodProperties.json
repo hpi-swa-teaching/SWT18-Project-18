@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"layout:in:" : "AS 6/13/2018 20:02",
+		"layout:in:" : "AS 6/19/2018 14:37",
 		"updateCellOf:row:column:" : "LH 6/12/2018 20:50",
-		"updateEditorFor:" : "AS 5/30/2018 10:02" } }
+		"updateEditorFor:" : "AS 5/30/2018 10:02",
+		"updateSelectionFor:" : "AS 6/19/2018 14:40" } }

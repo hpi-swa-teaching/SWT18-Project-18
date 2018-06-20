@@ -1,8 +1,14 @@
 event handling
 mouseDown: evt
-	self active 
-		ifTrue: [super mouseDown: evt]
-		ifFalse: 	[
-			evt hand waitForClicksOrDrag: self event: evt.
-			self cell dragging: true.
-			self grid startDragAtCell: self cell]
+	
+	self state = #active ifTrue: [
+		super mouseDown: evt.
+		^ self].
+	self state = #passive ifTrue: [
+		evt hand newKeyboardFocus: self.
+		self grid startDragAtCell: self cell.
+		self state: #drag.
+		^ self].
+	self state = #doubleClick ifTrue: [
+		self editText: evt.
+		^ self].

@@ -2,8 +2,8 @@ as yet unclassified
 layout: aMorph in: aBox
 
 	| x y newEditorSize|
-	newEditorSize := (aMorph editor calculateSizeForWidth: aMorph editor width) naturalSize y.
-	aMorph editor cell ifNotNilDo: [ :cell | cell row height: (newEditorSize max: cell height)].
+	newEditorSize := (aMorph editor calculateSizeForWidth: aMorph editor width) minSize y.
+	aMorph editor cell ifNotNilDo: [ :cell | cell row height: (newEditorSize max: cell row height)].
 	x := aMorph markAllLabel position x.
 	y := aMorph markAllLabel bottom.
 	aMorph rows do: [:row |
@@ -17,4 +17,5 @@ layout: aMorph in: aBox
 	aMorph columns do: [ :column |
 		aMorph rows do: [ :row |
 			self updateCellOf: aMorph row: row column: column]].
-	self updateEditorFor: aMorph
+	self updateEditorFor: aMorph.
+	self updateSelectionFor: aMorph.

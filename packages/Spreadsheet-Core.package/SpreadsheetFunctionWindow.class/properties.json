@@ -10,5 +10,5 @@
 	"name" : "SpreadsheetFunctionWindow",
 	"pools" : [
 		 ],
-	"super" : "SpreadsheetAbstractTextMorph",
+	"super" : "PHTextEntry",
 	"type" : "normal" }

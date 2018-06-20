@@ -8,9 +8,12 @@
 	"instvars" : [
 		"grid",
 		"cell",
-		"active" ],
+		"state",
+		"timer",
+		"moveMorphs",
+		"copyMorph" ],
 	"name" : "SpreadsheetCellTextMorph",
 	"pools" : [
 		 ],
-	"super" : "SpreadsheetAbstractTextMorph",
+	"super" : "PHTextEntry",
 	"type" : "normal" }

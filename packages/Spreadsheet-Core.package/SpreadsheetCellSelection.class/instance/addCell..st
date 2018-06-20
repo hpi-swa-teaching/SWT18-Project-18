@@ -1,5 +1,5 @@
 cell
 addCell: aCell
 
-	aCell markAsSelected.
+	"aCell markAsSelected."
 	self cells add: aCell

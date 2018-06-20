@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"on:" : "AS 6/18/2018 18:32" },
+	"instance" : {
+		"defaultColor" : "AS 6/18/2018 20:49",
+		"defaultSize" : "AS 6/18/2018 21:02",
+		"handlesMouseDown:" : "AS 6/18/2018 20:50",
+		"handlesMouseOver:" : "AS 6/18/2018 20:50",
+		"initialize" : "AS 6/18/2018 20:47",
+		"morph" : "AS 6/18/2018 18:26",
+		"morph:" : "AS 6/18/2018 18:26",
+		"mouseDown:" : "AS 6/18/2018 21:26",
+		"mouseEnter:" : "AS 6/18/2018 20:52",
+		"mouseLeave:" : "AS 6/18/2018 20:54",
+		"mouseMove:" : "AS 6/18/2018 21:26",
+		"mouseUp:" : "AS 6/18/2018 21:27",
+		"offset" : "AS 6/18/2018 21:02",
+		"updatePosition:" : "AS 6/18/2018 20:45" } }

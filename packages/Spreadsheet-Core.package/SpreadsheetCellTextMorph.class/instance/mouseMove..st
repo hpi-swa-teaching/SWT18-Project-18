@@ -1,8 +1,9 @@
 event handling
 mouseMove: evt
 	
-	self active 
-		ifTrue: [super mouseMove: evt]
-		ifFalse: [
-			self cell dragging ifTrue: [
-			self grid updateDragPosition: evt position]]
+	self state = #active ifTrue: [
+		super mouseMove: evt.
+		^ self].
+	self state = #drag ifTrue: [
+		self grid updateDragPosition: evt position.
+		^ self].

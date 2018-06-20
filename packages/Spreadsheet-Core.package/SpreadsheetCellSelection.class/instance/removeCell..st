@@ -2,4 +2,4 @@ cell
 removeCell: aCell
 
 	self cells remove: aCell.
-	aCell unmarkAsSelected
+	"aCell unmarkAsSelected"
