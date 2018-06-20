@@ -6,7 +6,7 @@ mouseDown: evt
 		^ self].
 	self state = #passive ifTrue: [
 		evt hand newKeyboardFocus: self.
-		self grid startDragAtCell: self cell.
+		self grid startDragAt: self cell.
 		self state: #drag.
 		^ self].
 	self state = #doubleClick ifTrue: [

@@ -18,5 +18,5 @@
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],
-	"super" : "PHLabel",
+	"super" : "SpreadsheetMorphProxy",
 	"type" : "normal" }

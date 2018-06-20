@@ -1,6 +1,7 @@
 cell
 adjustSize
 	
+	Transcript show: 'Called adjust';cr.
 	self 
 		position: (self topLeftCell position);
 		width: (self bottomRightCell right - self topLeftCell left);

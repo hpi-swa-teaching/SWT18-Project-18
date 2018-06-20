@@ -4,7 +4,7 @@ gridSize
 	| corner column |
 	(self columns size = 0) 
 		ifTrue: [
-			corner := self markAllLabel bottomRight
+			corner := self bottomRight
 		]
 		ifFalse: [
 			column := self columns last.
@@ -14,6 +14,6 @@ gridSize
 				ifFalse: [
 					corner := column cells last bottomRight]].
 	^Rectangle 
-		origin: self markAllLabel position
+		origin: self position
 		corner: corner
 		

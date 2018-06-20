@@ -6,5 +6,5 @@ openInSpreadsheet
 	self width: self column width.
 	self height: self row height.
 	self position: (self column position x) @ (self row position y).
-	self grid add: self.
+	"self grid add: self."
 	
