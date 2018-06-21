@@ -6,7 +6,8 @@ initialize
 		backgroundColor: Color gray;
 		width: self standardWidth;
 		height: self standardHeight;
-		alignment:  #center
+		alignment:  #center;
+		borderColor: Color black.
 		"addStyleClass: #labelStyle;
 		addApplicationStyles: 
 			((PHStyle for: #labelStyle)

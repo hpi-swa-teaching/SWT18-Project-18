@@ -3,6 +3,18 @@ initialize
 
 	super initialize.
 	self
-	 	color: Color transparent;
-		borderWidth: 1;
-		borderColor: Color blue.
+		addStyleClass: #selection;
+		addApplicationStyles: ((PHStyle for: #selection)
+			boxSizing: #contentBox;
+			color: Color transparent;
+			border: 1 color: Color blue);
+		activeCell: (PHWidget new
+			addStyleClass: #selection;
+			addApplicationStyles: ((PHStyle for: #selection)
+				boxSizing: #contentBox;
+				color: Color transparent;
+				border: 2 color: Color blue)).
+	self 
+		add: self activeCell;
+		addMoveMorphs;
+		addCopyMorph.

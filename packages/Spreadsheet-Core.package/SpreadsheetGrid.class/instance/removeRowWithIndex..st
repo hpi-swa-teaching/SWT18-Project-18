@@ -5,3 +5,4 @@ removeRowWithIndex: anIndex
 	self rows removeAt: anIndex.
 	self rows do: [:aRow | aRow updateIndex].
 	self	columns do: [:aColumn |  aColumn cells removeAt: anIndex].
+	self layoutChanged.

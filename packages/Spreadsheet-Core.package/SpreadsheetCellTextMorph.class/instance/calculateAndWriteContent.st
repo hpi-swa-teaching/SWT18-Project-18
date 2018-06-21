@@ -1,6 +1,5 @@
 editing
 calculateAndWriteContent
 
-	self state = #active ifTrue: [
-		self calculateContent].
+	self calculateContent.
 	self writeContent.

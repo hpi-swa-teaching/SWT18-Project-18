@@ -2,4 +2,5 @@ initialization
 addDependencies 
 	
 	self addFunctionWindow.
-	self editor replaceCell: (self cellAtRowIndex: 1 colIndex: 1).
+	self selection startDragAt: (self cellAtRowIndex: 1 colIndex: 1).
+	self add: self selection.

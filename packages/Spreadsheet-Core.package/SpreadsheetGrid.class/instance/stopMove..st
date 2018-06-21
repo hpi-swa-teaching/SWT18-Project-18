@@ -10,4 +10,4 @@ stopMove: evt
 	cell calcRepresentation: self editor cell calcRepresentation.
 	self editor cell reset.
 	self editor reset.
-	self editCell: (self cellAt: evt position) event: evt
+	self moveTo: (self cellAt: evt position).

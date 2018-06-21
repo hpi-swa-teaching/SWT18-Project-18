@@ -9,4 +9,4 @@ drawLabelsOn: aCanvas
 	self columns do: [ :column |
 		column drawOn: aCanvas.
 		" Borders "
-		aCanvas fillRectangle: (Rectangle origin: column position corner: column bottomLeft + 1 ) color: Color black].
+		aCanvas fillRectangle: (Rectangle origin: column position corner: column bottomLeft + 1 ) color: Color black]

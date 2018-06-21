@@ -1,4 +1,4 @@
 as yet unclassified
 update
 
-	self grid editor text: self text.
+	self grid selection externalInput: text.

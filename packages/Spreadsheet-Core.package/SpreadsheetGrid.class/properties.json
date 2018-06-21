@@ -12,7 +12,8 @@
 		"selection",
 		"markAllLabel",
 		"dragging",
-		"targetCell" ],
+		"targetCell",
+		"clickTime" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [
 		 ],

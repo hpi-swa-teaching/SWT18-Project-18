@@ -1,10 +1,13 @@
 as yet unclassified
 layout: aMorph in: aBox
 
-	| x y newEditorSize |
+	| x y newEditorSize editor |
 	
-	newEditorSize := (aMorph editor calculateSizeForWidth: aMorph editor width) minSize y.
-	aMorph editor cell ifNotNilDo: [ :cell | cell row height: (newEditorSize max: cell row height)].
+	editor := aMorph selection editor.
+	editor notNil ifTrue: [
+		newEditorSize := (editor calculateSizeForWidth: editor width) minSize y.
+		editor cell ifNotNilDo: [ :cell | cell row height: (newEditorSize max: cell row height)]].
+	
 	x := aMorph position x.
 	y := aMorph position y + aMorph defaultSize y.
 	aMorph rows do: [:row |
@@ -21,5 +24,6 @@ layout: aMorph in: aBox
 		aMorph rows do: [ :row |
 			self updateCellOf: aMorph row: row column: column]].
 	aMorph bounds: aMorph gridSize.
-	self updateEditorFor: aMorph.
+	editor notNil ifTrue: [self updateEditorFor: aMorph].
+	
 	self updateSelectionFor: aMorph.

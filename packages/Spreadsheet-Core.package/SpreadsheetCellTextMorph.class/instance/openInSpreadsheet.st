@@ -1,8 +1,6 @@
 initialization
 openInSpreadsheet 
 	
-	self 
-		addMoveMorphs;
-		addCopyMorph.
-	self grid addMorph: self.
+	self grid add: self.
+	self comeToFront.
 	
