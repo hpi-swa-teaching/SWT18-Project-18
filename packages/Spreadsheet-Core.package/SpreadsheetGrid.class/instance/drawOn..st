@@ -2,7 +2,7 @@ drawing
 drawOn: aCanvas
 
 	aCanvas flush.
-	self 
+	self
 		drawCellsOn: aCanvas;
 		drawLabelsOn: aCanvas;
 		drawOutlineOn: aCanvas

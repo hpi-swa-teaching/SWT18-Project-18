@@ -15,11 +15,6 @@ drawOn: aCanvas
 			roundRectShapeBounds: self bounds
 			radius: (Rectangle left: 0 right: 0 top: 0 bottom: 0)
 			borderWidth: (Rectangle left: 1 right: 1 top: 1 bottom: 1))."
-	" Draw Borders"
-	aCanvas fillRectangle: (Rectangle origin: self position corner: self topRight + 1) color: self borderColor.
-	aCanvas fillRectangle: (Rectangle origin: self position corner: self bottomLeft + 1) color: self borderColor.
-	aCanvas fillRectangle: (Rectangle origin: self topRight corner: self bottomRight + 1) color: self borderColor.
-	aCanvas fillRectangle: (Rectangle origin: self bottomLeft  corner: self bottomRight  + 1) color: self borderColor.
 	
 	transform := MatrixTransform2x3 withOffset: self layoutBounds origin + aCanvas origin.
 	
