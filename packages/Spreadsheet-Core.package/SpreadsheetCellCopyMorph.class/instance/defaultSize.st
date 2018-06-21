@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 defaultSize
 
 	^ 6@6

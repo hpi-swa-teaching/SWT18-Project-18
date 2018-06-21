@@ -1,4 +1,4 @@
-label
+selection moving
 moveInBounds: aCell
 
 	self removeEditor.

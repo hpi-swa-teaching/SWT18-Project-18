@@ -1,4 +1,4 @@
-as yet unclassified
+external
 externalInput: text
 
 	self editor ifNil: [ self addEditor ].

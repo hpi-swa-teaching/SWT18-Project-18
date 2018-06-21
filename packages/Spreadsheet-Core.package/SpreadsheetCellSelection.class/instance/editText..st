@@ -1,4 +1,4 @@
-as yet unclassified
+editor
 editText: evt
 
 	self addEditor.

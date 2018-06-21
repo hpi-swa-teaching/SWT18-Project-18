@@ -1,4 +1,4 @@
-copy
+cell copy
 stopCopy: evt
 	
 	self replaceCells.

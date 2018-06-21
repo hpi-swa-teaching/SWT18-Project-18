@@ -1,4 +1,4 @@
-event handling
+editor
 newText: evt
 	
 	self addEditor.

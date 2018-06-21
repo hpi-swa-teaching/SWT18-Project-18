@@ -23,7 +23,7 @@ layout: aMorph in: aBox
 	aMorph columns do: [ :column |
 		aMorph rows do: [ :row |
 			self updateCellOf: aMorph row: row column: column]].
-	aMorph bounds: aMorph gridSize.
+	aMorph bounds: aMorph outerGridBounds.
 	editor notNil ifTrue: [self updateEditorFor: aMorph].
 	
 	self updateSelectionFor: aMorph.

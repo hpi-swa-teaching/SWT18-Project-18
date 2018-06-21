@@ -10,4 +10,4 @@ testAddRowBefore
 	
 	expectedNewRowLabel := (lastRowLabel asInteger + 1) asString.
 	
-	(self expect: tool) to haveA: SpreadsheetRowLabel labelled: expectedNewRowLabel.
+	(self expect: tool) assert: (tool grid rows last text = expectedNewRowLabel) description: 'adds the row'.

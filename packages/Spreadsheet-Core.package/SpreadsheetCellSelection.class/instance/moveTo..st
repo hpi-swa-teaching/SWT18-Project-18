@@ -1,4 +1,4 @@
-initialization
+selection moving
 moveTo: aCell
 	
 	(self cells size <= 1 ) 

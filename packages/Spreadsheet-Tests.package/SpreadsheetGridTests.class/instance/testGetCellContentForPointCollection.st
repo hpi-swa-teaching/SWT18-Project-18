@@ -6,7 +6,7 @@ testGetCellContentForPointCollection
 	testValues := OrderedCollection with: 'A' with: 'B' with: 'C' with: 'D'.
 	aPointCollection := OrderedCollection new.
 	
-	self assert: [testValues size <= (grid standardGridSize x * grid standardGridSize y)].
+	self assert: [testValues size <= (grid defaultGridSize x * grid defaultGridSize y)].
 	
 	1 to: testValues size do: [:a |
 		aColumn := (a \\ grid columns size).

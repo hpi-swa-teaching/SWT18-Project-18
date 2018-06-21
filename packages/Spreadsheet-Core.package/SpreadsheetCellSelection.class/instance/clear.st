@@ -1,4 +1,4 @@
-accessing - extension
+helper
 clear
 
 	self removeEditor.

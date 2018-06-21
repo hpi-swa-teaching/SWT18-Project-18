@@ -1,5 +1,5 @@
 layout
-gridSize
+outerGridBounds
 
 	| corner column |
 	(self columns size = 0) 

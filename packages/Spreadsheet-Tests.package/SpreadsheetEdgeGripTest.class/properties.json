@@ -12,5 +12,5 @@
 	"name" : "SpreadsheetEdgeGripTest",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "SpreadsheetEventTestCase",
 	"type" : "normal" }

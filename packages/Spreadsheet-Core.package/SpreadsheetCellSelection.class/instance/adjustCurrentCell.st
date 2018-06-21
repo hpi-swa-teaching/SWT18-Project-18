@@ -1,4 +1,4 @@
-copy
+cell dragging
 adjustCurrentCell 
 	
 	| xDiff yDiff |

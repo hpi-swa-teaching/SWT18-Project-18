@@ -1,4 +1,4 @@
-as yet unclassified
+editor
 editCell: aCell event: event
 
 	self fullMoveTo: aCell.

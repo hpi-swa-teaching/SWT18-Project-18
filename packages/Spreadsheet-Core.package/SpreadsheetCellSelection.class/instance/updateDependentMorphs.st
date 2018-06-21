@@ -1,4 +1,4 @@
-initialization
+updating
 updateDependentMorphs 
 
 	self updateMoveMorphs.

@@ -1,4 +1,4 @@
-label
+selection moving
 fullMoveTo: aCell
 
 	self

@@ -1,4 +1,4 @@
-as yet unclassified
+cell moving
 updateMove: evt
 	
 	| cell |

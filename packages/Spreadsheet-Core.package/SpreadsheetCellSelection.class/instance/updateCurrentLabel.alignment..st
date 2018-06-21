@@ -1,4 +1,4 @@
-label
+label dragging
 updateCurrentLabel: labelDirection alignment: alignment  
 
 	|currentBounds condition|

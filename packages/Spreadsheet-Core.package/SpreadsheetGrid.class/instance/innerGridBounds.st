@@ -1,5 +1,5 @@
 layout
-gridBounds
+innerGridBounds
 
 	^ Rectangle 
 		origin: self columns first cells first topLeft

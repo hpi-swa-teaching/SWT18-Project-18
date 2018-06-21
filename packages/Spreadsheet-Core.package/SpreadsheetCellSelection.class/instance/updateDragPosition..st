@@ -1,4 +1,4 @@
-cell
+cell dragging
 updateDragPosition: aPoint
   
 	(self startLabel notNil) 

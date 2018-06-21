@@ -1,4 +1,4 @@
-cell
+helper
 replaceCellsFrom: startCell to: cornerCell
 
 	| set newCell oldCell |

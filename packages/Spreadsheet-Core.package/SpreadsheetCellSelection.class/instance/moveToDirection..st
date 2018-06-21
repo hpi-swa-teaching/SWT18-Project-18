@@ -1,4 +1,4 @@
-as yet unclassified
+selection moving
 moveToDirection: aDirection
 	
 	"Find the next Cell in a given Direction IN the selection. Please refactor if you can think of a better way."

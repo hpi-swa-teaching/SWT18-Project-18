@@ -1,4 +1,4 @@
-initialization
+cell moving
 startMove: evt
 	
 	| cell |

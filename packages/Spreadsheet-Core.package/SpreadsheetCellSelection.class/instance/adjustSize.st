@@ -1,4 +1,4 @@
-cell
+cell dragging
 adjustSize
 	
 	self 

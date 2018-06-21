@@ -1,4 +1,4 @@
-accessing - extension
+selection moving
 getCellFor: aPosition
 
 	(aPosition y < self topLeftIndex y) ifTrue: [
@@ -8,5 +8,5 @@ getCellFor: aPosition
 	(aPosition x < self topLeftIndex x) ifTrue: [
 		^self grid cellAtRowIndex: aPosition y - 1 colIndex: self bottomRightIndex x].
 	(aPosition x > self bottomRightIndex x) ifTrue: [
-		^self grid cellAtRowIndex: self topLeftIndex y + 1 colIndex: self topLeftIndex  x].
+		^self grid cellAtRowIndex: aPosition y + 1 colIndex: self topLeftIndex  x].
 	^ self grid cellAtRowIndex: aPosition y colIndex: aPosition x

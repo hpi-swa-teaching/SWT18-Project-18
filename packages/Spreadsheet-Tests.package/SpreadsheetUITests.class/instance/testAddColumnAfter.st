@@ -10,4 +10,4 @@ testAddColumnAfter
 	
 	expectedNewColumnLabel := (lastColumnLabel asciiValue + 1) asCharacter asString.
 	
-	(self expect: tool) to haveA: SpreadsheetColumnLabel labelled: expectedNewColumnLabel.
+	(self expect: tool) assert: (tool grid columns last text = expectedNewColumnLabel) description: 'adds the column'.

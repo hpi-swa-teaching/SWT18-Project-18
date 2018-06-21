@@ -1,4 +1,4 @@
-accessing - extension
+editor
 removeEditor 
 
 	self editor ifNotNilDo: [ :editor |

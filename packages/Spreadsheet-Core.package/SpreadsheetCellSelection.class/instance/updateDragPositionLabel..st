@@ -1,4 +1,4 @@
-label
+label dragging
 updateDragPositionLabel: aPoint
 
 	(self currentLabel class == SpreadsheetColumnLabel)

@@ -1,4 +1,4 @@
-event handling
+editor
 addEditor 
 
 	self editor: (SpreadsheetCellTextMorph on: grid).
