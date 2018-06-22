@@ -1,4 +1,4 @@
 constants
 defaultGridSize 
 	" rows @ cols "
-	^ 12 @ 6
+	^ 25 @ 12
