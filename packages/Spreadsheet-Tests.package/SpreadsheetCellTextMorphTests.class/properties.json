@@ -12,9 +12,10 @@
 		"grid",
 		"editor",
 		"gridCell",
-		"functionWindow" ],
+		"functionWindow",
+		"selection" ],
 	"name" : "SpreadsheetCellTextMorphTests",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "SpreadsheetEventTestCase",
 	"type" : "normal" }

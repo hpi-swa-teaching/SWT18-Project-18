@@ -3,8 +3,7 @@ openInSpreadsheet
 	
 	self updateLabelText.
 	"self position: ((self index) * self width + self grid position x + self rowOffset)@(self grid position y + self colOffset)."
-	self position: (self grid right) @ (self grid markAllLabel position y).
-	self grid addMorph: self.
+	self position: (self grid right) @ (self grid position y).
 	
 	self edgeGrip: (SpreadsheetColumnGrip newFor: self on: self grid).
 	self edgeGrip

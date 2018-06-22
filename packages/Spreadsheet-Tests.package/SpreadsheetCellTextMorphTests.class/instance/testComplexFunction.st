@@ -1,6 +1,6 @@
 as yet unclassified
 testComplexFunction
-	
+
 	(grid cellAtRowIndex: 1 colIndex: 1) text: '1'.
 	(grid cellAtRowIndex: 2 colIndex: 1) text: '1'.
 	(grid cellAtRowIndex: 1 colIndex: 2) text: '1'.

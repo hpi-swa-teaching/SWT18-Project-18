@@ -4,10 +4,10 @@ testAddRowAfter
 	| lastRowLabel dropdown expectedNewRowLabel|
 	
 	lastRowLabel := tool grid rows last text.
-	self click: (tool findWidgetOfKind: PHButton labelled: 'Menü').
+	self click: (tool findWidgetOfKind: PHButton labelled: 'Men¦º').
 	dropdown := world findToplevelOfKind: PHDropdown.
 	self click: (dropdown findWidgetOfKind: PHDropdownItem labelled: 'Add Row After').
 	
 	expectedNewRowLabel := (lastRowLabel asInteger + 1) asString.
 	
-	(self expect: tool) to haveA: SpreadsheetRowLabel labelled: expectedNewRowLabel.
+	(self expect: tool) assert: (tool grid rows last text = expectedNewRowLabel) description: 'adds the row'.

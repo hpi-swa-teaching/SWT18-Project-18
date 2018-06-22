@@ -10,9 +10,10 @@
 		"grid",
 		"editor",
 		"gridCell",
-		"copyMorph" ],
+		"copyMorph",
+		"selection" ],
 	"name" : "SpreadsheetCellCopyMorphTests",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "SpreadsheetEventTestCase",
 	"type" : "normal" }

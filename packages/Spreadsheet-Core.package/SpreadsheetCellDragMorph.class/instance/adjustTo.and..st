@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 adjustTo: startPoint and: endPoint
 	self 
 		height: self thickness + (endPoint y - startPoint y);

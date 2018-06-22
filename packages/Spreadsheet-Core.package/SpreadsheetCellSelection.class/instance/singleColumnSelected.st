@@ -1,4 +1,4 @@
-accessing - extension
+helper
 singleColumnSelected
 
 	| aColumn |

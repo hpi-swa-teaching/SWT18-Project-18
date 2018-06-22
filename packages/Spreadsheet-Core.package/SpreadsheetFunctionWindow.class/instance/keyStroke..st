@@ -8,5 +8,5 @@ keyStroke: evt
 			self update
 		]
 		ifTrue: [
-			self grid editor crAction: evt
+			self grid selection editor crAction: evt
 		]

@@ -1,4 +1,4 @@
-cell
+helper
 addCell: aCell
 
 	"aCell markAsSelected."

@@ -8,7 +8,9 @@ setUp
 					yourself.
 	functionWindow := tool functionWindow.
 	grid := tool grid. 
-	editor := grid editor.
+	selection := grid selection.
+	selection addEditor editor.
+	editor := selection editor.
 	gridCell := grid cellAtRowIndex: 3 colIndex: 3.
 	gridCell text: '6'.
 	gridCell calcRepresentation: '=3+3'.

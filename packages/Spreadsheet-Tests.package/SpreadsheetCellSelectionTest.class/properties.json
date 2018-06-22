@@ -14,5 +14,5 @@
 	"name" : "SpreadsheetCellSelectionTest",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "SpreadsheetEventTestCase",
 	"type" : "normal" }

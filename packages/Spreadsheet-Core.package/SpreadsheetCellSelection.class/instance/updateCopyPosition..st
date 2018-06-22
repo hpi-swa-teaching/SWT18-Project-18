@@ -1,4 +1,4 @@
-copy
+cell copy
 updateCopyPosition: aPoint
 
 	self findNewPositionX: aPoint.

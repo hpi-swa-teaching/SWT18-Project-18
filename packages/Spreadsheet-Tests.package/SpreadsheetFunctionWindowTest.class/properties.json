@@ -9,9 +9,10 @@
 		"tool",
 		"editor",
 		"gridCell",
-		"functionWindow" ],
+		"functionWindow",
+		"selection" ],
 	"name" : "SpreadsheetFunctionWindowTest",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "SpreadsheetEventTestCase",
 	"type" : "normal" }

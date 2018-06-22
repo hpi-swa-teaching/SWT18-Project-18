@@ -10,9 +10,10 @@
 		"grid",
 		"editor",
 		"gridCell",
-		"dragMorph" ],
+		"dragMorph",
+		"selection" ],
 	"name" : "SpreadsheetCellDragMorphTests",
 	"pools" : [
 		 ],
-	"super" : "PHEventTestCase",
+	"super" : "SpreadsheetEventTestCase",
 	"type" : "normal" }

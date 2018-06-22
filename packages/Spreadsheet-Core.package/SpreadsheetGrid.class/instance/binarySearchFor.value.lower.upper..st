@@ -6,7 +6,6 @@ binarySearchFor: aCollection value: aNumber lower: lowerBoundMethod upper: upper
 	index := (aCollection size + 1) // 2.
 	element := aCollection at: index.
 	[aNumber between: (element perform: lowerBoundMethod) and: (element perform: upperBoundMethod)] whileFalse: [
-		Transcript show: index;cr.
 		(aNumber > (element perform: lowerBoundMethod)) ifTrue: [
 			range := (index + 1) @ (range y).
 			(range y = range x)
