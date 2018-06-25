@@ -7,9 +7,9 @@ setUp
 					openInWindowLabeled: 'SpreadsheetTool' inWorld: world;
 					yourself.
 	grid := tool grid. 
-	editor := grid editor.
+	selection := grid selection.
 	gridCell := grid cellAtRowIndex: 3 colIndex: 3.
 	gridCell text: '6'.
 	gridCell calcRepresentation: '= 3+3'.
-	dragMorph := editor moveMorphs at: 1.
-	editor replaceCell: gridCell.
+	dragMorph := selection moveMorphs at: 1.
+	selection moveTo: gridCell

@@ -1,9 +1,7 @@
 event handling
 mouseDown: evt
 
-	| cell |
-	
+	self layoutPolicy: SpreadsheetStaticGridLayout new. "Temporarily remove policy for slightly better performance"
 	self selection clear.
-	cell := self cellAt: evt position.
-	self editCell: cell event: evt.
-	self startDragAtCell: cell.
+	self clickAt: evt.
+			

@@ -1,9 +1,10 @@
 as yet unclassified
 updateEditorFor: aMorph
-	| cell |
-	cell := aMorph editor cell.
-	(aMorph editor cell) ifNil: [^ self].
-	(aMorph editor cell row index > (aMorph rows size)) ifTrue: [ cell := (aMorph editor cell topCell)].
-	(aMorph editor cell column index > (aMorph columns size)) ifTrue: [ cell := (aMorph editor cell leftCell)].
-	aMorph editor cell: cell.
-	aMorph editor adjustToCell.
+	| cell newCell |
+	cell := aMorph selection editor cell.
+	newCell := cell.
+	(cell) ifNil: [^ self].
+	(cell row index > (aMorph rows size)) ifTrue: [ newCell := (cell topCell)].
+	(cell column index > (aMorph columns size)) ifTrue: [ newCell := cell leftCell].
+	aMorph selection editor cell: newCell.
+	aMorph selection editor bounds: newCell bounds.

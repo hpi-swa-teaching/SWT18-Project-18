@@ -1,10 +1,10 @@
 as yet unclassified
 openInSpreadsheet 
 
-	self width: 30;
+	self 
+		width: 30;
 		updateLabelText.
-	self position: (self grid markAllLabel position x) @ ( self grid bottom).
-	self grid addMorph: self.
+	self position: (self grid position x) @ ( self grid bottom).
 
 	self edgeGrip: (SpreadsheetRowGrip newFor: self on: self grid).
 	self edgeGrip

@@ -1,3 +1,3 @@
 accessing
 cells
-	^ cells ifNil: [ cells := Set new ]
+	^ cells ifNil: [ cells := OrderedCollection new ]

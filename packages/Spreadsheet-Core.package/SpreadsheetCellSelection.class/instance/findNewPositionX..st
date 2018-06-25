@@ -1,4 +1,4 @@
-cell
+cell dragging
 findNewPositionX: aPoint
 
 	(aPoint x between: self currentCell left and: self currentCell right ) ifTrue: [ ^ self ].

@@ -8,10 +8,7 @@
 	"instvars" : [
 		"grid",
 		"cell",
-		"state",
-		"timer",
-		"moveMorphs",
-		"copyMorph" ],
+		"state" ],
 	"name" : "SpreadsheetCellTextMorph",
 	"pools" : [
 		 ],

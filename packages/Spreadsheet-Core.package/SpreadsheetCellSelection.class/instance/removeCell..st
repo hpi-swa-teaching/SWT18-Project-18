@@ -1,4 +1,4 @@
-cell
+helper
 removeCell: aCell
 
 	self cells remove: aCell.

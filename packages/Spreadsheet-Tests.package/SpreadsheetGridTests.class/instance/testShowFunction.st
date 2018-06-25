@@ -10,5 +10,5 @@ testShowFunction
 	self click: (tool findWidgetOfKind: PHButton labelled: 'Functions').
 	dropdown := world findToplevelOfKind: PHDropdown.
 	self click: (dropdown findWidgetOfKind: PHDropdownItem labelled: 'Sum').
-	self assert: (grid editor cell = (grid cellAtRowIndex: 4 colIndex: 2)).
-	self assert: (grid editor text = '=sum(B2:C3)'). 
+	self assert: (grid selection editor cell = (grid cellAtRowIndex: 4 colIndex: 2)).
+	self assert: (grid selection editor text = '=sum(B2:C3)'). 

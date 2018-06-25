@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 attachToMorph: aMorph startPoint: startPoint endPoint: endPoint 
 
 	self morph: aMorph.

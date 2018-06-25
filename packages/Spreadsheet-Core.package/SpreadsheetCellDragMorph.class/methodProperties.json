@@ -4,7 +4,6 @@
 	"instance" : {
 		"adjustTo:and:" : "AS 6/18/2018 17:06",
 		"attachToMorph:startPoint:endPoint:" : "AS 6/18/2018 16:31",
-		"drawOn:" : "AS 6/18/2018 17:07",
 		"handlesMouseDown:" : "AS 6/18/2018 17:16",
 		"handlesMouseOver:" : "AS 6/18/2018 15:16",
 		"initialize" : "AS 6/18/2018 16:32",

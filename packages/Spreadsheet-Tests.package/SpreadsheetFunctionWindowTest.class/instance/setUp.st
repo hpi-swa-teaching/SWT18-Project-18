@@ -6,5 +6,7 @@ setUp
 					openInWindowLabeled: 'SpreadsheetTool' inWorld: world;
 					yourself.
 	functionWindow := tool functionWindow.
-	editor := tool grid editor.
+	selection := tool grid selection.
+	selection addEditor.
+	editor := selection editor.
 	gridCell := tool grid cellAtRowIndex: 1 colIndex: 1.

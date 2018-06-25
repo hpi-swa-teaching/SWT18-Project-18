@@ -1,4 +1,4 @@
-label
+label dragging
 updateDragPosition: aPoint alignment: alignment 
 	| condition |
 	(alignment = #x) 

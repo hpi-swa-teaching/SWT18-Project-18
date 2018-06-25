@@ -1,9 +1,4 @@
 event handling
 selectAll
-	| allCells |
 	
-	allCells := OrderedCollection new.
-	self rows do: [ :row | 
-		row cells do: [ :cell |
-			allCells add: cell]].
-	self selection fromCollection: allCells
+	self selection selectFrom: (self cellAtRowIndex: 1 colIndex: 1) to: self rows last cells last

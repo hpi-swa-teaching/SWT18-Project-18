@@ -2,7 +2,7 @@ initialization
 initializeMenu
 
 	self	add: (PHPage row
-		add: ((PHButton label: 'Menü')
+		add: ((PHButton label: 'Men¦º')
 			attach: (PHDropdown new
 				add: ((PHDropdownItem label: 'Add Row After')
 					when: #clicked send: #addRowAfter to: self grid);

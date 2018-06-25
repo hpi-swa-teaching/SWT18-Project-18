@@ -3,12 +3,12 @@ initialize
 	
 	super initialize.
 	self 
-		position: 0@50;
+		width: self defaultSize x;
+		height: self defaultSize y;
 		color: Color white;
-		editor: (SpreadsheetCellTextMorph on: self);
-		layoutPolicy: SpreadsheetGridLayout new;
-		markAllLabel: (SpreadsheetMarkAllLabel on: self).
-	(self standardGridSize x) timesRepeat: [self addRowAfter].
-	(self standardGridSize y) timesRepeat: [self addColumnAfter].
+		clickTime: Time now;
+		layoutPolicy: SpreadsheetGridLayout new.
+	(self defaultGridSize x) timesRepeat: [self addRowAfter].
+	(self defaultGridSize y) timesRepeat: [self addColumnAfter].
 	
 	

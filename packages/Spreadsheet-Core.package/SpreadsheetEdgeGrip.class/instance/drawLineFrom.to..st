@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 drawLineFrom: startPoint to: endPoint 
 
 	self moveLine: (LineMorph from: startPoint to: endPoint color: Color blue width: 1).

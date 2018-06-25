@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 mouseMove: evt
 
 	self morph updateCopy: evt
