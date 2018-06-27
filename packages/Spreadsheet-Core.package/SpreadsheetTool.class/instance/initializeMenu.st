@@ -2,7 +2,7 @@ initialization
 initializeMenu
 
 	self	add: (PHPage row
-		add: ((PHButton label: 'Men¦º')
+		add: ((PHButton label: 'Add/Remove')
 			attach: (PHDropdown new
 				add: ((PHDropdownItem label: 'Add Row After')
 					when: #clicked send: #addRowAfter to: self grid);
@@ -29,4 +29,13 @@ initializeMenu
 					when: #clickedWithEvent send: #show:function: to: self grid withArguments: {nil.#min});
 				add: ((PHDropdownItem label: 'Max')
 					when: #clickedWithEvent send: #show:function: to: self grid withArguments: {nil.#max})	
+				));
+		add: ((PHButton label: 'File')
+			attach: (PHDropdown new
+				add: ((PHDropdownItem label: 'New')
+					when: #clickedWithEvent send: #newFile to: self);
+				add: ((PHDropdownItem label: 'Import STON')
+					when: #clickedWithEvent send: #importSTON to: self);
+				add: ((PHDropdownItem label: 'Export STON')
+					when: #clickedWithEvent send: #exportSTON to: self)
 				))).
