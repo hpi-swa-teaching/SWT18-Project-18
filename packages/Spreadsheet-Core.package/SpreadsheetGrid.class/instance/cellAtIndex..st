@@ -1,4 +1,4 @@
 grid access
 cellAtIndex: aPoint 
 
-	^ self cellAtRowIndex: aPoint y colIndex: aPoint x
+	^ self data cellAtRowIndex: aPoint y colIndex: aPoint x

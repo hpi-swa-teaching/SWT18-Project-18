@@ -7,8 +7,6 @@ initialize
 		height: self defaultSize y;
 		color: Color white;
 		clickTime: Time now;
-		layoutPolicy: SpreadsheetGridLayout new.
-	(self defaultGridSize x) timesRepeat: [self addRowAfter].
-	(self defaultGridSize y) timesRepeat: [self addColumnAfter].
-	
+		layoutPolicy: SpreadsheetGridLayout new;
+		data: (SpreadsheetData for: self)
 	

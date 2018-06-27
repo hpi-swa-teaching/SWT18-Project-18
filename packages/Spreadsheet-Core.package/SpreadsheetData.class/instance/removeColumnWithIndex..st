@@ -1,15 +1,15 @@
-managing columns
+manage columns
 removeColumnWithIndex: anIndex
 	
 	| positionCollection |
 	
-	positionCollection := self getSelectionPositions.
+	positionCollection := self grid getSelectionPositions.
 	
 	(self columns size < anIndex) ifTrue: [^ self] .
 	(self columns removeAt: anIndex) removeCells.
 	self columns do: [:aColumn | aColumn updateIndex].
 	self rows do: [:aRow |  aRow cells removeAt: anIndex].
 	
-	self updateSelection: positionCollection by: (-1@0).
+	self grid updateSelection: positionCollection by: (-1@0).
 	
-	self layoutChanged.
+	self update.

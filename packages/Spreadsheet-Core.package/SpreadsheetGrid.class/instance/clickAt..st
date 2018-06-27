@@ -2,13 +2,13 @@ event handling
 clickAt: evt
 	| point cell |
 	point := evt position.
-	((point x < self columns first left) and: [point y > self rows first top]) ifTrue: [
-		self startDragAt: (self rowLabelAt: point).
+	((point x < self data columns first left) and: [point y > self data rows first top]) ifTrue: [
+		self startDragAt: (self data rowLabelAt: point).
 		^ self].
-	((point x > self columns first left) and: [point y < self rows first top]) ifTrue: [
-		self startDragAt: (self columnLabelAt: point).
+	((point x > self data columns first left) and: [point y < self data rows first top]) ifTrue: [
+		self startDragAt: (self data columnLabelAt: point).
 		^ self].
-	((point x < self columns first left) and: [point y < self rows first top]) ifTrue: [
+	((point x < self data columns first left) and: [point y < self data rows first top]) ifTrue: [
 		self selectAll.
 		^ self].
 	cell := self cellAt: point.

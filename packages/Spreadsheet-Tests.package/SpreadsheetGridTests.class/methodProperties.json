@@ -8,8 +8,8 @@
 		"testAddColumn" : "LH 6/12/2018 21:54",
 		"testAddRow" : "LH 6/12/2018 21:55",
 		"testDrawWithoutErrors" : "AS 6/22/2018 01:12",
-		"testGetCellContentForPointCollection" : "AS 6/21/2018 22:26",
-		"testInitialize" : "AS 6/21/2018 22:26",
+		"testGetCellContentForPointCollection" : "AS 6/27/2018 12:32",
+		"testInitialize" : "AS 6/27/2018 12:32",
 		"testRemoveColumn" : "LH 6/12/2018 23:51",
 		"testRemoveRow" : "LH 6/12/2018 23:51",
 		"testShowFunction" : "AS 6/21/2018 23:21" } }

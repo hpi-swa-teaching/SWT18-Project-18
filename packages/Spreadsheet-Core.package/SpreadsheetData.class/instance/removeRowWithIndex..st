@@ -1,14 +1,14 @@
-managing rows
+manage rows
 removeRowWithIndex: anIndex
 	
 	| positionCollection |
 	
-	positionCollection := self getSelectionPositions.
+	positionCollection := self grid getSelectionPositions.
 	
 	(self rows size < anIndex) ifTrue: [^ self].
 	(self rows removeAt: anIndex) removeCells.
 	self rows do: [:aRow | aRow updateIndex].
 	self	columns do: [:aColumn |  aColumn cells removeAt: anIndex].
 		
-	self updateSelection: positionCollection by: (0@(-1)).
-	self layoutChanged.
+	self grid updateSelection: positionCollection by: (0@(-1)).
+	self update.
