@@ -1,9 +1,11 @@
 managing files
-newFile
+importSTONFrom: aPath
+	
 	self submorphs do: [:morph | morph delete].
 	self 
 		functionWindow: SpreadsheetFunctionWindow new;
-		grid: (SpreadsheetGrid newWith: functionWindow);
+		grid: (aPath asReference 
+  		  fileStreamDo: [:stream | STON fromStream: stream]);
 		vertical: true;
 		withLayout;
 		initializeMenu;

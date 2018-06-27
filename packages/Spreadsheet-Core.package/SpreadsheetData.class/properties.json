@@ -1,0 +1,15 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rows",
+		"columns" ],
+	"name" : "SpreadsheetData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -33,9 +33,15 @@ initializeMenu
 		add: ((PHButton label: 'File')
 			attach: (PHDropdown new
 				add: ((PHDropdownItem label: 'New')
-					when: #clickedWithEvent send: #newFile to: self);
+					when: #clicked send: #newFile to: self);
 				add: ((PHDropdownItem label: 'Import STON')
-					when: #clickedWithEvent send: #importSTON to: self);
+					when: #clicked 
+					send: #openBy:withMessage: 
+					to: SpreadsheetFilePathEntry 
+					withArguments: {self.#importSTONFrom:});
 				add: ((PHDropdownItem label: 'Export STON')
-					when: #clickedWithEvent send: #exportSTON to: self)
+					when: #clicked 
+					send: #openBy:withMessage: 
+					to: SpreadsheetFilePathEntry 
+					withArguments: {self.#exportSTONTo:})
 				))).

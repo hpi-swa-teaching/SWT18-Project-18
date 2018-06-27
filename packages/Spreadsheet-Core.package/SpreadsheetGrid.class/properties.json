@@ -8,9 +8,9 @@
 	"instvars" : [
 		"editor",
 		"rows",
+		"functionWindow",
 		"columns",
 		"selection",
-		"markAllLabel",
 		"dragging",
 		"targetCell",
 		"clickTime" ],
