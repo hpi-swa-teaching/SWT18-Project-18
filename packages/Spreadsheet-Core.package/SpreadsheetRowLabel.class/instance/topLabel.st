@@ -1,4 +1,4 @@
 as yet unclassified
 topLabel
 
-	^ self grid rows at: self index - 1
+	^ self data rows at: self index - 1

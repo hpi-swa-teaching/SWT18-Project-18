@@ -8,7 +8,7 @@
 	"instvars" : [
 		"cells",
 		"index",
-		"grid",
+		"data",
 		"row",
 		"column",
 		"dragging",

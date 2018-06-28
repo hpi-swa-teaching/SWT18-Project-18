@@ -1,4 +1,4 @@
 as yet unclassified
 rightLabel
 
-	^ self grid columns at: self index + 1
+	^ self data columns at: self index + 1

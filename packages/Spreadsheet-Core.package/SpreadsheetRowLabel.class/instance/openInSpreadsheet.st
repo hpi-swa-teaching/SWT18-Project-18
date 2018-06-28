@@ -4,10 +4,10 @@ openInSpreadsheet
 	self 
 		width: 30;
 		updateLabelText.
-	self position: (self grid position x) @ ( self grid bottom).
+	self position: (self data grid position x) @ ( self data grid bottom).
 
-	self edgeGrip: (SpreadsheetRowGrip newFor: self on: self grid).
+	self edgeGrip: (SpreadsheetRowGrip newFor: self on: self data grid).
 	self edgeGrip
 		width: self width;
 		position: self position x  @ (self bottom  - (edgeGrip height)).
-	self grid addMorphFront: edgeGrip.
+	self data grid addMorphFront: edgeGrip.

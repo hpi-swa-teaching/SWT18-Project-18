@@ -1,4 +1,4 @@
 accessing - extension
 rightCell 
 
-	^ (self grid cellAtRowIndex: self row index colIndex: self column index + 1)
+	^ (self data grid cellAtRowIndex: self row index colIndex: self column index + 1)

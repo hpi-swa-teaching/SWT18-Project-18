@@ -1,4 +1,4 @@
 initialize
 defaultGridSize 
 	" rows @ cols "
-	^ 22 @ 12
+	^ 2 @ 2
