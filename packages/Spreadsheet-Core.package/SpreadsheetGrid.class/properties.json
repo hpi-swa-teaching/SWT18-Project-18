@@ -13,8 +13,8 @@
 		"dragging",
 		"targetCell",
 		"clickTime",
-		"rowEdgegrips",
-		"columnEdgegrips" ],
+		"rowEdgeGrips",
+		"columnEdgeGrips" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [
 		 ],

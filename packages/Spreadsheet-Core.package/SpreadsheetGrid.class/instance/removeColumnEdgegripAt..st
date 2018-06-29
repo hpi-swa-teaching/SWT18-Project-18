@@ -1,4 +1,4 @@
 accessing
 removeColumnEdgegripAt: anIndex
 	
-	self columnEdgegrips removeAt: anIndex.
+	self columnEdgeGrips removeAt: anIndex.

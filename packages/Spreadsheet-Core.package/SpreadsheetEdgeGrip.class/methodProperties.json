@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFor:on:" : "LH 6/28/2018 19:04" },
+		"newFor:on:" : "LH 6/29/2018 02:12" },
 	"instance" : {
 		"drag" : "AS 5/28/2018 17:29",
 		"drag:" : "LB 5/21/2018 14:53",
@@ -9,10 +9,10 @@
 		"grid:" : "AS 5/23/2018 18:53",
 		"handlesMouseDown:" : "LB 5/21/2018 14:49",
 		"handlesMouseOver:" : "LB 5/21/2018 14:49",
+		"index" : "LH 6/29/2018 02:10",
+		"index:" : "LH 6/29/2018 02:10",
 		"initialize" : "LH 6/27/2018 05:17",
 		"isCursorOverHandle" : "LB 5/21/2018 14:49",
-		"label" : "LH 6/28/2018 19:04",
-		"label:" : "LH 6/28/2018 19:04",
 		"mouseDown:" : "LH 6/12/2018 20:32",
 		"mouseEnter:" : "AS 5/23/2018 19:05",
 		"mouseLeave:" : "AS 5/23/2018 19:05",

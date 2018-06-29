@@ -9,7 +9,8 @@
 		"grid",
 		"drag",
 		"moveLine",
-		"label" ],
+		"label",
+		"index" ],
 	"name" : "SpreadsheetEdgeGrip",
 	"pools" : [
 		 ],

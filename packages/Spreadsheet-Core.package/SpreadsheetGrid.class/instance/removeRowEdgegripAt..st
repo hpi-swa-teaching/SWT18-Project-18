@@ -1,4 +1,4 @@
 accessing
 removeRowEdgegripAt: anIndex
 	
-	self rowEdgegrips removeAt: anIndex.
+	self rowEdgeGrips removeAt: anIndex.
