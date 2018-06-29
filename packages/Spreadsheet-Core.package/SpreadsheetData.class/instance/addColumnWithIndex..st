@@ -1,4 +1,4 @@
-manage columns
+accessing columns
 addColumnWithIndex: anInteger
 
 	| newColumn |

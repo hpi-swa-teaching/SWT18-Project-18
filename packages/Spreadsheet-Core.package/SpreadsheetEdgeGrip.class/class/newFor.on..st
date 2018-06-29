@@ -2,5 +2,7 @@ as yet unclassified
 newFor: aLabel on: aGrid
 
 	^ (self new)
-		targetLabel: aLabel;
-		grid: aGrid
+		label: aLabel;
+		grid: aGrid;
+		openInSpreadsheet;
+		yourself

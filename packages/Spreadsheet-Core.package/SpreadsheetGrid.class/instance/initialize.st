@@ -7,6 +7,7 @@ initialize
 		height: self defaultSize y;
 		color: Color white;
 		clickTime: Time now;
-		layoutPolicy: SpreadsheetGridLayout new;
-		data: (SpreadsheetData for: self)
+		data: (SpreadsheetData newFor: self);
+		initializeEdgegrips;
+		layoutPolicy: SpreadsheetGridLayout new.
 	

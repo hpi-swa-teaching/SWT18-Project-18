@@ -1,4 +1,4 @@
-grid access
+accessing cells
 cellAt: aPoint
 	| point |
 	point := self findColumnAndRowIndex: aPoint.

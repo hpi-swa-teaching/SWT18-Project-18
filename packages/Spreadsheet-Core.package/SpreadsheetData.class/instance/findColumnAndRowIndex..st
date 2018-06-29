@@ -1,4 +1,4 @@
-grid access
+accessing cells
 findColumnAndRowIndex: position
 	" Uses Binary search "
 	| rowIndex colIndex|

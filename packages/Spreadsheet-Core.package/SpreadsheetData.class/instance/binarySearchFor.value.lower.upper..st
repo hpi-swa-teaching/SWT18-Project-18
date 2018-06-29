@@ -1,4 +1,4 @@
-grid access
+private
 binarySearchFor: aCollection value: aNumber lower: lowerBoundMethod upper: upperBoundMethod
 
 	| element index range|

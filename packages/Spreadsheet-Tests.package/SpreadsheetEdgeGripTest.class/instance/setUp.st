@@ -5,5 +5,5 @@ setUp
 	tool := SpreadsheetTool new 
 					openInWindowLabeled: 'SpreadsheetTool' inWorld: world;
 					yourself.
-	columnGrip := tool grid columns first edgeGrip.
-	rowGrip := tool grid rows first edgeGrip.
+	columnGrip := tool grid columnEdgegrips first.
+	rowGrip := tool grid rowEdgegrips first.

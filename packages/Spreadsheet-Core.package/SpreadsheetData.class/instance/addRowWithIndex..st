@@ -1,4 +1,4 @@
-manage rows
+accessing rows
 addRowWithIndex: anInteger
 
 	| newRow |

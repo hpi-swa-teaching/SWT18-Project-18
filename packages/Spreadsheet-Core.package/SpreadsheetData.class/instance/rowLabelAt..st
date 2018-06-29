@@ -1,4 +1,4 @@
-grid access
+accessing rows
 rowLabelAt: aPoint
 
 	| index |

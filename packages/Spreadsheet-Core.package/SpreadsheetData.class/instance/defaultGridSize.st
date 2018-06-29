@@ -1,4 +1,4 @@
-initialize
+constants
 defaultGridSize 
 	" rows @ cols "
-	^ 2 @ 2
+	^ 19 @ 12

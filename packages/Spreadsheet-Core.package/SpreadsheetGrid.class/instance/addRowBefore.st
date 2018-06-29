@@ -1,4 +1,6 @@
 managing rows
 addRowBefore
 	
-	self data addRowBefore
+	self selection singleRowSelected 
+		ifTrue: [self data addRowWithIndex: self selection startCell column index]
+		ifFalse: [self data addRowWithIndex: 1].

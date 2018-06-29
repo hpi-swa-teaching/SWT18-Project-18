@@ -1,5 +1,5 @@
 as yet unclassified
-for: aGrid
+newFor: aGrid
 
 	^ self new 
 		grid: aGrid;

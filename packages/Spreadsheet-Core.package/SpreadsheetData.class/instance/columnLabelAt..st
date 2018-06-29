@@ -1,4 +1,4 @@
-grid access
+accessing columns
 columnLabelAt: aPoint
 
 	| index |

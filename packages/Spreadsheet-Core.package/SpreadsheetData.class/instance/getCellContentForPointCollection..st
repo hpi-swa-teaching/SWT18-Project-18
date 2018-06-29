@@ -1,4 +1,4 @@
-grid access
+accessing cells
 getCellContentForPointCollection: aCollection
 	"return a cell collection for a collection of points"
 	

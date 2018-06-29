@@ -1,4 +1,4 @@
-grid access
+accessing cells
 getCellsFrom: startCell to: cornerCell
 	| collection |
 	collection := OrderedCollection new.

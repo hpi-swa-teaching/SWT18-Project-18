@@ -1,10 +1,6 @@
-manage columns
+accessing columns
 removeColumn 
 	
-	| aColumnIndex |
-	
-	(self columns size <= 1) ifTrue: [^ self].
-	self grid selection singleColumnSelected 
-		ifTrue: [aColumnIndex := self grid selection startCell column index]
-		ifFalse: [aColumnIndex := self columns last index].
-	self removeColumnWithIndex: aColumnIndex.
+	self removeColumnWithIndex: (self columns 
+		ifEmpty: [1] 
+		ifNotEmpty: [columns last index]).

@@ -4,5 +4,5 @@ testAddColumn
 	|numberOfColumns|
 	
 	numberOfColumns := grid columns size.
-	grid addColumnAfter.
+	grid addColumn.
 	self assert: [grid columns size =  (numberOfColumns + 1)]

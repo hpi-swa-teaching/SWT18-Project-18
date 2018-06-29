@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFor:on:" : "AS 5/23/2018 18:48" },
+		"newFor:on:" : "LH 6/28/2018 19:04" },
 	"instance" : {
 		"drag" : "AS 5/28/2018 17:29",
 		"drag:" : "LB 5/21/2018 14:53",
@@ -11,6 +11,8 @@
 		"handlesMouseOver:" : "LB 5/21/2018 14:49",
 		"initialize" : "LH 6/27/2018 05:17",
 		"isCursorOverHandle" : "LB 5/21/2018 14:49",
+		"label" : "LH 6/28/2018 19:04",
+		"label:" : "LH 6/28/2018 19:04",
 		"mouseDown:" : "LH 6/12/2018 20:32",
 		"mouseEnter:" : "AS 5/23/2018 19:05",
 		"mouseLeave:" : "AS 5/23/2018 19:05",
@@ -18,6 +20,4 @@
 		"mouseUp:" : "AS 5/23/2018 19:05",
 		"moveLine" : "AS 5/23/2018 18:30",
 		"moveLine:" : "AS 5/23/2018 18:30",
-		"resizeCursor" : "LB 5/21/2018 14:50",
-		"targetLabel" : "LB 5/21/2018 15:06",
-		"targetLabel:" : "LB 5/21/2018 15:06" } }
+		"resizeCursor" : "LB 5/21/2018 14:50" } }
