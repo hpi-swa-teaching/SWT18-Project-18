@@ -13,7 +13,8 @@
 		"markAllLabel",
 		"dragging",
 		"targetCell",
-		"clickTime" ],
+		"clickTime",
+		"flyweightFactory" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [
 		 ],

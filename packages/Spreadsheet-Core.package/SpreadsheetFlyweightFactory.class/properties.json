@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"flyweightList" ],
+	"name" : "SpreadsheetFlyweightFactory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

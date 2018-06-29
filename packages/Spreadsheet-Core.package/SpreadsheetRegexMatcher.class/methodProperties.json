@@ -8,6 +8,8 @@
 		"getColumnAndRowFromCellLabel:" : "JU 5/29/2018 16:27",
 		"getFunctionFromString:" : "PH 6/12/2018 21:18",
 		"getNumberFromChar:" : "JU 5/29/2018 16:17",
-		"hasOperation:" : "JU 5/29/2018 16:55" },
+		"hasOperation:" : "JU 5/29/2018 16:55",
+		"text:Matches:" : "JU 6/27/2018 09:33",
+		"typeRegexDict" : "JU 6/27/2018 10:12" },
 	"instance" : {
 		 } }
