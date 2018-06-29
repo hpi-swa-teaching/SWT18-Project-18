@@ -4,7 +4,7 @@ testColumnGripDrag
 	position :=  columnGrip label position.
 	width := columnGrip label width.
 	gripPosition := columnGrip position.
-	positionRightLabel := columnGrip  rightLabel position.
+	positionRightLabel := columnGrip label rightLabel position.
 	self mousePress: columnGrip buttons: #(left).
 	self simulateMouseEvent: #mouseMove at: ((gripPosition x + 20) @ gripPosition y) buttons: #(left) start: 0@0 morph: columnGrip.
 	newGripPosition := columnGrip position.

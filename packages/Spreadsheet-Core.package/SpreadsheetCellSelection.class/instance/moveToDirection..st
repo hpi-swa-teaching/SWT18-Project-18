@@ -7,6 +7,6 @@ moveToDirection: aDirection
 	(aDirection = #right) ifTrue: [
 		self fullMoveTo: self selectedCell horizontalSuccessor].
 	(aDirection = #bottom) ifTrue: [
-		self fullMoveTo: self selectedCell verticalPredecessor].
-	(aDirection = #top) ifTrue: [
 		self fullMoveTo: self selectedCell verticalSuccessor].
+	(aDirection = #top) ifTrue: [
+		self fullMoveTo: self selectedCell verticalPredecessor].

@@ -8,5 +8,5 @@ fullMoveTo: aCell
 		currentCell: aCell;
 		currentLabel: nil;
 		startLabel: nil;
-		adjustActiveCell;
+		adjustActiveCellMorph;
 		externalOutput: aCell calcRepresentation.
