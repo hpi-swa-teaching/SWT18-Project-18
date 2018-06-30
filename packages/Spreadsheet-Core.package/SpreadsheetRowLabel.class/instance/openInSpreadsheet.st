@@ -4,4 +4,6 @@ openInSpreadsheet
 	self 
 		width: 30;
 		updateLabelText.
-	self position: (self data grid position x) @ ( self data grid bottom).
+	self index > 1
+		ifFalse: [self position: self data grid position x @ self data grid bottom]
+		ifTrue: [self data grid position x @ self topLabel bottom].

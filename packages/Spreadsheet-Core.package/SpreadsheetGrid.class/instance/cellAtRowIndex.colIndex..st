@@ -1,5 +1,5 @@
 grid access
-cellAtRowIndex: aRow colIndex: aCol
+cellAtRowIndex: aRow colIndex: aColumn
 	
-	^ self data cellAtRowIndex: aRow colIndex: aCol
+	^ self data cellAtRowIndex: aRow colIndex: aColumn
 		
