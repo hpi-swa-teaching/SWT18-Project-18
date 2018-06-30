@@ -6,7 +6,7 @@ formatCellContent: aText
 	adjustedLength := (aText size) - 3.
 	
 	adjustedLength to: 1 by: -3 do: [ :index |
-		textCollection add: ('.' asCharacter) afterIndex: index].
+		textCollection add: (',' asCharacter) afterIndex: index].
 	
 	^ String newFrom: textCollection 
 	

@@ -1,4 +1,4 @@
-calculateResult
+replace string
 replaceSingleCells: aString
 
 	| gridPosition cell |

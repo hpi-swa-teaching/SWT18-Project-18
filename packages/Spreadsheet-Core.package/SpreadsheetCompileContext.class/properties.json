@@ -1,0 +1,15 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"grid",
+		"cell" ],
+	"name" : "SpreadsheetCompileContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

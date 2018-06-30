@@ -1,4 +1,4 @@
-calculateResult
+accessing
 cellContentsFrom: aString
 
 	^ ((self cellsFrom: aString) replace: [ :cell | 

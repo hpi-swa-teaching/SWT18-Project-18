@@ -10,3 +10,4 @@ fullMoveTo: aCell
 		startLabel: nil;
 		adjustActiveCell;
 		externalOutput: aCell calcRepresentation.
+	self cells add: aCell.

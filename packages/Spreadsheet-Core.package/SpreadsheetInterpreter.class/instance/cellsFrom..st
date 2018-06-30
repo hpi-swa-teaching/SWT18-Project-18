@@ -1,4 +1,4 @@
-calculateResult
+as yet unclassified
 cellsFrom: anExpression
 	
 	|startEndPoints startPoint endPoint cells|
