@@ -2,14 +2,15 @@ compiling
 compiledResultFrom: anExpression for: aCell
 	| result expression |
 	
-	context := SpreadsheetCompileContext new.
-	context grid: self grid.
-	context cell: aCell.
+	cell := aCell.
+	environment := Environment default.
 	
-	expression := context getCompilableExpression: anExpression.
-	result := (Compiler evaluate: expression for: context "on: Error do: [ :exception | self showError: exception. ^ '#ERROR']").
+	expression := self bindVariablesIn: anExpression.
+	self hasCircularDependencies ifTrue: [ self resolveCircularDependency. ^ '#CIRC' ].
+	result := ([Compiler evaluate: expression environment:  environment] on: Error do: [ :exception | self showError: exception. ^ '#ERROR']).
 	result class = SpreadsheetCell ifTrue: [ ^ '#COMMAND' ].
 	result class = SpreadsheetGrid ifTrue: [ ^ '#COMMAND' ].
 	
-	context := nil.
+	cell := nil.
+	environment := nil.
 	^ result asString

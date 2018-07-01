@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"cellAccessorRegex" : "AS 6/30/2018 22:06",
-		"cellCollectionAccessorRegex" : "AS 6/30/2018 22:06",
-		"cellCollectionRegex" : "AS 6/30/2018 22:06",
-		"cellRegex" : "AS 6/30/2018 22:07",
+		"cellAccessorRegex" : "AS 7/1/2018 15:49",
+		"cellCollectionAccessorRegex" : "AS 7/1/2018 15:49",
+		"cellCollectionRegex" : "AS 7/1/2018 15:50",
+		"cellRegex" : "AS 7/1/2018 15:50",
 		"functionsDict" : "AS 6/13/2018 12:12",
-		"getCellIndicesForString:" : "AS 6/30/2018 23:11",
+		"getCellIndicesForString:" : "AS 7/1/2018 15:53",
 		"getCellstringFromString:" : "AS 6/17/2018 21:37",
 		"getColumnAndRowFromCellLabel:" : "JU 5/29/2018 16:27",
 		"getFunctionFromString:" : "PH 6/12/2018 21:18",
