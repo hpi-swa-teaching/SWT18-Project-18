@@ -9,5 +9,6 @@ initialize
 		clickTime: Time now;
 		data: (SpreadsheetData newFor: self);
 		initializeEdgegrips;
-		layoutPolicy: SpreadsheetGridLayout new.
+		layoutPolicy: SpreadsheetGridLayout new;
+		interpreter: (SpreadsheetInterpreter on: self)
 	

@@ -5,7 +5,6 @@ initialize
 	self 
 		backgroundColor: Color white;
 		colorUnselected: Color white;
-		"borderWidth: 1;"
 		borderColor: Color gray;
 		calcRepresentation: '';
 		text: '';

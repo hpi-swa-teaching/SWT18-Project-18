@@ -14,7 +14,9 @@
 		"targetCell",
 		"clickTime",
 		"rowEdgeGrips",
-		"columnEdgeGrips" ],
+		"columnEdgeGrips",
+		"flyweightFactory",
+		"interpreter" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [
 		 ],

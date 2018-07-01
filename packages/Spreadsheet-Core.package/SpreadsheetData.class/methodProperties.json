@@ -8,6 +8,7 @@
 		"addRowWithIndex:" : "LH 6/28/2018 13:32",
 		"binarySearchFor:value:lower:upper:" : "AS 6/27/2018 12:12",
 		"buildGrid" : "LH 6/29/2018 00:05",
+		"calcRepresentationChanged:" : "AS 7/1/2018 19:45",
 		"cellAt:" : "AS 6/27/2018 12:12",
 		"cellAtIndex:" : "AS 6/27/2018 12:12",
 		"cellAtRowIndex:colIndex:" : "AS 6/27/2018 12:12",
@@ -27,5 +28,6 @@
 		"rowLabelAt:" : "LH 6/29/2018 00:30",
 		"rows" : "LH 6/29/2018 01:00",
 		"rows:" : "AS 6/27/2018 12:01",
+		"textChanged:" : "AS 7/1/2018 19:46",
 		"update" : "AS 6/27/2018 12:45",
 		"updateCellAtRow:column:" : "AS 6/27/2018 12:21" } }

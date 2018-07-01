@@ -1,13 +1,11 @@
 as yet unclassified
-calculateContent: aCell text: aText
+calculateContent: aCell
 
 	| resultAsString |
 
-	aCell calcRepresentation: aText.
-	resultAsString := (self calculateResult: aText for: aCell).
+	resultAsString := (self calculateResult: aCell calcRepresentation for: aCell).
 	(aCell cellType) ifNotNil: [
 		(aCell cellType correspondingRegex matches: resultAsString) ifTrue: [
 			resultAsString := aCell cellType formatCellContent: resultAsString].
 	].
 	aCell text: resultAsString.
-	self notifyDependents: aCell

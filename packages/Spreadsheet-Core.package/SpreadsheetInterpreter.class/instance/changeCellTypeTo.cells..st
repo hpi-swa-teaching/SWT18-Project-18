@@ -2,8 +2,6 @@ as yet unclassified
 changeCellTypeTo: aType cells: cells
 
 	" Only changes the type and formats cell contents "
-	" ToDo: update dependentCells "
-	
 	cells do: [ :aCell |
 		
 		aCell changeCellTypeTo: aType.

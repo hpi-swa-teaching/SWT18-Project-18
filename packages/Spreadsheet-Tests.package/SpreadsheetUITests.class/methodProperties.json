@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"setUp" : "AS 7/1/2018 20:18",
+		"tearDown" : "AS 7/1/2018 20:18",
 		"testAddColumnAfter" : "LH 6/29/2018 15:44",
 		"testAddColumnBefore" : "LH 6/29/2018 15:44",
 		"testAddRowAfter" : "LH 6/29/2018 15:43",
