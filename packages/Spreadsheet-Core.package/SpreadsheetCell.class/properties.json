@@ -8,10 +8,10 @@
 	"instvars" : [
 		"selected",
 		"calcRepresentation",
+		"data",
 		"colorUnselected",
 		"row",
 		"column",
-		"grid",
 		"dragging",
 		"observedCells",
 		"dependentCells" ],

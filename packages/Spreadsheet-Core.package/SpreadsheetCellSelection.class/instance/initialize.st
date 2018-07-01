@@ -8,13 +8,13 @@ initialize
 			boxSizing: #contentBox;
 			color: Color transparent;
 			border: 1 color: Color blue);
-		activeCell: (PHWidget new
+		activeCellMorph: (PHWidget new
 			addStyleClass: #selection;
 			addApplicationStyles: ((PHStyle for: #selection)
 				boxSizing: #contentBox;
 				color: Color transparent;
 				border: 2 color: Color blue)).
 	self 
-		add: self activeCell;
+		add: self activeCellMorph;
 		addMoveMorphs;
 		addCopyMorph.

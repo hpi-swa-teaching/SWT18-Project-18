@@ -1,16 +1,16 @@
 as yet unclassified
 testColumnGripDrag
 	| position width newPosition gripPosition newGripPosition positionRightLabel|
-	position :=  columnGrip targetLabel position.
-	width := columnGrip targetLabel width.
+	position :=  columnGrip label position.
+	width := columnGrip label width.
 	gripPosition := columnGrip position.
-	positionRightLabel := columnGrip targetLabel rightLabel position.
+	positionRightLabel := columnGrip label rightLabel position.
 	self mousePress: columnGrip buttons: #(left).
 	self simulateMouseEvent: #mouseMove at: ((gripPosition x + 20) @ gripPosition y) buttons: #(left) start: 0@0 morph: columnGrip.
 	newGripPosition := columnGrip position.
 	self assert: newGripPosition = ((gripPosition x + 20) @ gripPosition y).
 	self simulateMouseEvent: #mouseUp at: ((gripPosition x + 20) @ gripPosition y) buttons: #(left) start: 0@0 morph: columnGrip.
-	newPosition := columnGrip targetLabel position.
+	newPosition := columnGrip label position.
 	self assert:  newPosition = position.
-	self assert: columnGrip targetLabel rightLabel position x = (positionRightLabel x + 20).
-	self assert: columnGrip targetLabel width = (width + 20).
+	self assert: columnGrip label rightLabel position x = (positionRightLabel x + 20).
+	self assert: columnGrip label width = (width + 20).
