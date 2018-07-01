@@ -22,7 +22,6 @@ drawOn: aCanvas
 		fullDrawOn: aCanvas
 		transform: transform
 		color: self color
-		fillColor: self backgroundColor
 		selectionColor: nil
 		selectionFillColor: nil
 		clip: (aCanvas clipRect translateBy: aCanvas origin)

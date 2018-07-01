@@ -5,4 +5,4 @@ stopDrag: evt
 		self cells: (self grid getCellsFrom: self topLeftCell to: self bottomRightCell).
 		self updateDependentMorphs.].
 	self dragging: false.
-	"Transcript show: 'Actual cells'; show: self cells."
+	Transcript show: 'Actual cells'; show: self cells.

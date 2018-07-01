@@ -8,14 +8,13 @@
 	"instvars" : [
 		"selected",
 		"calcRepresentation",
+		"data",
 		"colorUnselected",
 		"row",
 		"column",
-		"grid",
 		"dragging",
 		"observedCells",
-		"dependentCells",
-		"cellType" ],
+		"dependentCells" ],
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],

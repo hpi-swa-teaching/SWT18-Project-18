@@ -1,3 +1,3 @@
 initialization
 updateFunctionWindow
-	self grid functionWindow contents: (self contents).
+	self data grid functionWindow contents: (self contents).

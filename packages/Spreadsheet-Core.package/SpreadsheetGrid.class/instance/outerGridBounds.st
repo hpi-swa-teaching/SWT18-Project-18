@@ -2,12 +2,12 @@ layout
 outerGridBounds
 
 	| corner column |
-	(self columns size = 0) 
+	(self data columns size = 0) 
 		ifTrue: [
 			corner := self bottomRight
 		]
 		ifFalse: [
-			column := self columns last.
+			column := self data columns last.
 			(column cells size = 0)
 				ifTrue: [
 					corner := column bottomRight]

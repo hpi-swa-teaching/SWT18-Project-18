@@ -1,9 +1,6 @@
 managing columns
 addColumnBefore
 	
-	| aColumnIndex |
-	
 	self selection singleColumnSelected 
-		ifTrue: [aColumnIndex := self selection startCell column index]
-		ifFalse: [aColumnIndex := self columns first index].
-	self addColumnWithIndex: aColumnIndex.
+		ifTrue: [self data addColumnWithIndex: self selection startCell column index]
+		ifFalse: [self data addColumnWithIndex: 1].

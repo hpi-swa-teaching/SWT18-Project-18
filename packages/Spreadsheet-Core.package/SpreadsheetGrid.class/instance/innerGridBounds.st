@@ -2,6 +2,6 @@ layout
 innerGridBounds
 
 	^ Rectangle 
-		origin: self columns first cells first topLeft
-		corner: self columns last cells last bottomRight 
+		origin: self data columns first cells first topLeft
+		corner: self data columns last cells last bottomRight 
 		

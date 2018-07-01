@@ -2,11 +2,7 @@ as yet unclassified
 openInSpreadsheet 
 	
 	self updateLabelText.
-	"self position: ((self index) * self width + self grid position x + self rowOffset)@(self grid position y + self colOffset)."
-	self position: (self grid right) @ (self grid position y).
-	
-	self edgeGrip: (SpreadsheetColumnGrip newFor: self on: self grid).
-	self edgeGrip
-		height: self height;
-		position: (self right - (edgeGrip width)) @ self position y.
-	self grid addMorphFront: edgeGrip.
+	"self position: ((self index) * self width + self data grid position x + self rowOffset)@(self grid position y + self colOffset)."
+	self index > 1
+		ifFalse: [self position: self data grid right @ self data grid position y]
+		ifTrue: [self position: self leftLabel right @ self data grid position y].

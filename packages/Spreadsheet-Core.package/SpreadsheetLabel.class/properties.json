@@ -8,11 +8,10 @@
 	"instvars" : [
 		"cells",
 		"index",
-		"grid",
+		"data",
 		"row",
 		"column",
-		"dragging",
-		"edgeGrip" ],
+		"dragging" ],
 	"name" : "SpreadsheetLabel",
 	"pools" : [
 		 ],

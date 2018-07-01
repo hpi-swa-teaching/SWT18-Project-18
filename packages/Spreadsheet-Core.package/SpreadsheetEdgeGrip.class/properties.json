@@ -8,8 +8,9 @@
 	"instvars" : [
 		"grid",
 		"drag",
-		"targetLabel",
-		"moveLine" ],
+		"moveLine",
+		"label",
+		"index" ],
 	"name" : "SpreadsheetEdgeGrip",
 	"pools" : [
 		 ],
