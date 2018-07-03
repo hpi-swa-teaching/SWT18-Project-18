@@ -5,8 +5,6 @@ changeCellTypeTo: aType cells: cells
 	cells do: [ :aCell |
 		
 		aCell changeCellTypeTo: aType.
-		(aCell cellType) ifNotNil: [
-			(aCell cellType correspondingRegex matches: aCell text) ifTrue: [
-				aCell text: (aCell cellType formatCellContent: aCell text)]].
+		self calculateContent: aCell.
 	].
 	self grid changed.

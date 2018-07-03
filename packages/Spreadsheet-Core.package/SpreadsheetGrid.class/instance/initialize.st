@@ -7,6 +7,7 @@ initialize
 		height: self defaultSize y;
 		color: Color white;
 		clickTime: Time now;
+		flyweightFactory: SpreadsheetFlyweightFactory new;
 		data: (SpreadsheetData newFor: self);
 		initializeEdgegrips;
 		layoutPolicy: SpreadsheetGridLayout new;

@@ -1,2 +1,4 @@
 as yet unclassified
-formatCellContent: aType
+formatCellContent: aText
+
+	^ aText
