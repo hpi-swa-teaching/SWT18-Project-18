@@ -30,6 +30,11 @@ initializeMenu
 				add: ((PHDropdownItem label: 'Max')
 					when: #clickedWithEvent send: #show:function: to: self grid withArguments: {nil.#max})	
 				));
+		add: ((PHButton label: 'Diagram')
+			attach: (PHDropdown new
+				add: ((PHDropdownItem label: 'LineChart')
+					when: #clicked send: #createDiagram to: self grid selection)
+				));		
 		add: ((PHButton label: 'File')
 			attach: (PHDropdown new
 				add: ((PHDropdownItem label: 'New')
