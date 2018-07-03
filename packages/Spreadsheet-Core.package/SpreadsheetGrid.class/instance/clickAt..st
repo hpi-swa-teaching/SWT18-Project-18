@@ -1,16 +1,22 @@
 event handling
 clickAt: evt
+
 	| point cell |
+	
 	point := evt position.
-	((point x < self columns first left) and: [point y > self rows first top]) ifTrue: [
-		self startDragAt: (self rowLabelAt: point).
+	"Clicked on row label"
+	((point x < self data columns first left) and: [point y > self data rows first top]) ifTrue: [
+		self startDragAt: (self data rowLabelAt: point).
 		^ self].
-	((point x > self columns first left) and: [point y < self rows first top]) ifTrue: [
-		self startDragAt: (self columnLabelAt: point).
+	"Clicked on column label"
+	((point x > self data columns first left) and: [point y < self data rows first top]) ifTrue: [
+		self startDragAt: (self data columnLabelAt: point).
 		^ self].
-	((point x < self columns first left) and: [point y < self rows first top]) ifTrue: [
+	"Clicked on select all label (upper left corner)"
+	((point x < self data columns first left) and: [point y < self data rows first top]) ifTrue: [
 		self selectAll.
 		^ self].
+	"Clicked on a cell"
 	cell := self cellAt: point.
 	((self clickTime to: Time now) asDuration asMilliSeconds < self doubleClickTime and: [ self selection startCell = cell ])
 		ifTrue: [self selection editText: evt]

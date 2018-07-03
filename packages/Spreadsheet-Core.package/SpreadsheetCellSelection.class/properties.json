@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"grid",
-		"interpreter",
 		"cells",
 		"startCell",
 		"currentCell",
@@ -16,12 +15,13 @@
 		"dragging",
 		"copying",
 		"editor",
-		"activeCell",
 		"selectedCell",
 		"copyMorph",
 		"moveMorphs",
 		"targetCell",
-		"keyDictionary" ],
+		"clickTime",
+		"keyDictionary",
+		"activeCellMorph" ],
 	"name" : "SpreadsheetCellSelection",
 	"pools" : [
 		 ],

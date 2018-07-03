@@ -12,4 +12,4 @@ internalText: aString
 	self fontWeight ~= 'normal' ifTrue: [styled addAttribute: TextEmphasis bold].
 	self fontStyle  ~= 'normal' ifTrue: [styled addAttribute: TextEmphasis italic]."
 	
-	self layout text: styled ifChanged: [self changed]
+	self layout text: styled ifChanged: [self textChanged]

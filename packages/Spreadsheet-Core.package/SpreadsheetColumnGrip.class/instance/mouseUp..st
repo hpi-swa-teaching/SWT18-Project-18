@@ -1,13 +1,12 @@
 as yet unclassified
 mouseUp: anEvent
-	| currentPosition label diff newWidth |
+	| currentPosition diff newWidth |
 	
 	super mouseUp: anEvent.
 	self drag ifTrue: [	
 		currentPosition := self moveLine position x.
-		label := self targetLabel.
-		diff := currentPosition - (label position x + label width). 
-		newWidth := label width + diff.
-		label width: newWidth.
+		diff := currentPosition - (self label position x + self label width). 
+		newWidth := self label width + diff.
+		self label width: newWidth.
 		self drag: false.
-		label changed].
+		self label changed].

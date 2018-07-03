@@ -1,0 +1,2 @@
+perform calculations
+cellChanged: aCell

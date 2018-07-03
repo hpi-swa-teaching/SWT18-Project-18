@@ -1,8 +1,8 @@
 as yet unclassified
-newWithIndex: anIndex on: aGrid
+newWithIndex: anIndex on: aDataSet
 " type can be #row or #column"
 
 	^(self new)
 		index: anIndex;
-		grid: aGrid; 
+		data: aDataSet; 
 		openInSpreadsheet.

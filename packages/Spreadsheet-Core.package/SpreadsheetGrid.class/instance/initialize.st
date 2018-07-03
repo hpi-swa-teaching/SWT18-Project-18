@@ -7,9 +7,9 @@ initialize
 		height: self defaultSize y;
 		color: Color white;
 		clickTime: Time now;
+		flyweightFactory: SpreadsheetFlyweightFactory new;
+		data: (SpreadsheetData newFor: self);
+		initializeEdgegrips;
 		layoutPolicy: SpreadsheetGridLayout new;
-		flyweightFactory: SpreadsheetFlyweightFactory new.
-	(self defaultGridSize x) timesRepeat: [self addRowAfter].
-	(self defaultGridSize y) timesRepeat: [self addColumnAfter].
-	
+		interpreter: (SpreadsheetInterpreter on: self)
 	
