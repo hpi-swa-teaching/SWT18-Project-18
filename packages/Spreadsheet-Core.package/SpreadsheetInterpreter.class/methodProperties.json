@@ -2,8 +2,6 @@
 	"class" : {
 		"on:" : "AS 6/30/2018 08:15" },
 	"instance" : {
-		"activeCell" : "AS 6/30/2018 09:02",
-		"activeCell:" : "AS 6/30/2018 09:02",
 		"bindCellAccessor:" : "AS 7/1/2018 11:35",
 		"bindCellCollectionAccessors:" : "AS 7/1/2018 12:44",
 		"bindCellCollections:" : "AS 7/1/2018 11:07",

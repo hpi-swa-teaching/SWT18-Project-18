@@ -3,9 +3,9 @@ testRemoveColumn
 
 	| lastColumnLabel dropdown|
 	
-	lastColumnLabel := tool grid columns last text.
+	lastColumnLabel := tool grid data columns last text.
 	
-	self click: (tool findWidgetOfKind: PHButton labelled: 'Men¦º').
+	self click: (tool findWidgetOfKind: PHButton labelled: 'Add/Remove').
 	dropdown := world findToplevelOfKind: PHDropdown.
 	self click: (dropdown findWidgetOfKind: PHDropdownItem labelled: 'Remove Column').
 	

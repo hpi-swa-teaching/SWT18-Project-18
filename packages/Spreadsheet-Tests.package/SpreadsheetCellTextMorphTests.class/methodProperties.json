@@ -2,11 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AS 6/22/2018 00:46",
-		"testCalculateAndWriteContent" : "AS 6/22/2018 00:46",
-		"testComplexFunction" : "AS 6/22/2018 00:46",
+		"setUp" : "AS 7/1/2018 20:28",
 		"testDoubleClick" : "AS 6/22/2018 00:50",
-		"testKeyEnter" : "AS 6/22/2018 00:46",
-		"testKeyStroke" : "AS 6/17/2018 15:55",
-		"testReplaceCell" : "AS 6/15/2018 19:23",
-		"testWriteContent" : "AS 6/15/2018 19:59" } }
+		"testKeyEnter" : "AS 7/1/2018 20:31",
+		"testKeyStroke" : "AS 7/1/2018 20:25",
+		"testRemoveEditor" : "AS 7/4/2018 11:01",
+		"testReplaceCell" : "AS 7/1/2018 20:20" } }
