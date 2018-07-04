@@ -3,6 +3,5 @@ replaceCell: aCell
 	
 	self
 		text: aCell text;
-		cell: aCell;
-		adjustToCell.
+		adjustToCell: aCell.
 	self grid functionWindow text:  aCell calcRepresentation.

@@ -1,5 +1,5 @@
 as yet unclassified
-setUp
+setUp 
 	
 	super setUp.
 	tool := SpreadsheetTool new 

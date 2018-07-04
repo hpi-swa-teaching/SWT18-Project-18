@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"on:" : "AS 6/21/2018 17:30" },
+		"on:" : "AS 7/1/2018 19:51" },
 	"instance" : {
 		"activeCellMorph" : "LH 6/29/2018 13:43",
 		"activeCellMorph:" : "LH 6/29/2018 13:44",
@@ -38,7 +38,7 @@
 		"findNewPositionX:" : "AS 5/30/2018 12:22",
 		"findNewPositionY:" : "AS 5/30/2018 12:22",
 		"fromCollection:" : "AS 6/20/2018 14:44",
-		"fullMoveTo:" : "LH 6/29/2018 13:44",
+		"fullMoveTo:" : "AS 7/1/2018 19:23",
 		"getCellFor:" : "AS 6/21/2018 22:08",
 		"grid" : "AS 5/30/2018 12:08",
 		"grid:" : "AS 5/30/2018 12:08",
@@ -54,7 +54,7 @@
 		"removeAllCells" : "AS 6/13/2018 14:31",
 		"removeCell:" : "AS 6/19/2018 13:52",
 		"removeCollection:" : "AS 5/30/2018 11:03",
-		"removeEditor" : "AS 6/21/2018 18:42",
+		"removeEditor" : "AS 7/1/2018 19:58",
 		"replaceCells" : "AS 6/19/2018 13:44",
 		"replaceCellsFrom:to:" : "AS 6/21/2018 14:43",
 		"selectFrom:to:" : "AS 6/21/2018 22:38",

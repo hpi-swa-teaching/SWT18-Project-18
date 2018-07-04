@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SpreadsheetCellTypeText",
+	"pools" : [
+		 ],
+	"super" : "SpreadsheetCellTypeAbstract",
+	"type" : "normal" }

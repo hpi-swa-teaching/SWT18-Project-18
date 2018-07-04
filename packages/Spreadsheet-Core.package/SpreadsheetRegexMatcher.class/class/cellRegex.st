@@ -1,4 +1,4 @@
 as yet unclassified
 cellRegex
 
-	^ '[a-zA-Z]+[0-9]+' asRegex.
+	^ '([^\w''"#]|^)[a-zA-Z]+[0-9]+([^\w''"#]|$)' asRegex.

@@ -28,13 +28,10 @@ initializeMenu
 				add: ((PHDropdownItem label: 'Min')
 					when: #clickedWithEvent send: #show:function: to: self grid withArguments: {nil.#min});
 				add: ((PHDropdownItem label: 'Max')
-					when: #clickedWithEvent send: #show:function: to: self grid withArguments: {nil.#max})	
+					when: #clickedWithEvent send: #show:function: to: self grid withArguments: {nil.#max});
+				add: ((PHDropdownItem label: 'Custom')
+					when: #clickedWithEvent send: #show:function: to: self grid withArguments: {nil.''})	
 				));
-		add: ((PHButton label: 'Diagram')
-			attach: (PHDropdown new
-				add: ((PHDropdownItem label: 'LineChart')
-					when: #clicked send: #createDiagram to: self grid selection)
-				));		
 		add: ((PHButton label: 'File')
 			attach: (PHDropdown new
 				add: ((PHDropdownItem label: 'New')
@@ -49,4 +46,21 @@ initializeMenu
 					send: #openBy:withMessage: 
 					to: SpreadsheetFilePathEntry 
 					withArguments: {self.#exportSTONTo:})
+				));
+		add: ((PHButton label: 'Celltype')
+			attach: (PHDropdown new
+				add: ((PHDropdownItem label: 'Number')
+					when: #clicked send: #changeCellsTypesTo: to: self grid withArguments: {#number});
+				add: ((PHDropdownItem label: 'Text')
+					when: #clicked send: #changeCellsTypesTo: to: self grid withArguments: {#text});
+				add: ((PHDropdownItem label: 'Date')
+					when: #clicked send: #changeCellsTypesTo: to: self grid withArguments: {#date});
+				add: ((PHDropdownItem label: 'Time')
+					when: #clicked send: #changeCellsTypesTo: to: self grid withArguments: {#time});
+				add: ((PHDropdownItem label: 'Currency')
+					when: #clicked send: #changeCellsTypesTo: to: self grid withArguments: {#currency});
+				add: ((PHDropdownItem label: 'Percentage')
+					when: #clicked send: #changeCellsTypesTo: to: self grid withArguments: {#percentage});
+				add: ((PHDropdownItem label: 'No Type')
+					when: #clicked send: #changeCellsTypesTo: to: self grid withArguments: {#nat})
 				))).
