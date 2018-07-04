@@ -14,7 +14,8 @@
 		"column",
 		"dragging",
 		"observedCells",
-		"dependentCells" ],
+		"dependentCells",
+		"cellType" ],
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],

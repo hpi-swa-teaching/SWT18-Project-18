@@ -2,6 +2,6 @@ editor
 removeEditor 
 
 	self editor ifNotNilDo: [ :editor |
-		editor calculateAndWriteContent.
+		self selectedCell calculateFunction: editor text. 
 		editor delete.
 		self editor: nil ]

@@ -1,3 +1,3 @@
 accessing
 calcRepresentation: anObject
-	calcRepresentation := anObject
+	calcRepresentation := anObject.

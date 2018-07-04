@@ -4,7 +4,6 @@ testKeyEnter
 	editor cell: gridCell.
 	editor text: '=3+3'.
 	editor update.
-	editor state: #active.
 	self click: editor.
 	self keyStroke: editor key: Character cr.
 	self assert: gridCell text = '6'.

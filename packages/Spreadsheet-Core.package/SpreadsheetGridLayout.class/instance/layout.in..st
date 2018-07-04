@@ -6,7 +6,9 @@ layout: aMorph in: aBox
 	editor := aMorph selection editor.
 	editor notNil ifTrue: [
 		newEditorSize := (editor calculateSizeForWidth: editor width) minSize y.
-		editor cell ifNotNilDo: [ :cell | cell row height: (newEditorSize max: cell row height)]].
+		aMorph selection selectedCell ifNotNilDo: [ :cell | 
+			cell row height: (newEditorSize max: cell row height). 
+			editor height: (newEditorSize max: cell row height)]].
 	
 	x := aMorph position x.
 	y := aMorph position y + aMorph defaultSize y.

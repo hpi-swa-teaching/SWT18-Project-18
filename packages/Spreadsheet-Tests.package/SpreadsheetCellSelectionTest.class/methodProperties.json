@@ -3,12 +3,11 @@
 		 },
 	"instance" : {
 		"setUp" : "AS 6/22/2018 00:09",
-		"tearDown" : "AS 6/13/2018 16:22",
 		"testCellSelectionBottomRight" : "AS 6/22/2018 01:13",
 		"testCellSelectionDoubleRight" : "AS 6/22/2018 00:06",
 		"testCellSelectionTopLeft" : "AS 6/22/2018 00:06",
 		"testColumnLabelSelectionLeft" : "LH 6/29/2018 15:50",
-		"testEditorSelectionBottomRight" : "AS 6/22/2018 00:12",
+		"testEditorSelectionBottomRight" : "AS 7/1/2018 20:22",
 		"testMarkAllLabel" : "AS 6/21/2018 23:23",
 		"testRowLabelSelectionBottom" : "LH 6/29/2018 15:50",
 		"testSelectionOnSelectionBottomRight" : "AS 6/22/2018 00:13",
