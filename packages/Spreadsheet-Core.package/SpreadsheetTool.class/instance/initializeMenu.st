@@ -38,14 +38,12 @@ initializeMenu
 					when: #clicked send: #newFile to: self);
 				add: ((PHDropdownItem label: 'Import STON')
 					when: #clicked 
-					send: #openBy:withMessage: 
-					to: SpreadsheetFilePathEntry 
-					withArguments: {self.#importSTONFrom:});
+					send: #importSTON 
+					to: self);
 				add: ((PHDropdownItem label: 'Export STON')
 					when: #clicked 
-					send: #openBy:withMessage: 
-					to: SpreadsheetFilePathEntry 
-					withArguments: {self.#exportSTONTo:})
+					send: #exportSTON 
+					to: self)
 				));
 		add: ((PHButton label: 'Celltype')
 			attach: (PHDropdown new
@@ -63,4 +61,15 @@ initializeMenu
 					when: #clicked send: #changeCellsTypesTo: to: self grid withArguments: {#percentage});
 				add: ((PHDropdownItem label: 'No Type')
 					when: #clicked send: #changeCellsTypesTo: to: self grid withArguments: {#nat})
+				));
+		add: ((PHButton label: 'Diagram')
+			attach: (PHDropdown new
+				add: ((PHDropdownItem label: 'LineChart')
+					when: #clicked send: #createDiagram: to: self grid selection withArguments: { #SWLineChart});
+				add: ((PHDropdownItem label: 'PieChart')
+					when: #clicked send: #createDiagram: to: self grid selection withArguments: { #SWPieChart});
+				add: ((PHDropdownItem label: 'BarGraph')
+					when: #clicked send: #createDiagram: to: self grid selection withArguments: { #SWBarGraph});
+				add: ((PHDropdownItem label: 'ScatterPlot')
+					when: #clicked send: #createDiagram: to: self grid selection withArguments: { #SWScatterPlot})
 				))).
