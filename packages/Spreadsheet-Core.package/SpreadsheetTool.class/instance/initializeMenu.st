@@ -36,12 +36,10 @@ initializeMenu
 					when: #clicked send: #newFile to: self);
 				add: ((PHDropdownItem label: 'Import STON')
 					when: #clicked 
-					send: #openBy:withMessage: 
-					to: SpreadsheetFilePathEntry 
-					withArguments: {self.#importSTONFrom:});
+					send: #importSTON 
+					to: self);
 				add: ((PHDropdownItem label: 'Export STON')
 					when: #clicked 
-					send: #openBy:withMessage: 
-					to: SpreadsheetFilePathEntry 
-					withArguments: {self.#exportSTONTo:})
+					send: #exportSTON 
+					to: self)
 				))).
