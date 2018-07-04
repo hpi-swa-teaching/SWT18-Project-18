@@ -9,7 +9,7 @@
 		"textField",
 		"client",
 		"message" ],
-	"name" : "SpreadsheetFilePathEntry",
+	"name" : "SpreadsheetTextEntryDialog",
 	"pools" : [
 		 ],
 	"super" : "PHDialog",

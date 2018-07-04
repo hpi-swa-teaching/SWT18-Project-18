@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"newFor:" : "LH 6/28/2018 21:22" },
+		"newFor:" : "LH 6/28/2018 21:22",
+		"stonAllInstVarNames" : "LH 7/4/2018 02:08" },
 	"instance" : {
 		"addColumn" : "LH 6/29/2018 01:00",
 		"addColumnWithIndex:" : "JU 7/3/2018 14:39",

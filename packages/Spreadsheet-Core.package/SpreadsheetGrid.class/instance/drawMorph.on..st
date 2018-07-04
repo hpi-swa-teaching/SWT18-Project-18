@@ -22,7 +22,6 @@ drawMorph: aMorph on: aCanvas
 		fullDrawOn: aCanvas
 		transform: transform
 		color: aMorph color
-		fillColor: nil
 		selectionColor: nil
 		selectionFillColor: nil
 		clip: (aCanvas clipRect translateBy: aCanvas origin)
