@@ -17,5 +17,5 @@ initialize
 			withLayout;
 			add: self textField;
 			add: ((PHButton label: 'OK')
-				when: #clicked send: #returnPath to: self;
+				when: #clicked send: #accept: to: self with: nil;
 				color: Color green)).
