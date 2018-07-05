@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"textField",
-		"client",
-		"message" ],
-	"name" : "SpreadsheetTextEntryDialog",
+		"textEntryPane",
+		"textEntry" ],
+	"name" : "SpreadsheetFileChooser",
 	"pools" : [
 		 ],
-	"super" : "PHDialog",
+	"super" : "FileChooser",
 	"type" : "normal" }
