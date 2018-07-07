@@ -1,4 +1,4 @@
 as yet unclassified
-showError: anExpection
+showError: anException
 
-	Transcript show: anExpection class name; show: ': '  ; show: anExpection messageText; cr.
+	SpreadsheetErrorWindow show: anException
