@@ -6,4 +6,4 @@ open
 	UserInterfaceTheme current applyTo: self morphicView allMorphs.
 	model := self morphicView model.
 	FileChooser modalLoopOn: self morphicView.
-	^ model getSelectedFile ifNil: [self getNewFileFromTextEntry]
+	^ self getFileFromTextEntry

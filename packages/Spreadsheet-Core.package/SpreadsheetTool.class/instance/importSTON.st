@@ -1,12 +1,14 @@
 managing files
 importSTON
 	
-	| aFileStream |
+	| aFileStream aFileChooser|
 	
-	aFileStream := FileChooser new initializeAsDialogBox open.
-	
-	aFileStream ifNotNil: [
-		(self grid) 
-			swapData: (STON fromStream: aFileStream);
-			changed.
-		self grid data grid: self grid]
+	(aFileChooser := FileChooser new initializeAsDialogBox)
+		morphicView position: self position.
+	aFileStream := aFileChooser open.
+	aFileStream 
+		ifNotNil: [
+			(self grid) 
+				swapData: (STON fromStream: aFileStream);
+				changed.
+			self grid data grid: self grid].

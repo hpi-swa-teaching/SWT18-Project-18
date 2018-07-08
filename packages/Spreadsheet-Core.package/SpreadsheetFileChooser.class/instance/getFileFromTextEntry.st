@@ -1,5 +1,5 @@
 open
-getNewFileFromTextEntry
+getFileFromTextEntry
 	
 	| directory fileName |
 	
@@ -8,6 +8,6 @@ getNewFileFromTextEntry
 	
 	ok == true ifFalse: [^ nil].
 	directory ifNil: [^ nil].
-	fileName ifNil: [^ nil].
+	fileName ifEmpty: [^ nil].
 	^ (directory oldFileNamed: fileName) ifNil:
 			[directory readOnlyFileNamed: fileName]
