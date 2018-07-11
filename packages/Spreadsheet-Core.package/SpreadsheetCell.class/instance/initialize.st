@@ -4,7 +4,6 @@ initialize
 	super initialize.
 	self 
 		backgroundColor: Color white;
-		colorUnselected: Color white;
 		borderColor: Color gray;
 		calcRepresentation: '';
 		text: '';

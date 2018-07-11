@@ -1,0 +1,17 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"functionString",
+		"cellString",
+		"functionInput",
+		"cellInput" ],
+	"name" : "SpreadsheetMorphdropWindow",
+	"pools" : [
+		 ],
+	"super" : "PHDialog",
+	"type" : "normal" }

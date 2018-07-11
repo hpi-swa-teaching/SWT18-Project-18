@@ -6,16 +6,14 @@
 		 ],
 	"commentStamp" : "LH 5/5/2018 23:25",
 	"instvars" : [
-		"selected",
 		"calcRepresentation",
 		"data",
-		"colorUnselected",
 		"row",
 		"column",
-		"dragging",
 		"observedCells",
 		"dependentCells",
-		"cellType" ],
+		"cellType",
+		"droppedMorph" ],
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],

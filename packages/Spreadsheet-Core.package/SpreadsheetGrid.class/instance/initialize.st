@@ -11,5 +11,6 @@ initialize
 		data: (SpreadsheetData newFor: self);
 		initializeEdgegrips;
 		layoutPolicy: SpreadsheetGridLayout new;
-		interpreter: (SpreadsheetInterpreter on: self)
+		interpreter: (SpreadsheetInterpreter on: self);
+		enableDrop: true
 	

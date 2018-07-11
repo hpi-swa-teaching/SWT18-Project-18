@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"for:on:" : "AS 7/11/2018 09:13",
+		"open" : "PH 7/10/2018 23:05" },
+	"instance" : {
+		"acceptContents" : "AS 7/11/2018 09:32",
+		"addMorphToTextField:" : "AS 7/11/2018 09:15",
+		"cellString" : "AS 7/11/2018 08:51",
+		"cellString:" : "AS 7/11/2018 08:51",
+		"function" : "PH 7/11/2018 02:09",
+		"function:" : "PH 7/11/2018 02:03",
+		"functionString" : "AS 7/11/2018 08:51",
+		"functionString:" : "AS 7/11/2018 08:51",
+		"initialExtent" : "PH 7/10/2018 23:04",
+		"initialize" : "AS 7/11/2018 09:32",
+		"parameters" : "PH 7/11/2018 01:17",
+		"parameters:" : "PH 7/11/2018 01:18" } }
