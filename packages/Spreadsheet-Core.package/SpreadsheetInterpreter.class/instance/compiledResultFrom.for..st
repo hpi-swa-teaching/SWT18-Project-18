@@ -7,7 +7,7 @@ compiledResultFrom: anExpression for: aCell
 	
 	expression := self bindVariablesIn: anExpression.
 	self hasCircularDependencies ifTrue: [ self resolveCircularDependency. ^ '#CIRC' ].
-	result := ([Compiler evaluate: expression environment:  environment] on: Error do: [ :exception | self showError: exception. ^ '#ERROR']).
+	result := Compiler evaluate: expression environment:  environment "] on: Error do: [ :exception | self showError: exception. ^ '#ERROR'])".
 	result class = SpreadsheetCell ifTrue: [ ^ '#COMMAND' ].
 	result class = SpreadsheetGrid ifTrue: [ ^ '#COMMAND' ].
 	
