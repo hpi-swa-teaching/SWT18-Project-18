@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"functionString",
+		"function",
+		"parameters",
+		"tags" ],
 	"name" : "SpreadsheetMorphdropWindow",
 	"pools" : [
 		 ],

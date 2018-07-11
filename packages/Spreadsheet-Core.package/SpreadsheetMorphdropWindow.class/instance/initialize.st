@@ -1,15 +1,18 @@
-as yet unclassified
+initialization
 initialize
 	
-	| functionInput submitInput|
+	| functionInput submitInput tagsInput|
 	super initialize.
 	
-	functionInput := PHTextArea new.
+	functionInput := PHTextEntry new.
 	submitInput := PHButton new text: 'Submit'.
+	tagsInput := PHWritableTagList new inputPlaceholder: 'Add Parameter'.
 	
 	self withLayout;
 		vertical: true;
 		add: functionInput;
-		add: (PHWritableTagList new inputPlaceholder: 'Add Parameter');
+		add: tagsInput;
 		add: submitInput.
+		
+	submitInput when: #clicked send: #saveData:and: to: self withArguments: {(functionInput text).(tagsInput tags)}.
 	
