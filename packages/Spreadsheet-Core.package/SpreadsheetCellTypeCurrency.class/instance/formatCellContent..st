@@ -1,8 +1,10 @@
 as yet unclassified
 formatCellContent: aText
 
-	| number currency |
-	number := aText asNumber roundTo: 2 asFloat.
-	currency := number asString, ' $'.
+	| numberAsString currency |
+	numberAsString := (aText asNumber roundTo: 0.01) asString.
+	((numberAsString findTokens: '\.') last size = 1) ifTrue: [
+		numberAsString := numberAsString, '0'].
+	currency := numberAsString, ' $'.
 	
 	^ currency

@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "AS 6/21/2018 22:54",
-		"tearDown" : "AS 6/19/2018 23:55",
-		"testContentInNewCell" : "AS 6/20/2018 00:24",
-		"testOldCellEmpty" : "AS 6/21/2018 23:34" } }
