@@ -1,0 +1,15 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data",
+		"tool" ],
+	"name" : "SpreadsheetDataTests",
+	"pools" : [
+		 ],
+	"super" : "SpreadsheetEventTestCase",
+	"type" : "normal" }
