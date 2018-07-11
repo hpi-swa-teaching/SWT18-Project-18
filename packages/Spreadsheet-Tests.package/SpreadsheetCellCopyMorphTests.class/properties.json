@@ -1,0 +1,19 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tool",
+		"grid",
+		"editor",
+		"gridCell",
+		"copyMorph",
+		"selection" ],
+	"name" : "SpreadsheetCellCopyMorphTests",
+	"pools" : [
+		 ],
+	"super" : "SpreadsheetEventTestCase",
+	"type" : "normal" }
