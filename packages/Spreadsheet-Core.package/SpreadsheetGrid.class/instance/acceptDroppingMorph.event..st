@@ -1,6 +1,10 @@
 event handling
 acceptDroppingMorph: dropee event: evt
 
-	Transcript show: 'Hello'.
-	SpreadsheetDropContext for: dropee with: self data.
-	self addMorphFront: dropee.
+	| dialog |
+	
+	dialog := SpreadsheetMorphdropWindow new.
+	
+	(dialog openFor: self)
+		then: [ :d | self connect: dropee to: (self cellFromString: d cellString) content: d functionString];
+		ifRejected: []

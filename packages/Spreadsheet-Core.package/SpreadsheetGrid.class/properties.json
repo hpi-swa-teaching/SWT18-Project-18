@@ -16,7 +16,8 @@
 		"rowEdgeGrips",
 		"columnEdgeGrips",
 		"flyweightFactory",
-		"interpreter" ],
+		"interpreter",
+		"aMorph" ],
 	"name" : "SpreadsheetGrid",
 	"pools" : [
 		 ],

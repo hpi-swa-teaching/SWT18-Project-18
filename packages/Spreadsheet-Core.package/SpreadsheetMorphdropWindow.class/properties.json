@@ -7,11 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"functionString",
-		"function",
-		"parameters",
-		"tags" ],
+		"cellString",
+		"functionInput",
+		"cellInput" ],
 	"name" : "SpreadsheetMorphdropWindow",
 	"pools" : [
 		 ],
-	"super" : "PHWidget",
+	"super" : "PHDialog",
 	"type" : "normal" }

@@ -13,7 +13,7 @@
 		"observedCells",
 		"dependentCells",
 		"cellType",
-		"dependents" ],
+		"droppedMorph" ],
 	"name" : "SpreadsheetCell",
 	"pools" : [
 		 ],
