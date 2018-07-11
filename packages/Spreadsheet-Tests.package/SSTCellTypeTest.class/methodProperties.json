@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCellTypeCurrency" : "AS 7/11/2018 16:26",
+		"testCellTypeDate" : "AS 7/11/2018 16:27",
+		"testCellTypeNat" : "AS 7/11/2018 16:27",
+		"testCellTypeNumber" : "AS 7/11/2018 16:28",
+		"testCellTypePercentage" : "AS 7/11/2018 16:28",
+		"testCellTypeText" : "AS 7/11/2018 16:29",
+		"testCellTypeTime" : "AS 7/11/2018 16:29" } }
