@@ -12,6 +12,6 @@ baseline: spec
 				package: 'Spreadsheet-Tests' with: [spec requires: #('Spreadsheet-Core' 'Spreadsheet-Data' 'Spreadsheet-Grid')];
 				yourself.
 			spec
-				group: 'default' with: #('Spreadsheet-Core');
+				group: 'default' with: #('Spreadsheet-Core' 'Spreadsheet-Data' 'Spreadsheet-Grid');
 				group: 'tests' with: #('Spreadsheet-Tests')];
 				yourself
