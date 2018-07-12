@@ -1,4 +1,4 @@
 accessing - extension
 topCell
 
-	^ (self data cellAtRowIndex:  row index - 1 colIndex: column index) 
+	^ (self data cellAtRowIndex: self rowIndex - 1 colIndex: self columnIndex) 

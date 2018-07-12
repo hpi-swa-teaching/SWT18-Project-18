@@ -1,4 +1,4 @@
 accessing - extension
 leftCell 
 
-	^ (self data cellAtRowIndex:  row index colIndex: column index - 1) 
+	^ (self data cellAtRowIndex: self rowIndex colIndex: self columnIndex - 1) 

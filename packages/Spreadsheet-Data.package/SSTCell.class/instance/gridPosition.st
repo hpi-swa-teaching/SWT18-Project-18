@@ -1,4 +1,4 @@
 accessing - extension
 gridPosition
 
-	^ self column index @ (self row index)
+	^ self columnIndex @ (self rowIndex)

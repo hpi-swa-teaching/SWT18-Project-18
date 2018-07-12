@@ -5,7 +5,4 @@ initialize
 	text := ''.
 	color := self defaultColor.
 	backgroundColor := self defaultBackgroundColor.
-	layout := (PHTextLayout concreteTextLayoutClass new
-			font: PHStyleContext defaultFont;
-			lineSpacing: 4;
-			yourself)
+	layout := SSTTextLayout new
