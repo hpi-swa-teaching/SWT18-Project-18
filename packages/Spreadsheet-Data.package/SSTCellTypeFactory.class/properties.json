@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"flyweightList" ],
+	"name" : "SSTCellTypeFactory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"matcher",
+		"tool" ],
+	"name" : "SSTUITests",
+	"pools" : [
+		 ],
+	"super" : "SSTEventTestCase",
+	"type" : "normal" }

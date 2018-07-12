@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"grid" ],
+	"name" : "SSTFunctionWindow",
+	"pools" : [
+		 ],
+	"super" : "PHTextEntry",
+	"type" : "normal" }

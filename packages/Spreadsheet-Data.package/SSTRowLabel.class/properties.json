@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSTRowLabel",
+	"pools" : [
+		 ],
+	"super" : "SSTLabel",
+	"type" : "normal" }

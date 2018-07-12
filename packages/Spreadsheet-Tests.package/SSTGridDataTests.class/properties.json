@@ -1,0 +1,15 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data",
+		"tool" ],
+	"name" : "SSTGridDataTests",
+	"pools" : [
+		 ],
+	"super" : "SSTEventTestCase",
+	"type" : "normal" }

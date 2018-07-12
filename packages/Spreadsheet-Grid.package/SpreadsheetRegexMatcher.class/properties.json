@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		"statements" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SpreadsheetRegexMatcher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Spreadsheet-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"textEntryPane",
+		"textEntry" ],
+	"name" : "SSTFileChooser",
+	"pools" : [
+		 ],
+	"super" : "FileChooser",
+	"type" : "normal" }

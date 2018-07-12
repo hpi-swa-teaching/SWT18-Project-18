@@ -1,0 +1,21 @@
+{
+	"category" : "Spreadsheet-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LH 5/5/2018 23:25",
+	"instvars" : [
+		"calcRepresentation",
+		"data",
+		"row",
+		"column",
+		"observedCells",
+		"dependentCells",
+		"cellType",
+		"droppedMorph" ],
+	"name" : "SSTCell",
+	"pools" : [
+		 ],
+	"super" : "SSTMorphProxy",
+	"type" : "normal" }

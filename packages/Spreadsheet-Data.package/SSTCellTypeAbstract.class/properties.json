@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSTCellTypeAbstract",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

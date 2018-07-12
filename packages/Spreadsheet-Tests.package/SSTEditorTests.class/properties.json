@@ -1,0 +1,21 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cell",
+		"textMorph",
+		"tool",
+		"grid",
+		"editor",
+		"gridCell",
+		"functionWindow",
+		"selection" ],
+	"name" : "SSTEditorTests",
+	"pools" : [
+		 ],
+	"super" : "SSTEventTestCase",
+	"type" : "normal" }

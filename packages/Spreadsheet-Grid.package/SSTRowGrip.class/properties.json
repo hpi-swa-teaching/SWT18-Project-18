@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSTRowGrip",
+	"pools" : [
+		 ],
+	"super" : "SSTEdgeGrip",
+	"type" : "normal" }

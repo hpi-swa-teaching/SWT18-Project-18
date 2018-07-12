@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"correspondingRegex" : "JU 7/3/2018 17:02",
+		"correspondingSymbol" : "JU 6/27/2018 21:00",
+		"dayRegexSubstring" : "JU 7/3/2018 16:43",
+		"formatCellContent:" : "AS 7/12/2018 09:27",
+		"monthRegexSubstring" : "JU 7/3/2018 16:41",
+		"spacingRegexSubstring" : "JU 7/3/2018 16:44",
+		"typeRepresentation:" : "AS 7/12/2018 09:27",
+		"yearRegexSubstring" : "JU 7/3/2018 16:46" } }

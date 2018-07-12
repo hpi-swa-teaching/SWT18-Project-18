@@ -3,7 +3,7 @@ exportSTON
 
 	| aFileChooser aFileStream|
 	
-	(aFileChooser := SpreadsheetFileChooser new initializeAsDialogBox)
+	(aFileChooser := SSTFileChooser new initializeAsDialogBox)
 		setCaption: 'Select File or Directory' translated.
 	aFileChooser morphicView position: self position.
 	aFileStream := aFileChooser open.

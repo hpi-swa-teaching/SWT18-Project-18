@@ -3,12 +3,12 @@ initialize
 
 	super initialize.
 	self 
-		functionWindow: SpreadsheetFunctionWindow new;
-		grid: (SpreadsheetGrid newWith: functionWindow);
+		grid: SSTGrid new;
+		functionWindow: (SSTFunctionWindow for: self grid);
 		vertical: true;
 		withLayout;
 		initializeMenu;
 		add: (PHPage row
 			add: self functionWindow);
 		add: (self grid).
-      
+      self grid attachToEditor: self functionWindow
