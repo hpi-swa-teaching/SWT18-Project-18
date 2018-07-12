@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"message",
-		"errorClass" ],
+		"exception" ],
 	"name" : "SpreadsheetErrorWindow",
 	"pools" : [
 		 ],
-	"super" : "PHWidget",
+	"super" : "PHDialog",
 	"type" : "normal" }

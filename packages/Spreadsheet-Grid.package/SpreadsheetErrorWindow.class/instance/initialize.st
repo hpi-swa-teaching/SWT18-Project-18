@@ -5,5 +5,4 @@ initialize
 	
 	self
 		withLayout;
-		vertical: true;
-		extent: self initialExtent
+		vertical: true

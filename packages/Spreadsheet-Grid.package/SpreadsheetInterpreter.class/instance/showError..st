@@ -1,4 +1,7 @@
 as yet unclassified
 showError: anException
 
-	SpreadsheetErrorWindow show: anException
+	| dialog |
+	
+	dialog := SpreadsheetErrorWindow show: anException.
+	dialog openFor: self grid.
