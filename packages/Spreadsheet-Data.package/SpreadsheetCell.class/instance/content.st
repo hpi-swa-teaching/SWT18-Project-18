@@ -1,4 +1,4 @@
 accessing
 content
 
-	^ self text
+	^ (self cellType typeRepresentation: self text)

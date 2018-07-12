@@ -1,4 +1,4 @@
 as yet unclassified
 formatCellContent: aText
 
-	^ (Time fromString: aText) print24
+	^ (self typeRepresentation: aText) print24
