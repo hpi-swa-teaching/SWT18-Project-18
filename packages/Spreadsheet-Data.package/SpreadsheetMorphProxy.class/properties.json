@@ -1,0 +1,21 @@
+{
+	"category" : "Spreadsheet-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"color",
+		"bounds",
+		"text",
+		"layout",
+		"backgroundColor",
+		"borderColor",
+		"padding",
+		"layoutWidth" ],
+	"name" : "SpreadsheetMorphProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

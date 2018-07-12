@@ -1,0 +1,21 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"grid",
+		"cellA1",
+		"cellB2",
+		"cellC3",
+		"cellA2",
+		"cellB1",
+		"cellCollection",
+		"interpreter" ],
+	"name" : "SSTInterpreterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

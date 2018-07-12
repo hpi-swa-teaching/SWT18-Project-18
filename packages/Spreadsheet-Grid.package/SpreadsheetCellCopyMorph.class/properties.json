@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph" ],
+	"name" : "SpreadsheetCellCopyMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,29 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		"grid" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"grid",
+		"cells",
+		"startCell",
+		"currentCell",
+		"startLabel",
+		"currentLabel",
+		"dragging",
+		"copying",
+		"editor",
+		"selectedCell",
+		"copyMorph",
+		"moveMorphs",
+		"targetCell",
+		"clickTime",
+		"keyDictionary",
+		"activeCellMorph" ],
+	"name" : "SpreadsheetCellSelection",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

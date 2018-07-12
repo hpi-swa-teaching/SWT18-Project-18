@@ -1,0 +1,15 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"message",
+		"errorClass" ],
+	"name" : "SpreadsheetErrorWindow",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

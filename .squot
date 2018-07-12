@@ -1,5 +1,7 @@
 OrderedDictionary {
 	'packages\/BaselineOfSpreadsheet.package' : #SquotCypressCodeSerializer,
 	'packages\/Spreadsheet-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/Spreadsheet-Data.package' : #SquotCypressCodeSerializer,
+	'packages\/Spreadsheet-Grid.package' : #SquotCypressCodeSerializer,
 	'packages\/Spreadsheet-Tests.package' : #SquotCypressCodeSerializer
 }
