@@ -1,0 +1,18 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tool",
+		"editor",
+		"gridCell",
+		"functionWindow",
+		"selection" ],
+	"name" : "SSTFunctionWindowTest",
+	"pools" : [
+		 ],
+	"super" : "SSTEventTestCase",
+	"type" : "normal" }

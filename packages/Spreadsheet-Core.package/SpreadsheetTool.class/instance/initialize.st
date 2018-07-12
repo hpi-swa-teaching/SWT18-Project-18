@@ -3,8 +3,8 @@ initialize
 
 	super initialize.
 	self 
-		grid: SpreadsheetGrid new;
-		functionWindow: (SpreadsheetFunctionWindow for: self grid);
+		grid: SSTGrid new;
+		functionWindow: (SSTFunctionWindow for: self grid);
 		vertical: true;
 		withLayout;
 		initializeMenu;

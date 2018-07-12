@@ -2,7 +2,7 @@ as yet unclassified
 testCellTypeDate
 	
 	| dateCell valuesToTest targets result  |
-	dateCell := SpreadsheetCellTypeDate new.
+	dateCell := SSTCellTypeDate new.
 	valuesToTest := #('24/12.18' '4.apr.18' '2018-01-03').
 	targets := #('24-December-2018' '4-April-2018' '3-January-2018').
 	

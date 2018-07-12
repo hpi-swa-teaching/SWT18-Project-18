@@ -1,0 +1,17 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"functionString",
+		"cellString",
+		"functionInput",
+		"cellInput" ],
+	"name" : "SSTMorphdropWindow",
+	"pools" : [
+		 ],
+	"super" : "PHDialog",
+	"type" : "normal" }

@@ -2,7 +2,7 @@ as yet unclassified
 testCellTypeNat
 	
 	| natCell valuesToTest targets result  |
-	natCell := SpreadsheetCellTypeNat new.
+	natCell := SSTCellTypeNat new.
 	valuesToTest := #('Peter' 'steven91' 'gollum' 'jackson').
 	targets := #('Peter' 'steven91' 'gollum' 'jackson').
 	

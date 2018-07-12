@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCellTypeCurrency" : "AS 7/11/2018 16:26",
-		"testCellTypeDate" : "AS 7/11/2018 16:27",
-		"testCellTypeNat" : "AS 7/11/2018 16:27",
-		"testCellTypeNumber" : "AS 7/11/2018 16:28",
-		"testCellTypePercentage" : "AS 7/12/2018 07:19",
-		"testCellTypeText" : "AS 7/11/2018 16:29",
-		"testCellTypeTime" : "AS 7/11/2018 16:29" } }
+		"testCellTypeCurrency" : "AS 7/12/2018 13:26",
+		"testCellTypeDate" : "AS 7/12/2018 13:26",
+		"testCellTypeNat" : "AS 7/12/2018 13:26",
+		"testCellTypeNumber" : "AS 7/12/2018 13:26",
+		"testCellTypePercentage" : "AS 7/12/2018 13:26",
+		"testCellTypeText" : "AS 7/12/2018 13:26",
+		"testCellTypeTime" : "AS 7/12/2018 13:26" } }

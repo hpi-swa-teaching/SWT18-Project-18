@@ -1,0 +1,18 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"grid",
+		"drag",
+		"moveLine",
+		"label",
+		"index" ],
+	"name" : "SSTEdgeGrip",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

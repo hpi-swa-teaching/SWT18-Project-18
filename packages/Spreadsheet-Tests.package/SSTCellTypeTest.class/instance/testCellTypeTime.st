@@ -2,7 +2,7 @@ as yet unclassified
 testCellTypeTime
 	
 	| timeCell valuesToTest targets result  |
-	timeCell := SpreadsheetCellTypeTime new.
+	timeCell := SSTCellTypeTime new.
 	valuesToTest := #('11am' '11pm' '11:59:59 pm' '23:59:59').
 	targets := #('11:00:00' '23:00:00' '23:59:59' '23:59:59').
 	

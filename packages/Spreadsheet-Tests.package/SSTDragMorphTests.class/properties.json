@@ -1,0 +1,19 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tool",
+		"grid",
+		"editor",
+		"gridCell",
+		"dragMorph",
+		"selection" ],
+	"name" : "SSTDragMorphTests",
+	"pools" : [
+		 ],
+	"super" : "SSTEventTestCase",
+	"type" : "normal" }

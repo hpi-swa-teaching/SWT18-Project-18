@@ -2,7 +2,7 @@ as yet unclassified
 testCellTypeCurrency
 	
 	| currencyCell valuesToTest targets result  |
-	currencyCell := SpreadsheetCellTypeCurrency new.
+	currencyCell := SSTCellTypeCurrency new.
 	valuesToTest := #('1000' '1000.00' '10001').
 	targets := #('1000.00 $' '1000.00 $' '10001.00 $').
 	

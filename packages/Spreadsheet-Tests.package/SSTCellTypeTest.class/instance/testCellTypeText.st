@@ -2,7 +2,7 @@ as yet unclassified
 testCellTypeText
 	
 	| textCell valuesToTest targets result  |
-	textCell := SpreadsheetCellTypeText new.
+	textCell := SSTCellTypeText new.
 	valuesToTest := #('Peter' 'steven91' 'gollum' 'jackson').
 	targets := #('Peter' 'steven91' 'gollum' 'jackson').
 	

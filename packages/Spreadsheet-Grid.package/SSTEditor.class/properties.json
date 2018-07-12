@@ -1,0 +1,16 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LH 5/5/2018 23:25",
+	"instvars" : [
+		"grid",
+		"cell",
+		"state" ],
+	"name" : "SSTEditor",
+	"pools" : [
+		 ],
+	"super" : "PHTextEntry",
+	"type" : "normal" }
