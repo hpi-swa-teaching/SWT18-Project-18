@@ -12,5 +12,6 @@ initialize
 		initializeEdgegrips;
 		layoutPolicy: SpreadsheetGridLayout new;
 		interpreter: (SpreadsheetInterpreter on: self);
-		enableDrop: true
-	
+		enableDrop: true.
+	self selection startDragAt: (self cellAtRowIndex: 1 colIndex: 1).
+	self add: self selection

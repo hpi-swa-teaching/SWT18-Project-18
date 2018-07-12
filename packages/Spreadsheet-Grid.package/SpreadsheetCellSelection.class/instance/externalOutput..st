@@ -1,5 +1,5 @@
 external
-externalOutput: text
+externalOutput: aText
+	" observers need to have a text method, otherwise nothing happen "
 	
-	"Please change to support other elements than the function window"
-	self grid functionWindow text: text.
+	self editorObservers do: [ :obj | [obj text: aText] on: Error do: [] ]. 

@@ -21,7 +21,8 @@
 		"targetCell",
 		"clickTime",
 		"keyDictionary",
-		"activeCellMorph" ],
+		"activeCellMorph",
+		"editorObservers" ],
 	"name" : "SpreadsheetCellSelection",
 	"pools" : [
 		 ],

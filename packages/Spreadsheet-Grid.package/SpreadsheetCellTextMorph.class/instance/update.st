@@ -1,4 +1,4 @@
 editing
 update
 	
-	self grid functionWindow text: (self text).
+	self selection externalOutput: (self text).
