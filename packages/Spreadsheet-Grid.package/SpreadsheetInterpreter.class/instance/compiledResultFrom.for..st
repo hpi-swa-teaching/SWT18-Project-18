@@ -2,15 +2,14 @@ compiling
 compiledResultFrom: anExpression for: aCell
 	| result |
 	
-	cell := aCell.
-	environment := Environment default.
+	self setUpCompilerFrom: anExpression for: aCell.
 	
-	self bindVariablesIn: anExpression.
-	self hasCircularDependencies ifTrue: [ self resolveCircularDependency. ^ '#CIRC' ].
-	result := ([(Compiler new) evaluate: anExpression in: nil to: cell environment: environment notifying: nil ifFail: nil logged: false] on: Error do: [ :exception | self showError: exception. ^ '#ERROR']).
-	result class = SpreadsheetCell ifTrue: [ ^ '#COMMAND' ].
-	result class = SpreadsheetGrid ifTrue: [ ^ '#COMMAND' ].
-	(result isKindOf: Morph) ifTrue: [ ^ '#Morph' ].
-	cell := nil.
-	environment := nil.
+	self hasCircularDependencies ifTrue: [ self resolveCircularDependency. result := '#CIRC' ].
+	[ result := Compiler evaluate: anExpression for: cell] on: Error do: [ :exception | self showError: exception. result :=  '#ERROR'].
+	result class = SpreadsheetCell ifTrue: [ result :='#COMMAND' ].
+	result class = SpreadsheetGrid ifTrue: [ result := '#COMMAND' ].
+	(result isKindOf: Morph) ifTrue: [ result := '#Morph' ].
+	
+	self tearDownCompilerFrom: anExpression.
+	
 	^ result asString
