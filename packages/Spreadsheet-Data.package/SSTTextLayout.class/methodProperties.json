@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"alignment" : "AS 7/12/2018 17:36",
+		"alignment:" : "AS 7/12/2018 17:36",
+		"alignmentAttributeFor:" : "AS 7/12/2018 17:36",
+		"alignmentCanShrink" : "AS 7/12/2018 17:43",
+		"extent" : "AS 7/12/2018 17:41",
+		"fullDrawOn:transform:color:selectionColor:selectionFillColor:clip:drawCursor:finalPosition:" : "AS 7/12/2018 17:37",
+		"initialize" : "AS 7/12/2018 17:43",
+		"maximumContainerExtent" : "AS 7/12/2018 17:40",
+		"paragraph" : "AS 7/12/2018 17:39",
+		"text" : "AS 7/12/2018 17:36",
+		"text:" : "AS 7/12/2018 17:35",
+		"text:ifChanged:" : "AS 7/12/2018 17:47",
+		"width" : "AS 7/12/2018 17:42",
+		"width:" : "AS 7/12/2018 17:41" } }

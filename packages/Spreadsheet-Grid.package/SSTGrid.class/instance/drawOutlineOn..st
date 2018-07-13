@@ -3,7 +3,7 @@ drawOutlineOn: aCanvas
 
 	"Mark all Label"
 	aCanvas fillRectangle: (Rectangle origin: self position corner: self position + self defaultSize)  color: Color gray.
-
+	
 	aCanvas fillRectangle: (Rectangle origin: self position corner: self topRight + (0@1)) color: Color black.
 	aCanvas fillRectangle: (Rectangle origin: self position corner: self bottomLeft  + (1@0)) color: Color black.
 	aCanvas fillRectangle: (Rectangle origin: self topRight - (1@0) corner: self bottomRight) color: Color black.

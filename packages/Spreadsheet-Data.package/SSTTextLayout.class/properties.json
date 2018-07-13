@@ -1,0 +1,17 @@
+{
+	"category" : "Spreadsheet-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"text",
+		"alignment",
+		"origin",
+		"width" ],
+	"name" : "SSTTextLayout",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

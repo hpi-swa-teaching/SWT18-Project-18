@@ -8,12 +8,12 @@
 	"instvars" : [
 		"calcRepresentation",
 		"data",
-		"row",
-		"column",
 		"observedCells",
 		"dependentCells",
 		"cellType",
-		"droppedMorph" ],
+		"droppedMorph",
+		"columnIndex",
+		"rowIndex" ],
 	"name" : "SSTCell",
 	"pools" : [
 		 ],

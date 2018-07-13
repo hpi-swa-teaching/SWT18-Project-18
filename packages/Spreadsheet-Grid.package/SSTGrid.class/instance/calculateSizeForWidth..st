@@ -1,4 +1,4 @@
 initialization
 calculateSizeForWidth: aNumber
 
-	^PHSizeRequest fixed: self outerGridBounds extent
+	^PHSizeRequest fixed: self bounds extent

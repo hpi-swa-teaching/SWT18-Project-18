@@ -2,5 +2,5 @@ managing columns
 addColumnAfter
 	
 	self selection singleColumnSelected 
-		ifTrue: [self	data addColumnWithIndex: self selection startCell column index + 1]
+		ifTrue: [self	data addColumnWithIndex: self selection startCell columnIndex + 1]
 		ifFalse: [self data addColumn].

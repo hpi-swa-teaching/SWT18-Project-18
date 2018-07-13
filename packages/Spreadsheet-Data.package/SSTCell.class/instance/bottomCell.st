@@ -1,4 +1,4 @@
 accessing - extension
 bottomCell
 
-	^ (self data cellAtRowIndex: self row index + 1 colIndex: self column index)
+	^ (self data cellAtRowIndex: self rowIndex + 1 colIndex: self columnIndex)

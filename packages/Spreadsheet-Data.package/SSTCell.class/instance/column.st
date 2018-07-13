@@ -1,3 +1,4 @@
 accessing
 column
-	^ column
+
+	^ self data columns at: self columnIndex
