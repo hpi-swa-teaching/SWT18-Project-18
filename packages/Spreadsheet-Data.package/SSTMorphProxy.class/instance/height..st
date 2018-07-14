@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 height: aNumber
 	" Set my height; my position (top-left corner) and width will remain the same "
 

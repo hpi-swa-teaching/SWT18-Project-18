@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 connect: aMorph to: aCell content: aFunction
 
 	aMorph position: 0@0; openInWorld.

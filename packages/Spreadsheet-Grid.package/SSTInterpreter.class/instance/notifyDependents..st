@@ -1,4 +1,4 @@
-as yet unclassified
+notifying
 notifyDependents: aCell
 
 	aCell dependentCells do: [ :cell |

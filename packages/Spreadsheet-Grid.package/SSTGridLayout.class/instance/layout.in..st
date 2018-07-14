@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 layout: aMorph in: aBox
 
 	| x y newEditorSize editor |

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 alignment: aSymbol
 	" one of #left, #center, #right, #justify "
 	

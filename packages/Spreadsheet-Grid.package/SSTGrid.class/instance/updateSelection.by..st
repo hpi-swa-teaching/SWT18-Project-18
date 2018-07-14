@@ -1,4 +1,4 @@
-layout
+updating
 updateSelection: aPositionCollection by: aPoint
 
 	| startCell currentCell selectedCell |

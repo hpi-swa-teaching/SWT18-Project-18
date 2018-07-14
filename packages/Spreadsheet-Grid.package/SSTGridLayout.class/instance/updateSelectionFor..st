@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateSelectionFor: aMorph
 
 	aMorph selection startCell ifNil: [^ self].

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 cellFromString: aString
 
 	| string gridPosition aCell |

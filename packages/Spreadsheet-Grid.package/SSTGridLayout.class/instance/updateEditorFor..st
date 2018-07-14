@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateEditorFor: aMorph
 	| cell newCell |
 	cell := aMorph selection editor cell.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 label
 	
 	^ self grid data columns at: self index

@@ -6,6 +6,6 @@ cellAtRowIndex: aRow colIndex: aCol
 	column := (columns at: aCol).
 	(aRow >=  1 and:  [aRow <= column cells size]) 
 		ifFalse: [^nil].
-	^ column cellAt: aRow.
+	^ column cellAt: aRow
 	
 		

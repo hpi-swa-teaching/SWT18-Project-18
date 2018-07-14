@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateCellOf: aMorph row: aRow column: aColumn
 	
 	(aMorph data cellAtRowIndex: aRow index colIndex: aColumn index)

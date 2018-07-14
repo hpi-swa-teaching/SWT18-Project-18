@@ -1,3 +1,3 @@
-as yet unclassified
+regex
 isExpression: aString
 	^aString notEmpty and: [((aString first) = $=)]

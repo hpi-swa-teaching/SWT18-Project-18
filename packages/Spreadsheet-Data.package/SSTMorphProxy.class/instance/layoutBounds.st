@@ -1,4 +1,4 @@
-as yet unclassified
+bounds
 layoutBounds
 	"Return the bounds for laying out children of the receiver"
 	| inset box |
@@ -6,4 +6,4 @@ layoutBounds
 	inset := self padding.
 	box := self bounds.
 	inset isZero ifTrue:[^box].
-	^box insetBy: inset.
+	^box insetBy: inset

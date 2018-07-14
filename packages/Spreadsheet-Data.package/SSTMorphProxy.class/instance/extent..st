@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 extent: aPoint
 
 	(bounds extent closeTo: aPoint) ifTrue: [^ self].

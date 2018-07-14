@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateIndex
 	
 	self index: (data rows indexOf: self ifAbsent: [self index]);

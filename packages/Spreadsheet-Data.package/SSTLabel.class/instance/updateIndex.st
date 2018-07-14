@@ -1,0 +1,4 @@
+updating
+updateIndex
+
+	^ self subclassResponsibility

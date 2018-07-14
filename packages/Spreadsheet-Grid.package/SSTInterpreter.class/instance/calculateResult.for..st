@@ -1,4 +1,4 @@
-as yet unclassified
+calculating
 calculateResult: aString for: cell
 
 	| expression function |
@@ -10,5 +10,5 @@ calculateResult: aString for: cell
 			function := SpreadsheetRegexMatcher getFunctionFromString: expression.
 			function
 				ifNil: [
-					^ (self compiledResultFrom: expression for: cell).]
+					^ (self compiledResultFrom: expression for: cell)]
 				ifNotNil: [^ (SpreadsheetMath perform: function on: (self cellContentsFrom: expression)) reduce asString]]

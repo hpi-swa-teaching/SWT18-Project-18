@@ -3,4 +3,4 @@ cellFromString: aString
 	
 	| gridPosition |
 	gridPosition := SpreadsheetRegexMatcher getColumnAndRowFromCellLabel: aString.
-	^ self data cellAtIndex: gridPosition.
+	^ self data cellAtIndex: gridPosition

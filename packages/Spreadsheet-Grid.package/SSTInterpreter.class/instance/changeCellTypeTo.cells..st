@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 changeCellTypeTo: aType cells: cells
 
 	" Only changes the type and formats cell contents "

@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateCellWith: aRow and: aColumn
 	
 	(self data cellAtRowIndex: aRow index colIndex: aColumn index)

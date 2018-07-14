@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updatePositions 
 
 	| x y aMorph |

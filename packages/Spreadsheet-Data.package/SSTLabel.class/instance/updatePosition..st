@@ -1,4 +1,4 @@
 updating
 updatePosition: aPoint
 
-	self position: aPoint.
+	^ self subclassResponsibility

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 cellsFrom: anExpression
 	
 	|startEndPoints startPoint endPoint cells|

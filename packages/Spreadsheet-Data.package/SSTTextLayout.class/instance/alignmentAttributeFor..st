@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 alignmentAttributeFor: aSymbol
 
 	aSymbol == #center ifTrue: [^ TextAlignment centered].

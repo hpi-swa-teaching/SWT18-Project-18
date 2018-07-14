@@ -1,4 +1,4 @@
-event handling
+updating
 updateDragPosition: aPoint
 	
 	(self bounds containsPoint: aPoint) ifFalse: [^self].

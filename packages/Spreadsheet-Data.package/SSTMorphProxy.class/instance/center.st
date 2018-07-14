@@ -1,4 +1,4 @@
-as yet unclassified
+bounds
 center
 
 	^ self bounds center

@@ -6,4 +6,4 @@ findColumnAndRowIndex: position
 	colIndex := self binarySearchFor: self columns value: position x  lower: #left upper: #right.
 	rowIndex := self binarySearchFor: self rows value: position y lower: #top upper: #bottom.
 	
-	^ (colIndex @ rowIndex).
+	^ (colIndex @ rowIndex)

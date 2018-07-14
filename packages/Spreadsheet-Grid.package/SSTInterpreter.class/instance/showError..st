@@ -1,4 +1,4 @@
-as yet unclassified
+notifying
 showError: anException
 
 	| dialog |
