@@ -9,4 +9,4 @@ testRemoveRow
 	dropdown := world findToplevelOfKind: PHDropdown.
 	self click: (dropdown findWidgetOfKind: PHDropdownItem labelled: 'Remove Row').
 	
-	(self expect: tool) assert: (tool grid data rows includes: lastRowLabel) not description: 'removes the row'
+	(self expect: tool) assert: (tool grid rows includes: lastRowLabel) not description: 'removes the row'

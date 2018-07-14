@@ -1,4 +1,6 @@
 as yet unclassified
 tearDown
 	
-	grid delete.
+	super tearDown.
+	
+	tool delete

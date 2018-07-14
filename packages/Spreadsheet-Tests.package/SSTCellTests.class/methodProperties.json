@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AS 7/14/2018 17:51",
-		"tearDown" : "AS 6/21/2018 23:23",
-		"testMouseDown" : "AS 7/14/2018 17:13",
-		"testNeighbourAccessors" : "AS 7/12/2018 13:24" } }
+		"setUp" : "LH 7/14/2018 22:41",
+		"testNeighbourAccessors" : "AS 7/12/2018 13:24",
+		"testSelectionOnMouseDown" : "LH 7/14/2018 22:14" } }

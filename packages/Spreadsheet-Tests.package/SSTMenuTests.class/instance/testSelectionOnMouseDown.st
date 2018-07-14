@@ -1,5 +1,5 @@
 as yet unclassified
-testMouseDown 
+testSelectionOnMouseDown 
 
 	| cell |
 	cell := tool grid cellAtRowIndex: 3 colIndex: 3.

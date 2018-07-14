@@ -1,7 +1,8 @@
 as yet unclassified
-setUp 
-	
+setUp
+
 	super setUp.
+	
 	tool := SpreadsheetTool new 
 					openInWindowLabeled: 'SpreadsheetTool' inWorld: world;
-					yourself.
+					yourself
