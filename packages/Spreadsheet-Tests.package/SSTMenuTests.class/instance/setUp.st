@@ -1,4 +1,4 @@
 as yet unclassified
-tearDown
+setUp 
 	
-	grid delete.
+	super setUp.

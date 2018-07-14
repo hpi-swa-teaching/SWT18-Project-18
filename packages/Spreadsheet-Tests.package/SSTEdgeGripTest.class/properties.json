@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tool",
 		"columnGrip",
 		"rowGrip" ],
 	"name" : "SSTEdgeGripTest",

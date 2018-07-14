@@ -2,10 +2,8 @@ as yet unclassified
 setUp
 	
 	super setUp.
+	
 	textMorph := SSTEditor new.
-	tool := SpreadsheetTool new 
-					openInWindowLabeled: 'SpreadsheetTool' inWorld: world;
-					yourself.
 	functionWindow := tool functionWindow.
 	grid := tool grid. 
 	selection := grid selection.

@@ -3,4 +3,4 @@ addRow
 	
 	self	addRowWithIndex: (self rows
 		ifEmpty: [1] 
-		ifNotEmpty: [rows last index]).
+		ifNotEmpty: [rows last index + 1]).

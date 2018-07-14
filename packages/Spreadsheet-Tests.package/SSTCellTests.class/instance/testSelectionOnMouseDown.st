@@ -1,6 +1,6 @@
 as yet unclassified
-testMouseDown
+testSelectionOnMouseDown
 
 	self assert: (grid selection bounds ~= gridCell bounds).
-	self simulateMouseEvent: #mouseDown at: gridCell center buttons: #(left) start: 0@0 morph: grid.
+	self mouseDown: grid at: gridCell center.
 	self assert: (grid selection bounds = gridCell bounds).
