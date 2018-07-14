@@ -13,7 +13,8 @@
 		"cellType",
 		"droppedMorph",
 		"columnIndex",
-		"rowIndex" ],
+		"rowIndex",
+		"content" ],
 	"name" : "SSTCell",
 	"pools" : [
 		 ],

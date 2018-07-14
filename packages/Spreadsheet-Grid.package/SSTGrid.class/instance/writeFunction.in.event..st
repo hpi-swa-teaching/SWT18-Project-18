@@ -5,5 +5,6 @@ writeFunction: aFunction in: aCell event: evt
 	self selection 
 		removeEditor;
 		selectedCell: aCell;
+		adjustActiveCellMorph;
 		cells: nil;
 		editText: evt

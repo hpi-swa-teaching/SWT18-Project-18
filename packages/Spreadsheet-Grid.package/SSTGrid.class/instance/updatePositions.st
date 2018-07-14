@@ -9,7 +9,7 @@ updatePositions
 	y := aMorph position y + aMorph defaultSize y.
 	aMorph data rows do: [:row |
 		row updatePosition: x@y.
-		row height: (row cells collect: [ :cell | cell actualSize y]) max.
+		row height: (((row cells collect: [ :cell | cell actualSize y]) max) max: row height).
 		y := row bottom].
 	aMorph rowEdgeGrips do: [:edgeGrip |
 		aMorph data rows size < edgeGrip index

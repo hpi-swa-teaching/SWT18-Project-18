@@ -5,6 +5,5 @@ removeEditor
 	self selectedCell calculateFunction: self editor text. 
 	editor delete.
 	self editor: nil.
-	self addDependentMorphs.
-	
-	Transcript show: 'Removed Editor';cr.
+	self dragging 
+		ifFalse: [self addDependentMorphs]

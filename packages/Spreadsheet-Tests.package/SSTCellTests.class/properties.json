@@ -8,7 +8,8 @@
 	"instvars" : [
 		"cell",
 		"gridCell",
-		"grid" ],
+		"grid",
+		"tool" ],
 	"name" : "SSTCellTests",
 	"pools" : [
 		 ],

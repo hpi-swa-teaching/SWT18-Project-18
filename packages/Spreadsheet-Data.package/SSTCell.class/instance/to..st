@@ -1,4 +1,4 @@
 accessing
 to: aCell
 
-	^ self data getCellsFrom: self to: aCell.
+	^ SSTCellCollection from: self to: aCell data: self data

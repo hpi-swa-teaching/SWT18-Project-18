@@ -1,15 +1,8 @@
 {
 	"class" : {
-		"cellCollectionRegex" : "AS 7/1/2018 15:50",
-		"cellRegex" : "AS 7/1/2018 15:50",
-		"functionsDict" : "AS 6/13/2018 12:12",
 		"getCellIndicesForString:" : "AS 7/1/2018 15:53",
 		"getCellstringFromString:" : "AS 6/17/2018 21:37",
 		"getColumnAndRowFromCellLabel:" : "JU 5/29/2018 16:27",
-		"getFunctionFromString:" : "PH 6/12/2018 21:18",
-		"getNumberFromChar:" : "JU 5/29/2018 16:17",
-		"hasOperation:" : "JU 5/29/2018 16:55",
-		"text:Matches:" : "JU 6/27/2018 09:33",
-		"typeRegexDict" : "JU 6/27/2018 10:12" },
+		"getNumberFromChar:" : "JU 5/29/2018 16:17" },
 	"instance" : {
 		 } }

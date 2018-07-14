@@ -4,7 +4,7 @@ calculateContent: aCell
 	| resultAsString |
 
 	resultAsString := (self calculateResult: aCell calcRepresentation for: aCell).
-	
+
 	(aCell cellType correspondingRegex matches: resultAsString) ifTrue: [
 		resultAsString := aCell cellType formatCellContent: resultAsString]
 	ifFalse: [

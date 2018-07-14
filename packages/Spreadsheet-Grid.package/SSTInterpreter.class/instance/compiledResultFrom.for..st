@@ -12,4 +12,4 @@ compiledResultFrom: anExpression for: aCell
 	
 	self tearDownCompilerFrom: anExpression.
 	
-	^ result asString
+	^ result
