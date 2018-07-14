@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 swapData: anObject
 
 	data := anObject.

@@ -1,4 +1,4 @@
-initialization
+handle submorphs
 addCopyMorph 
 
 	self copyMorph: (SSTCopyMorph on: self).

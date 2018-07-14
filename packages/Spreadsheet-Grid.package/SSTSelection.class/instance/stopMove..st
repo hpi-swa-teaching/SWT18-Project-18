@@ -3,9 +3,9 @@ stopMove: evt
 
 	| cell | 
 	
-	cell := (self grid cellAt: evt position).
-	self grid removeMorph: self targetCell.
-	self targetCell: nil.
+	cell := self targetCell.
+	self grid removeMorph: self targetMorph.
+	self targetMorph: nil.
 	cell text: self selectedCell text.
 	cell calcRepresentation: self selectedCell calcRepresentation.
 	(cell ~= self selectedCell) ifTrue: [ self selectedCell reset ].

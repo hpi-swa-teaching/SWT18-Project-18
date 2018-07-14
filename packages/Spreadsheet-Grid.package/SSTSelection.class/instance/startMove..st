@@ -1,11 +1,9 @@
 cell moving
 startMove: evt
 	
-	| cell |
-	cell := self grid cellAt: evt position.
-	
-	self targetCell: (BorderedMorph new 
+	self targetCell: self selectedCell.
+	self targetMorph: (BorderedMorph new 
 		color: Color transparent;
 		borderColor: Color blue;
-		bounds: cell bounds ).
-	self grid add: self targetCell 
+		bounds: self selectedCell bounds ).
+	self grid add: self targetMorph 

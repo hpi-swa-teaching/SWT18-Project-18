@@ -12,4 +12,4 @@ calculateContent: aCell
 			aCell cellType: (self grid flyweightFactory getFlyweightFor: #nat)]
 	].
 	
-	aCell text: resultAsString.
+	^ resultAsString.

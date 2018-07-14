@@ -13,7 +13,11 @@
 		"backgroundColor",
 		"borderColor",
 		"padding",
-		"layoutWidth" ],
+		"layoutWidth",
+		"style",
+		"fontSize",
+		"fontWeight",
+		"fontStyle" ],
 	"name" : "SSTMorphProxy",
 	"pools" : [
 		 ],

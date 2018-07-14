@@ -1,4 +1,4 @@
 constants
 defaultSize
 
-	^ 30@20
+	^ 40@20

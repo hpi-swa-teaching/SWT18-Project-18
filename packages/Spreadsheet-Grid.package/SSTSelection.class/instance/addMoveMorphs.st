@@ -1,4 +1,4 @@
-initialization
+handle submorphs
 addMoveMorphs 
 
 	{(SSTDragMorph for: self from: self topLeft to: self topRight).

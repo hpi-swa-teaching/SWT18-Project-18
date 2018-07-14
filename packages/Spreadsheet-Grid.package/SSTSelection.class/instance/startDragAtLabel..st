@@ -7,4 +7,5 @@ startDragAtLabel: aLabel
 		currentLabel: aLabel;
 		currentCell: aLabel cells last;
 		startSelection;
+		removeDependentMorphs;
 		dragging: true.
