@@ -8,7 +8,7 @@
 	"instvars" : [
 		"matcher",
 		"tool" ],
-	"name" : "SSTUITests",
+	"name" : "SSTMenuTests",
 	"pools" : [
 		 ],
 	"super" : "SSTEventTestCase",
