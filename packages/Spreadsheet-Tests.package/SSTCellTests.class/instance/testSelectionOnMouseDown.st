@@ -1,6 +1,6 @@
 as yet unclassified
-testMouseDown
+testSelectionOnMouseDown
 
 	self assert: (grid selection bounds ~= gridCell bounds).
-	self mouseClick: grid at: gridCell center.
+	self mouseDown: grid at: gridCell center.
 	self assert: (grid selection bounds = gridCell bounds).

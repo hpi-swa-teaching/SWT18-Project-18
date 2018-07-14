@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tool",
 		"grid",
 		"editor",
 		"gridCell",

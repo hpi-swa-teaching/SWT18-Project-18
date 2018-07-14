@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"data",
-		"tool" ],
+		"data" ],
 	"name" : "SSTGridDataTests",
 	"pools" : [
 		 ],

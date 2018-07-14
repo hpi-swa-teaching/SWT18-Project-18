@@ -2,8 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AS 7/1/2018 20:18",
-		"tearDown" : "AS 7/1/2018 20:18",
+		"setUp" : "LH 7/14/2018 22:40",
 		"testAddColumnAfter" : "LH 6/29/2018 15:44",
 		"testAddColumnAfterSelected" : "LH 7/14/2018 21:53",
 		"testAddColumnBefore" : "LH 6/29/2018 15:44",
@@ -12,8 +11,8 @@
 		"testAddRowAfterSelected" : "LH 7/14/2018 21:52",
 		"testAddRowBefore" : "LH 6/29/2018 15:43",
 		"testAddRowBeforeSelected" : "LH 7/14/2018 21:51",
-		"testMouseDown" : "AS 7/4/2018 10:49",
 		"testRemoveColumn" : "AS 7/12/2018 13:27",
 		"testRemoveColumnSelected" : "LH 7/14/2018 21:54",
 		"testRemoveRow" : "LH 6/29/2018 15:41",
-		"testRemoveRowSelected" : "LH 7/14/2018 21:54" } }
+		"testRemoveRowSelected" : "LH 7/14/2018 21:54",
+		"testSelectionOnMouseDown" : "LH 7/14/2018 22:14" } }
