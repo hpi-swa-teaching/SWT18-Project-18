@@ -1,3 +1,5 @@
 accessing
 color: anObject
-	color := anObject
+
+	self style color: anObject.
+	self changed.

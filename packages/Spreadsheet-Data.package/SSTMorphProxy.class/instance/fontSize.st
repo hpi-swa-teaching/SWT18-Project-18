@@ -1,4 +1,4 @@
 as yet unclassified
 fontSize
 
-	^ style fontSize
+	^ self style fontSize

@@ -1,4 +1,4 @@
 as yet unclassified
 fontStyle
 
-	^ style fontStyle
+	^ self style fontStyle
