@@ -2,8 +2,19 @@
 	"class" : {
 		"open" : "LH 6/10/2018 02:20" },
 	"instance" : {
-		"addColorsTo:target:" : "AS 7/15/2018 20:18",
+		"addColorsTo:target:" : "AS 7/15/2018 22:58",
+		"bgColorLabel" : "AS 7/15/2018 22:59",
+		"bgColorLabel:" : "AS 7/15/2018 22:59",
+		"changeBackgroundColor:" : "AS 7/15/2018 23:00",
+		"changeColor:" : "AS 7/15/2018 23:00",
+		"changeFontSize:" : "AS 7/15/2018 23:06",
+		"colorLabel" : "AS 7/15/2018 23:00",
+		"colorLabel:" : "AS 7/15/2018 23:00",
 		"exportSTON" : "AS 7/12/2018 18:23",
+		"fontSizeBaseString" : "AS 7/15/2018 23:05",
+		"fontSizeDropdown" : "AS 7/15/2018 22:59",
+		"fontSizeLabel" : "AS 7/15/2018 23:00",
+		"fontSizeLabel:" : "AS 7/15/2018 23:00",
 		"functionWindow" : "LH 6/10/2018 02:07",
 		"functionWindow:" : "LH 6/10/2018 02:07",
 		"grid" : "LH 6/10/2018 02:07",
@@ -16,8 +27,8 @@
 		"initializeFunctionMenu:" : "AS 7/15/2018 07:39",
 		"initializeMenu" : "AS 7/15/2018 07:43",
 		"initializeMenuPage" : "AS 7/15/2018 07:42",
-		"initializeStylePage" : "AS 7/15/2018 20:21",
+		"initializeStylePage" : "AS 7/15/2018 23:12",
 		"initializeTypeMenu:" : "AS 7/15/2018 07:41",
 		"newFile" : "AS 7/12/2018 13:23",
 		"notifyOf:in:" : "LH 7/8/2018 18:55",
-		"updateFor:" : "AS 7/15/2018 19:43" } }
+		"updateFor:" : "AS 7/15/2018 23:07" } }

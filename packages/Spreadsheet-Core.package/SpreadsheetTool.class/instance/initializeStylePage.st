@@ -6,23 +6,23 @@ initializeStylePage
 	page := PHPage row.
 	
 	bgColorLabel := (PHButton new
-		color: Color black;
+		color: (SSTStyle defaultFor: #backgroundColor);
 		disabled: true;
 		width: 10).
 	
 	bgColorDropdown := PHDropdown new.
-	self addColorsTo: bgColorDropdown target: #selectionBackgroundColor:.
+	self addColorsTo: bgColorDropdown target: #changeBackgroundColor:.
 	
 	colorLabel := (PHButton new
-		color: Color black;
+		color: (SSTStyle defaultFor: #color);
 		disabled: true;
 		width: 10).
 	
 	colorDropdown := PHDropdown new.
-	self addColorsTo: colorDropdown target: #selectionColor:.
+	self addColorsTo: colorDropdown target: #changeColor:.
 	
-	fontSizeLabel := (PHButton label: 'Font size: 12').
-	
+	fontSizeLabel := ((PHButton label: self fontSizeBaseString, (SSTStyle defaultFor: #fontSize))
+		attach: self fontSizeDropdown).
 	page
 		add: (PHButtonGroup new
 			add: ((PHButton icon: #iconPaint_brush)

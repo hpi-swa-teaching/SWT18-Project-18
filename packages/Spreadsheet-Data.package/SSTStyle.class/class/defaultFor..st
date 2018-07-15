@@ -1,4 +1,4 @@
 as yet unclassified
 defaultFor: aSymbol
 
-	^ defaultValues at: aSymbol
+	^ self defaultValues at: aSymbol

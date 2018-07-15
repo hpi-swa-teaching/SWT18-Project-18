@@ -1,14 +1,14 @@
 {
-	"category" : "Spreadsheet-Data",
+	"category" : "Spreadsheet-Core",
 	"classinstvars" : [
-		"defaultValues" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SSTStyle",
+	"name" : "SSTColorButton",
 	"pools" : [
 		 ],
-	"super" : "PHStyle",
+	"super" : "PHButton",
 	"type" : "normal" }

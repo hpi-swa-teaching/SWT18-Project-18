@@ -1,0 +1,4 @@
+accessing
+fontSizeBaseString
+
+	^ 'Font Size: '
