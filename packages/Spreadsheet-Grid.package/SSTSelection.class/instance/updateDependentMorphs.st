@@ -1,4 +1,4 @@
-updating
+handle submorphs
 updateDependentMorphs 
 
 	self updateMoveMorphs.

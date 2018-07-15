@@ -1,4 +1,4 @@
-updating
+handle submorphs
 updateMoveMorphs 
 
 	(self moveMorphs at: 1) adjustTo: self topLeft and: self topRight.

@@ -1,3 +1,5 @@
 accessing
 backgroundColor: anObject
-	backgroundColor := anObject
+
+	self style backgroundColor: anObject.
+	self changed.

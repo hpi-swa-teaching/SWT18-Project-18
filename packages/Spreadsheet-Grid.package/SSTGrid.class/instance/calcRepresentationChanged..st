@@ -1,4 +1,4 @@
 perform calculations
 calcRepresentationChanged: aCell
 
-	self interpreter calculateContent: aCell.
+	aCell text: (SSTInterpreter calculateContent: aCell on: self).

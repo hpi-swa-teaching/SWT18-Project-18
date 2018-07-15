@@ -8,4 +8,5 @@ selectFrom: startCell to: endCell
 		currentLabel: nil;
 		cells: (self grid getCellsFrom: startCell to: endCell);
 		startSelection;
-		adjustSize
+		adjustSize;
+		updateDependentMorphs

@@ -1,7 +1,7 @@
 as yet unclassified
 testContentAccessor
 
-	cellA1 text: 'fu'.
+	cellA1 content: 'fu'.
 	cellC3 calcRepresentation: '= A1 content'.
-	interpreter calculateContent: cellC3.
-	self assert: cellC3 text = 'fu'
+	SSTInterpreter calculateContent: cellC3 on: grid data.
+	self assert: cellC3 content = 'fu'

@@ -1,14 +1,13 @@
 as yet unclassified
 calculateResult: aString for: cell
 
-	| expression function |
+	| expression |
 	
 	(self isExpression: aString)  
-		ifFalse: [ ^ aString]
+		ifFalse: [ 
+			cell content: (cell cellType typeRepresentation: aString).
+			^ aString ]
 		ifTrue: [
 			expression := aString allButFirst.
-			function := SpreadsheetRegexMatcher getFunctionFromString: expression.
-			function
-				ifNil: [
-					^ (self compiledResultFrom: expression for: cell).]
-				ifNotNil: [^ (SpreadsheetMath perform: function on: (self cellContentsFrom: expression)) reduce asString]]
+			cell content: (self compiledResultFrom: expression for: cell).
+			^ cell content asString]

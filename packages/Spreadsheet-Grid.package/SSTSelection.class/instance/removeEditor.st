@@ -1,7 +1,9 @@
 editor
 removeEditor 
 
-	self editor ifNotNilDo: [ :editor |
-		self selectedCell calculateFunction: editor text. 
-		editor delete.
-		self editor: nil ]
+	self editor ifNil: [ ^ self ]. 
+	self selectedCell calculateFunction: self editor text. 
+	editor delete.
+	self editor: nil.
+	self dragging 
+		ifFalse: [self addDependentMorphs]

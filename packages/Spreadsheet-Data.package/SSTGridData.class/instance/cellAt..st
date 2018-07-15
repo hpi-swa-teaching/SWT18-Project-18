@@ -1,5 +1,7 @@
 accessing cells
-cellAt: aPoint
+cellAt: aPosition
 	| point |
-	point := self findColumnAndRowIndex: aPoint.
+	
+	(self innerGridBounds containsPoint: aPosition) ifFalse: [ ^ nil ].
+	point := self findColumnAndRowIndex: aPosition.
 	^ self cellAtRowIndex: point y colIndex: point x. 

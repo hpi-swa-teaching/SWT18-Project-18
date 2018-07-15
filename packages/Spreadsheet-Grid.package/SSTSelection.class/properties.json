@@ -19,7 +19,7 @@
 		"copyMorph",
 		"moveMorphs",
 		"targetCell",
-		"clickTime",
+		"targetMorph",
 		"keyDictionary",
 		"activeCellMorph",
 		"editorObservers" ],

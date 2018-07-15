@@ -1,3 +1,3 @@
 accessing
 copying
-	^ copying
+	^ copying ifNil: [ copying := false ]

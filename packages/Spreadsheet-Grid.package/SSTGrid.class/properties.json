@@ -7,16 +7,12 @@
 	"commentStamp" : "LH 5/5/2018 23:29",
 	"instvars" : [
 		"data",
-		"editor",
 		"selection",
 		"dragging",
-		"targetCell",
 		"clickTime",
 		"rowEdgeGrips",
 		"columnEdgeGrips",
-		"flyweightFactory",
-		"interpreter",
-		"aMorph" ],
+		"flyweightFactory" ],
 	"name" : "SSTGrid",
 	"pools" : [
 		 ],

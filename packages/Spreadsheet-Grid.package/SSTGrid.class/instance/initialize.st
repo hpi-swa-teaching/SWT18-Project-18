@@ -11,7 +11,6 @@ initialize
 		data: (SSTGridData newFor: self);
 		initializeEdgegrips;
 		layoutPolicy: SSTGridLayout new;
-		interpreter: (SSTInterpreter on: self);
 		enableDrop: true.
 	self selection startDragAt: (self cellAtRowIndex: 1 colIndex: 1).
 	self add: self selection

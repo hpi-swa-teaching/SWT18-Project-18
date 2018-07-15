@@ -13,8 +13,6 @@ initialize
 			addApplicationStyles: ((PHStyle for: #selection)
 				boxSizing: #contentBox;
 				color: Color transparent;
-				border: 2 color: Color blue)).
-	self 
+				border: 2 color: Color blue));
 		add: self activeCellMorph;
-		addMoveMorphs;
-		addCopyMorph.
+		addDependentMorphs 

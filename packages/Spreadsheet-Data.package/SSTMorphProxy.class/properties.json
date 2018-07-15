@@ -6,14 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"color",
 		"bounds",
 		"text",
 		"layout",
-		"backgroundColor",
-		"borderColor",
 		"padding",
-		"layoutWidth" ],
+		"layoutWidth",
+		"style" ],
 	"name" : "SSTMorphProxy",
 	"pools" : [
 		 ],
