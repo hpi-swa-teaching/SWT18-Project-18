@@ -1,4 +1,4 @@
 external
 removeFromEditor: aTextMorph
 
-	self editorObservers remove: aTextMorph.
+	self observers remove: aTextMorph.

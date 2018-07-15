@@ -7,7 +7,10 @@
 	"commentStamp" : "LH 5/5/2018 23:20",
 	"instvars" : [
 		"functionWindow",
-		"grid" ],
+		"grid",
+		"bgColorLabel",
+		"colorLabel",
+		"fontSizeLabel" ],
 	"name" : "SpreadsheetTool",
 	"pools" : [
 		 ],

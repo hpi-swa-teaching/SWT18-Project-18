@@ -11,7 +11,9 @@
 		"layout",
 		"padding",
 		"layoutWidth",
-		"style" ],
+		"style",
+		"struckOut",
+		"underlined" ],
 	"name" : "SSTMorphProxy",
 	"pools" : [
 		 ],
