@@ -1,7 +1,7 @@
 initialization
 initializeFileMenu: aPage
 
-	aPage add: ((PHButton label: 'File')
+	aPage add: ((PHButton icon: #iconFile)
 		attach: (PHDropdown new
 			add: ((PHDropdownItem label: 'New')
 				when: #clicked send: #newFile to: self);

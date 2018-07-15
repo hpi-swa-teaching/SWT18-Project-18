@@ -1,7 +1,7 @@
 initialization
 initializeDiagramMenu: aPage
 
-	aPage add: ((PHButton label: 'Diagram')
+	aPage add: ((PHButton icon: #iconBar_chart)
 		attach: (PHDropdown new
 			add: ((PHDropdownItem label: 'LineChart')
 				when: #clicked send: #createDiagram: to: self grid selection withArguments: { #SWLineChart});
