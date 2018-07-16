@@ -1,6 +1,6 @@
 binding
-bindVariablesIn: aString
+bindVariablesIn: aMethod
 
-	self bindGridAccessor: aString.
-	self bindCellAccessors: aString.
-	self bindMorphAccessor: aString.
+	self bindCellAccessors: aMethod.
+	self bindGridAccessor: aMethod.
+	self bindMorphAccessor: aMethod.

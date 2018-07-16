@@ -1,10 +1,10 @@
 binding
-bindCellAccessors: aString
+bindCellAccessors: aMethod
 
-	^ self cellRegex
-		matchesIn: aString
-		do: [ :each | 
-			(self cellFromString: each)
-				ifNotNilDo: [ :cell |
-					self observeCell: cell.
-					environment bind: each asSymbol to: cell]]
+	aMethod literals copy withIndexDo: [ :literal :index | 
+		((literal isVariableBinding) and: [ self cellRegex matches: literal key ]) ifTrue: [
+			| aCell |
+			
+			aCell := self cellFromString: literal key.
+			self observeCell: aCell.
+			aMethod literalAt: index put: literal key => (self cellFromString: literal key) ]].

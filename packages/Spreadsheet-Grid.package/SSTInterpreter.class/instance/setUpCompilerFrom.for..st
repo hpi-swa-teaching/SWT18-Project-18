@@ -2,5 +2,5 @@ compiling
 setUpCompilerFrom: anExpression for: aCell
 
 	cell := aCell.
-	environment := Environment default.
-	self bindVariablesIn: anExpression.
+	"unobserve all cells before to prevent Errors when manipulating other cells "
+	self unobserveAll.

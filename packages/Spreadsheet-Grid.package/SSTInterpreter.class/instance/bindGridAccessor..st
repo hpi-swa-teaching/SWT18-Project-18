@@ -1,7 +1,7 @@
 binding
-bindGridAccessor: aString
+bindGridAccessor: aMethod
 
-	('grid' asRegex) 
-		matchesIn: aString
-		do: [ :each | 
-			environment bind: each asSymbol to: grid.].
+	aMethod literals copy withIndexDo: [ :literal :index | 
+		((literal isVariableBinding) and: [ literal key = #grid ]) ifTrue: [
+			aMethod literalAt: index put: #grid => self grid ]].
+	^ aMethod

@@ -1,7 +1,7 @@
 binding
-bindMorphAccessor: aString
+bindMorphAccessor: aMethod
 
-	('morph' asRegex) 
-		matchesIn: aString
-		do: [ :each | 
-			environment bind: each asSymbol to: cell droppedMorph.]
+	aMethod literals copy withIndexDo: [ :literal :index | 
+		((literal isVariableBinding) and: [ literal key = #morph ]) ifTrue: [
+			aMethod literalAt: index put: #morph => cell droppedMorph ]].
+	^ aMethod
