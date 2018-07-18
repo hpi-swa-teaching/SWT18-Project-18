@@ -32,7 +32,6 @@
 		"drawOutlineOn:" : "AS 7/12/2018 20:38",
 		"flyweightFactory" : "JU 6/27/2018 20:19",
 		"flyweightFactory:" : "JU 6/27/2018 20:19",
-		"getCellContentForPointCollection:" : "AS 6/27/2018 12:29",
 		"getCellsFrom:to:" : "AS 6/27/2018 12:28",
 		"getSelectionPositions" : "AS 6/25/2018 14:13",
 		"handlesKeyboard:" : "AS 6/21/2018 10:55",

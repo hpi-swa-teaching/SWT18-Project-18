@@ -4,8 +4,6 @@
 	"instance" : {
 		"activeCellMorph" : "LH 6/29/2018 13:43",
 		"activeCellMorph:" : "LH 6/29/2018 13:44",
-		"addCell:" : "AS 6/19/2018 13:52",
-		"addCollection:" : "AS 5/30/2018 11:03",
 		"addCopyMorph" : "AS 7/14/2018 11:54",
 		"addDependentMorphs" : "AS 7/14/2018 11:55",
 		"addEditor" : "AS 7/14/2018 11:33",
@@ -60,9 +58,6 @@
 		"newText:" : "AS 6/21/2018 17:28",
 		"observers" : "AS 7/15/2018 19:37",
 		"observers:" : "AS 7/15/2018 19:31",
-		"removeAllCells" : "AS 6/13/2018 14:31",
-		"removeCell:" : "AS 6/19/2018 13:52",
-		"removeCollection:" : "AS 5/30/2018 11:03",
 		"removeDependentMorphs" : "AS 7/14/2018 11:56",
 		"removeEditor" : "AS 7/14/2018 11:49",
 		"removeFromEditor:" : "AS 7/15/2018 19:34",
