@@ -10,4 +10,5 @@ keyDictionary
 		at: '<tab>' put: [  :evt | self moveToDirectionInBounds: #right];
 		at: '<Shift-cr>' put: [ :evt | self moveToDirectionInBounds: #top ];
 		at: '<Shift-tab>' put: [ :evt | self moveToDirectionInBounds: #left];
+		at: '<delete>' put: [ :evt | self cells clearContent];
 		yourself).

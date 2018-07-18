@@ -4,21 +4,19 @@ compiledResultFrom: anExpression for: aCell
 	
 	self setUpCompilerFrom: anExpression for: aCell.
 	
-	
 	compiler := Compiler new. 
 	class := compiler classForReceiver: aCell context: nil.
 	cue := CompilationCue source: anExpression context: nil receiver: aCell class: class environment: class environment requestor: nil.
 	
 	parseTree := (compiler compileCue: cue noPattern: true ifFail: []).
-	"self bindCellsIn: parseTree."
 	method := parseTree generate.
 	self bindVariablesIn: method.
-	self hasCircularDependencies 
+	"self hasCircularDependencies
 		ifTrue: [ self observedCells: nil.result := '#CIRC' ]
-		ifFalse: [
+		ifFalse: ["
 			[result := cue receiver
 				withArgs: (cue context ifNil: [#()] ifNotNil: [{cue context}])
-				executeMethod: method] on: Error do: [:exception | self showError: exception. result := '#ERROR']].
+				executeMethod: method] on: Error do: [:exception | [self showError: exception] ensure: [self tearDownCompilerFrom: anExpression]. result := '#ERROR'].
 				
 	result class = SSTCell ifTrue: [ result :='#COMMAND' ].
 	result class = SSTGrid ifTrue: [ result := '#COMMAND' ].
