@@ -4,7 +4,7 @@ compiledResultFrom: anExpression for: aCell
 	
 	self setUpCompilerFrom: anExpression for: aCell.
 	
-	cue := CompilationCue source: anExpression context: nil receiver: aCell class: aCell class environment: aCell environment requestor: nil.
+	cue := CompilationCue source: anExpression context: nil receiver: aCell class: aCell class environment: aCell class environment requestor: nil.
 	method := (Compiler new compileCue: cue noPattern: true ifFail: []) generate.
 	self bindVariablesIn: method.
 	[result := cue receiver
