@@ -29,7 +29,9 @@
 		"notifyDependents:" : "AS 6/30/2018 16:22",
 		"observeCell:" : "AS 7/18/2018 06:32",
 		"observeCells" : "AS 7/14/2018 08:54",
+		"observedCells" : "AS 7/14/2018 08:59",
+		"observedCells:" : "AS 7/14/2018 08:48",
 		"setUpCompilerFrom:for:" : "AS 7/17/2018 21:10",
 		"showError:" : "AS 7/17/2018 20:52",
 		"tearDownCompilerFrom:" : "AS 7/18/2018 06:50",
-		"unobserveAll" : "AS 7/18/2018 06:29" } }
+		"unobserveAll" : "AS 7/14/2018 08:57" } }
