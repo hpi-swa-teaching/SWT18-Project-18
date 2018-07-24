@@ -2,11 +2,12 @@
 	"class" : {
 		"on:" : "AS 6/18/2018 18:32" },
 	"instance" : {
+		"createDefaultMorph" : "PH 7/24/2018 22:59",
 		"defaultColor" : "lb 7/14/2018 14:21",
 		"defaultSize" : "AS 6/18/2018 21:02",
 		"handlesMouseDown:" : "AS 6/18/2018 20:50",
 		"handlesMouseOver:" : "AS 6/18/2018 20:50",
-		"initialize" : "AS 6/18/2018 20:47",
+		"initialize" : "PH 7/24/2018 23:00",
 		"morph" : "AS 6/18/2018 18:26",
 		"morph:" : "AS 6/18/2018 18:26",
 		"mouseDown:" : "AS 6/18/2018 21:26",
