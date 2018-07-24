@@ -1,5 +1,5 @@
 as yet unclassified
 notifyDependents: aCell
 
-	aCell dependentCells do: [ :cell |
+	aCell observingCells do: [ :cell |
 		cell text: (SSTInterpreter calculateContent: cell on: self)].

@@ -1,0 +1,17 @@
+{
+	"category" : "Spreadsheet-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"grid",
+		"allocatedCells",
+		"environment",
+		"cell" ],
+	"name" : "SSTInterpreter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

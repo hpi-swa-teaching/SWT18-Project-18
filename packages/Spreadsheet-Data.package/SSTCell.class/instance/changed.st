@@ -1,4 +1,6 @@
 initialization
 changed 
 
-	self textChanged
+	self data ifNotNil: [ 
+		self data textChanged: self ]
+	

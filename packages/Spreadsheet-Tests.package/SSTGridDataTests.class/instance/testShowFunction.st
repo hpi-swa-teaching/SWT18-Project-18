@@ -3,10 +3,10 @@ testShowFunction
 	
 	| dropdown selection |
 	
-	selection := data getCellsFrom: (data cellAtRowIndex: 2 colIndex: 2) to: (data cellAtRowIndex: 3 colIndex: 3).
+	selection := (data cellAtRowIndex: 2 colIndex: 2) to: (data cellAtRowIndex: 3 colIndex: 3).
 	data grid selection startCell: (data cellAtRowIndex: 2 colIndex: 2).
 	data grid selection currentCell: (data cellAtRowIndex: 3 colIndex: 3).
-	data grid selection fromCollection: selection.
+	data grid selection cells: selection.
 	self click: (tool findWidgetOfKind: PHButton labelled: 'Functions').
 	dropdown := world findToplevelOfKind: PHDropdown.
 	self click: (dropdown findWidgetOfKind: PHDropdownItem labelled: 'Sum').

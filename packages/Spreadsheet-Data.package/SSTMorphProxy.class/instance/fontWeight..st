@@ -2,4 +2,4 @@ as yet unclassified
 fontWeight: aString
 
 	self style fontWeight: aString.
-	self internalText: self text.
+	self updateText.

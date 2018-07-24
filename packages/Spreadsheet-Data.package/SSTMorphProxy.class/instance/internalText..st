@@ -11,5 +11,7 @@ internalText: aString
 	
 	self fontWeight ~= 'normal' ifTrue: [styled addAttribute: TextEmphasis bold].
 	self fontStyle  ~= 'normal' ifTrue: [styled addAttribute: TextEmphasis italic].
+	self struckOut ifTrue: [styled addAttribute: TextEmphasis struckOut].
+	self underlined ifTrue: [styled addAttribute: TextEmphasis underlined].
 	
 	self layout text: styled ifChanged: [self changed]

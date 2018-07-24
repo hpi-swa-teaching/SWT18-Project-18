@@ -1,5 +1,6 @@
 handle submorphs
 updateDependentMorphs 
 
-	self updateMoveMorphs.
-	self updateCopyMorph.
+	self copyMorph ifNotNil: [
+		self updateMoveMorphs.
+		self updateCopyMorph.]

@@ -2,4 +2,4 @@ as yet unclassified
 fontStyle: aString
 
 	self style fontStyle: aString.
-	self internalText: self text.
+	self updateText.

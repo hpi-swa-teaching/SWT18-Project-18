@@ -10,5 +10,5 @@
 	"name" : "SSTFunctionWindow",
 	"pools" : [
 		 ],
-	"super" : "PHTextEntry",
+	"super" : "PHTextArea",
 	"type" : "normal" }

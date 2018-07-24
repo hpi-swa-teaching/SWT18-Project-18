@@ -1,16 +1,12 @@
 {
 	"category" : "Spreadsheet-Data",
 	"classinstvars" : [
-		 ],
+		"defaultValues" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"text",
-		"alignment",
-		"origin",
-		"width",
-		"defaultValues" ],
+		 ],
 	"name" : "SSTStyle",
 	"pools" : [
 		 ],
