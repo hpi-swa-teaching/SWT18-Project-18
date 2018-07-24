@@ -1,5 +1,5 @@
 as yet unclassified
 struckOut: aBoolean
 
-	struckOut := aBoolean.
+	self style struckOut: aBoolean.
 	self updateText.

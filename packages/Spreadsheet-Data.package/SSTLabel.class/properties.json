@@ -8,10 +8,7 @@
 	"instvars" : [
 		"cells",
 		"index",
-		"data",
-		"row",
-		"column",
-		"dragging" ],
+		"data" ],
 	"name" : "SSTLabel",
 	"pools" : [
 		 ],

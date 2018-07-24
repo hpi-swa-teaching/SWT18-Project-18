@@ -1,5 +1,5 @@
 as yet unclassified
 underlined: aBoolean
 
-	underlined := aBoolean.
+	self style underlined: aBoolean.
 	self updateText.

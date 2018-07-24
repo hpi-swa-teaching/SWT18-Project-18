@@ -1,3 +1,4 @@
 accessing
 borderColor: anObject
-	borderColor := anObject
+	self style borderColor: anObject.
+	self changed.

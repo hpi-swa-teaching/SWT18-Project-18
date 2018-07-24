@@ -1,8 +1,8 @@
-grid access
+external
 writeFunction: aFunction in: aCell event: evt
 
 	aCell calcRepresentation: aFunction.
-	self selection 
+	self 
 		removeEditor;
 		selectedCell: aCell;
 		adjustActiveCellMorph;

@@ -1,3 +1,3 @@
 accessing
 observingCells
-	^ observingCells ifNil: [ observingCells := Set new ].
+	^ observingCells ifNil: [ observingCells := Set new ]

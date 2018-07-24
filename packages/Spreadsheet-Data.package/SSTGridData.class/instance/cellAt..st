@@ -4,4 +4,4 @@ cellAt: aPosition
 	
 	(self innerGridBounds containsPoint: aPosition) ifFalse: [ ^ nil ].
 	point := self findColumnAndRowIndex: aPosition.
-	^ self cellAtRowIndex: point y colIndex: point x. 
+	^ self cellAtRowIndex: point y colIndex: point x

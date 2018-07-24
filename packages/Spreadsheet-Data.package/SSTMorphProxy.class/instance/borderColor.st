@@ -1,3 +1,3 @@
 accessing
 borderColor
-	^ borderColor
+	^ self style borderColor

@@ -1,17 +1,18 @@
 {
 	"class" : {
-		"on:" : "AS 6/21/2018 17:02" },
+		"on:" : "AS 7/24/2018 17:06" },
 	"instance" : {
-		"adjustToCell:" : "AS 7/13/2018 17:33",
-		"cell" : "AS 5/16/2018 16:57",
-		"cell:" : "AS 5/16/2018 16:57",
 		"crAction:" : "AS 6/21/2018 15:47",
-		"grid" : "AS 5/3/2018 18:44",
-		"grid:" : "AS 5/3/2018 18:44",
-		"initialize" : "AS 7/14/2018 21:55",
+		"initialize" : "AS 7/24/2018 16:45",
+		"internalText:" : "AS 7/24/2018 17:29",
 		"keyStroke:" : "AS 6/21/2018 22:02",
 		"moveTo:event:" : "AS 6/30/2018 08:11",
-		"replaceCell:" : "AS 7/15/2018 19:30",
+		"replaceCell:" : "AS 7/24/2018 17:29",
 		"reset" : "AS 6/19/2018 19:31",
-		"selection" : "AS 6/21/2018 12:25",
+		"selection" : "AS 7/24/2018 17:08",
+		"selection:" : "AS 7/24/2018 17:07",
+		"struckOut" : "AS 7/24/2018 17:27",
+		"struckOut:" : "AS 7/24/2018 17:27",
+		"underlined" : "AS 7/24/2018 17:28",
+		"underlined:" : "AS 7/24/2018 17:27",
 		"update" : "AS 7/15/2018 19:59" } }

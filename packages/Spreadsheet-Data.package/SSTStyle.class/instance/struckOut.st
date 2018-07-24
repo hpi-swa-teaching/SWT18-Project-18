@@ -1,4 +1,4 @@
 as yet unclassified
 struckOut
 
-	^ self style struckOut
+	^ self getProperty: #struckOut

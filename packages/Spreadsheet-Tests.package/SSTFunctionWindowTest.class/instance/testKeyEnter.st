@@ -1,7 +1,7 @@
 as yet unclassified
 testKeyEnter
 	
-	editor cell: gridCell.
+	editor replaceCell: gridCell.
 	functionWindow  text: '=3+3'.
 	functionWindow update.
 	self click: functionWindow.

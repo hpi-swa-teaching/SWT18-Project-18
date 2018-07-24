@@ -11,4 +11,4 @@ keyDictionary
 		at: '<Shift-cr>' put: [ :evt | self moveToDirectionInBounds: #top ];
 		at: '<Shift-tab>' put: [ :evt | self moveToDirectionInBounds: #left];
 		at: '<delete>' put: [ :evt | self cells clearContent];
-		yourself).
+		yourself)

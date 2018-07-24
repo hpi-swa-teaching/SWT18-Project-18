@@ -1,4 +1,4 @@
 as yet unclassified
 fontWeight 
 
-	^ style fontWeight
+	^ self style fontWeight

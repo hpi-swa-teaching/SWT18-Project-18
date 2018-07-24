@@ -13,7 +13,8 @@
 		"layoutWidth",
 		"style",
 		"struckOut",
-		"underlined" ],
+		"underlined",
+		"borderColor" ],
 	"name" : "SSTMorphProxy",
 	"pools" : [
 		 ],

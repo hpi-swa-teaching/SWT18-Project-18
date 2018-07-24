@@ -6,7 +6,7 @@
 		"activeCellMorph:" : "LH 6/29/2018 13:44",
 		"addCopyMorph" : "AS 7/14/2018 11:54",
 		"addDependentMorphs" : "AS 7/14/2018 11:55",
-		"addEditor" : "AS 7/14/2018 11:33",
+		"addEditor" : "AS 7/24/2018 17:08",
 		"addMoveMorphs" : "AS 7/12/2018 12:33",
 		"adjustActiveCellMorph" : "AS 7/14/2018 11:57",
 		"adjustCurrentCell" : "AS 7/12/2018 18:01",
@@ -46,7 +46,7 @@
 		"grid" : "AS 5/30/2018 12:08",
 		"grid:" : "AS 5/30/2018 12:08",
 		"initialize" : "AS 7/14/2018 11:53",
-		"keyDictionary" : "AS 7/18/2018 07:36",
+		"keyDictionary" : "AS 7/24/2018 17:31",
 		"moveInBounds:" : "AS 7/15/2018 19:33",
 		"moveMorphs" : "AS 6/21/2018 12:00",
 		"moveMorphs:" : "AS 6/21/2018 12:00",
@@ -100,4 +100,5 @@
 		"updateDragPositionCell:" : "AS 7/16/2018 16:47",
 		"updateDragPositionLabel:" : "AS 7/16/2018 16:48",
 		"updateMove:" : "AS 7/14/2018 10:14",
-		"updateMoveMorphs" : "AS 6/21/2018 11:56" } }
+		"updateMoveMorphs" : "AS 7/24/2018 18:29",
+		"writeFunction:in:event:" : "AS 7/24/2018 17:50" } }

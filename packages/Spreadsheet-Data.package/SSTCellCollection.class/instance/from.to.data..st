@@ -3,4 +3,5 @@ from: startCell to: endCell data: data
 
 	^ (self new
 		data: data;
-		createFrom: startCell to: endCell)
+		createFrom: startCell to: endCell; 
+		yourself)

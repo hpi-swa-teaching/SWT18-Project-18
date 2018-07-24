@@ -2,6 +2,8 @@ as yet unclassified
 defaultValues 
 	
 	^ defaultValues ifNil: [ defaultValues := (Dictionary new
+		at: #struckOut put: false;
+		at: #underlined put: false;
 		at: #fontSize put: 16;
 		at: #fontStyle put: 'normal';
 		at: #fontWeight put: 'normal';

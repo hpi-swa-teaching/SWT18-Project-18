@@ -9,11 +9,13 @@ setUp
 	selection := grid selection.
 	
 	gridCell := grid cellAtRowIndex: 3 colIndex: 3.
-	gridCell text: '6'.
-	gridCell calcRepresentation: '=3+3'.
-	gridCell width: 120.
-	gridCell height: 10.
-	
+	gridCell 
+		text: '6';
+		calcRepresentation: '=3+3';
+		width: 120;
+		height: 10;
+		color: Color red.
+		
 	selection fullMoveTo: gridCell.
 	selection addEditor editor.
 	editor := selection editor.

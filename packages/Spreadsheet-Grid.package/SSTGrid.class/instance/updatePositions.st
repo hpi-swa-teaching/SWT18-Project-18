@@ -1,29 +1,27 @@
 as yet unclassified
 updatePositions 
 
-	| x y aMorph |
+	| x y |
 	
-	aMorph := self.
-	
-	x := aMorph position x.
-	y := aMorph position y + aMorph defaultSize y.
-	aMorph data rows do: [:row |
+	x := self position x.
+	y := self position y + self defaultSize y.
+	self data rows do: [:row |
 		row updatePosition: x@y.
 		row height: (((row cells collect: [ :cell | cell actualSize y]) max) max: row height).
 		y := row bottom].
-	aMorph rowEdgeGrips do: [:edgeGrip |
-		aMorph data rows size < edgeGrip index
-		ifTrue: [aMorph rowEdgeGrips remove: edgeGrip]
+	self rowEdgeGrips do: [:edgeGrip |
+		self data rows size < edgeGrip index
+		ifTrue: [self rowEdgeGrips remove: edgeGrip]
 		ifFalse: [edgeGrip position: edgeGrip label position x  @ (edgeGrip label bottom  - (edgeGrip height))]].
-	x := aMorph position x + aMorph defaultSize x.
-	y := aMorph position y.
-	aMorph data columns do: [:column |
+	x := self position x + self defaultSize x.
+	y := self position y.
+	self data columns do: [:column |
 		column updatePosition: x@y.
 		x := column right].
-	aMorph columnEdgeGrips do: [:edgeGrip |
-		aMorph data columns size < edgeGrip index 
-			ifTrue: [aMorph columnEdgeGrips remove: edgeGrip]
+	self columnEdgeGrips do: [:edgeGrip |
+		self data columns size < edgeGrip index 
+			ifTrue: [self columnEdgeGrips remove: edgeGrip]
 			ifFalse: [edgeGrip position: (edgeGrip label right - (edgeGrip width)) @ edgeGrip label position y]].
-	aMorph data columns do: [ :column |
-		aMorph data rows do: [ :row |
+	self data columns do: [ :column |
+		self data rows do: [ :row |
 			self updateCellWith: row and: column]].
