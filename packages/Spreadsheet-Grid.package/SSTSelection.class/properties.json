@@ -19,10 +19,11 @@
 		"copyMorph",
 		"moveMorphs",
 		"targetCell",
-		"clickTime",
+		"targetMorph",
 		"keyDictionary",
 		"activeCellMorph",
-		"editorObservers" ],
+		"editorObservers",
+		"observers" ],
 	"name" : "SSTSelection",
 	"pools" : [
 		 ],

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"from:to:data:" : "AS 7/14/2018 11:26" },
+	"instance" : {
+		"bottomRightFor:and:" : "AS 7/14/2018 12:11",
+		"c" : "AS 7/14/2018 12:16",
+		"cellHeight" : "AS 7/14/2018 12:14",
+		"cellWidth" : "AS 7/14/2018 12:14",
+		"clearContent" : "AS 7/18/2018 07:34",
+		"contents" : "AS 7/14/2018 12:19",
+		"cornerCell" : "AS 7/14/2018 12:04",
+		"cornerCell:" : "AS 7/14/2018 12:04",
+		"createFrom:to:" : "AS 7/14/2018 12:13",
+		"data" : "AS 7/14/2018 12:06",
+		"data:" : "AS 7/14/2018 12:06",
+		"from:to:data:" : "AS 7/14/2018 11:25",
+		"originCell" : "AS 7/14/2018 12:04",
+		"originCell:" : "AS 7/14/2018 12:04",
+		"topLeftFor:and:" : "AS 7/14/2018 12:18" } }

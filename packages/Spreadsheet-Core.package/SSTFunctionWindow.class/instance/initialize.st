@@ -1,13 +1,9 @@
-initialize
+as yet unclassified
 initialize
 
 	super initialize.
 	self
-		minSize: 300@20;
+		minSize: 760@20;
 		text: '';
-		addFallbackStyles: ((PHStyle for: #textEntry)
-			boxSizing: #borderBox;
-			padding: 4 @ 2;
-			color: Color black;
-			backgroundColor: Color white;
+		addApplicationStyles: ((PHStyle for: #textArea)
 			border: 1 color: Color blue)

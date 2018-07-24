@@ -1,3 +1,3 @@
 accessing
 cells
-	^ cells ifNil: [ cells := OrderedCollection new ]
+	^ cells ifNil: [ cells := SSTCellCollection new ]

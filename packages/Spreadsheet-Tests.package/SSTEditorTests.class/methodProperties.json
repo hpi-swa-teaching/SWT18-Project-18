@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AS 7/12/2018 13:25",
+		"setUp" : "LH 7/14/2018 22:47",
+		"tearDown" : "LH 7/14/2018 22:49",
 		"testDoubleClick" : "AS 6/22/2018 00:50",
 		"testKeyEnter" : "AS 7/1/2018 20:31",
 		"testKeyStroke" : "AS 7/1/2018 20:25",
-		"testRemoveEditor" : "AS 7/4/2018 11:01",
+		"testRemoveEditor" : "AS 7/14/2018 17:50",
 		"testReplaceCell" : "AS 7/1/2018 20:20" } }

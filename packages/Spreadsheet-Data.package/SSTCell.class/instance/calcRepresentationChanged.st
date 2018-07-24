@@ -1,4 +1,4 @@
 initialization
-calcRepresentationChanged
+calcRepresentationChanged 
 
-	self data ifNotNil: [ self data calcRepresentationChanged: self ]
+	self text: (SSTInterpreter calculateContent: self on: self data grid).

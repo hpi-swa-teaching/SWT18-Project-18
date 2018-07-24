@@ -1,4 +1,4 @@
-event handling
+as yet unclassified
 update
 
-	self grid selection externalInput: text.
+	self grid selection externalInput: self text.

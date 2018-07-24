@@ -11,4 +11,7 @@ initialize
 		add: (PHPage row
 			add: self functionWindow);
 		add: (self grid).
-      self grid attachToEditor: self functionWindow
+      self grid selection
+		attach: self functionWindow;
+		attachToEditor: self functionWindow;
+		attach: self.

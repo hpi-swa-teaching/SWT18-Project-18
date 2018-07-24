@@ -7,4 +7,4 @@ moveInBounds: aCell
 	self 
 		updateDependentMorphs;
 		comeToFront;
-		externalOutput: aCell calcRepresentation.
+		selectionChanged.

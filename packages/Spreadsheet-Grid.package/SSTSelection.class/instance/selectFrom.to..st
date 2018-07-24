@@ -6,6 +6,7 @@ selectFrom: startCell to: endCell
 		currentCell: endCell;
 		startLabel: nil;
 		currentLabel: nil;
-		cells: (self grid getCellsFrom: startCell to: endCell);
+		cells: (startCell to: endCell);
 		startSelection;
-		adjustSize
+		adjustSize;
+		updateDependentMorphs

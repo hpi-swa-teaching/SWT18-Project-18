@@ -1,3 +1,3 @@
 accessing
 editorObservers
-	^ editorObservers ifNil: [ editorObservers := OrderedCollection new ]
+	^ editorObservers ifNil: [ editorObservers := Set new ]

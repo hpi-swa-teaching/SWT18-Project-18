@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Data",
+	"classinstvars" : [
+		"defaultValues" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSTStyle",
+	"pools" : [
+		 ],
+	"super" : "PHStyle",
+	"type" : "normal" }

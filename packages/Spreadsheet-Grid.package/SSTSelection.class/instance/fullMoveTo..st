@@ -9,5 +9,5 @@ fullMoveTo: aCell
 		currentLabel: nil;
 		startLabel: nil;
 		adjustActiveCellMorph;
-		externalOutput: aCell calcRepresentation.
-	self cells add: aCell.
+		updateDependentMorphs.
+	self newSelection: aCell.

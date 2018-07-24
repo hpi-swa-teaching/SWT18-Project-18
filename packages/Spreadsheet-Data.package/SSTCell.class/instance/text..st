@@ -1,6 +1,5 @@
 accessing
 text: aString
 
-	text := aString ifNil: [''].
-	
-	self internalText: text
+	super text: aString.
+	self content ifNil: [ self content: aString ]
