@@ -7,5 +7,5 @@ mouseUp: anEvent
 		diff := (self moveLine position y)  - (self label position y + self label height). 
 		self label height: self label height + diff.
 		self drag: false.
-		label changed].
+		self label changed].
 	
