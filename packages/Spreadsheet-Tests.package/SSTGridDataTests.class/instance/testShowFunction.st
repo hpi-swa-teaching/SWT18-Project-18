@@ -1,12 +1,11 @@
 as yet unclassified
 testShowFunction
 	
-	| dropdown selection |
+	| dropdown cell1 cell2 |
 	
-	selection := (data cellAtRowIndex: 2 colIndex: 2) to: (data cellAtRowIndex: 3 colIndex: 3).
-	data grid selection startCell: (data cellAtRowIndex: 2 colIndex: 2).
-	data grid selection currentCell: (data cellAtRowIndex: 3 colIndex: 3).
-	data grid selection cells: selection.
+	cell1 := (data cellAtRowIndex: 2 colIndex: 2).
+	cell2 := (data cellAtRowIndex: 3 colIndex: 3).
+	data grid selection selectFrom: cell1 to: cell2.
 	self click: (tool findWidgetOfKind: PHButton labelled: 'Functions').
 	dropdown := world findToplevelOfKind: PHDropdown.
 	self click: (dropdown findWidgetOfKind: PHDropdownItem labelled: 'Sum').

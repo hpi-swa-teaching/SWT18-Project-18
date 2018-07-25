@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AS 7/26/2018 01:03",
+	"instvars" : [
+		 ],
+	"name" : "SSTSelectionCopy",
+	"pools" : [
+		 ],
+	"super" : "SSTSelectionStrategy",
+	"type" : "normal" }

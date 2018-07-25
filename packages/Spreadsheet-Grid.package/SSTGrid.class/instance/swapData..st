@@ -1,4 +1,4 @@
-as yet unclassified
+public
 swapData: anObject
 
 	data := anObject.

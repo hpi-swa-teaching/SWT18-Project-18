@@ -1,0 +1,1 @@
+A SSTTextLayout is a custom textLayout class replacing the use of PHTextLayout.

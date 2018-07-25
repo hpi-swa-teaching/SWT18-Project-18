@@ -1,0 +1,1 @@
+A SSTInterpreter is a class responsible for parsing cell contents and interpreting any code they contain.

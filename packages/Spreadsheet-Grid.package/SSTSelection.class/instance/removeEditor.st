@@ -5,5 +5,5 @@ removeEditor
 	self selectedCell calculateFunction: self editor text. 
 	self editor delete.
 	self editor: nil.
-	self dragging 
+	self currentStrategie = #cellDrag 
 		ifFalse: [self addDependentMorphs]

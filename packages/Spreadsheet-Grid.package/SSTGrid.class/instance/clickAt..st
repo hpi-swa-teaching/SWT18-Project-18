@@ -18,6 +18,6 @@ clickAt: evt
 		^ self].
 	"Clicked on a cell"
 	cell := self cellAt: point.
-	((self clickTime to: Time now) asDuration asMilliSeconds < self doubleClickTime and: [ self selection startCell = cell ])
+	((self clickTime to: Time now) asDuration asMilliSeconds < self doubleClickTime and: [ self selection selectedCell = cell ])
 		ifTrue: [self selection editText: evt]
 		ifFalse: [self clickTime: Time now. self startDragAt: (self cellAt: point)]. 

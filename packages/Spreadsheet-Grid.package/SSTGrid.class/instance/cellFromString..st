@@ -2,5 +2,5 @@ grid access
 cellFromString: aString
 	
 	| gridPosition |
-	gridPosition := SpreadsheetRegexMatcher getColumnAndRowFromCellLabel: aString.
+	gridPosition := SSTRegexMatcher getColumnAndRowFromCellLabel: aString.
 	^ self data cellAtIndex: gridPosition

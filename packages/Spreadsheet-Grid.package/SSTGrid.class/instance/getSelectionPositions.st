@@ -2,6 +2,6 @@ layout
 getSelectionPositions
 
 	^ {
-		self selection startCell gridPosition.
-		self selection currentCell gridPosition.
+		self selection cells originCell gridPosition.
+		self selection cells cornerCell gridPosition.
 		self selection selectedCell gridPosition.}

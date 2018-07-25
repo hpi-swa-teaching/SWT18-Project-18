@@ -2,4 +2,4 @@ updating
 updateDragPosition: aPoint
 	
 	(self bounds containsPoint: aPoint) ifFalse: [^self].
-	self selection updateDragPosition: aPoint.
+	self selection updatePosition: aPoint.

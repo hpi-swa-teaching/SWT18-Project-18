@@ -1,0 +1,1 @@
+A SSTRowLabel is a SSTLabel for a row.

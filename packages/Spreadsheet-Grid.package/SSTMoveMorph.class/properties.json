@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AS 7/26/2018 01:33",
+	"instvars" : [
+		"morph" ],
+	"name" : "SSTMoveMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

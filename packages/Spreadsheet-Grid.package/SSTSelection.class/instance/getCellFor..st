@@ -1,12 +1,12 @@
 selection moving
-getCellFor: aPosition
+getCellFor: anIndex
 
-	(aPosition y < self topLeftIndex y) ifTrue: [
-		^self grid cellAtRowIndex: self bottomRightIndex y colIndex: aPosition x - 1].
-	(aPosition y > self bottomRightIndex y) ifTrue: [
-		^self grid cellAtRowIndex: self topLeftIndex y colIndex: aPosition x + 1].
-	(aPosition x < self topLeftIndex x) ifTrue: [
-		^self grid cellAtRowIndex: aPosition y - 1 colIndex: self bottomRightIndex x].
-	(aPosition x > self bottomRightIndex x) ifTrue: [
-		^self grid cellAtRowIndex: aPosition y + 1 colIndex: self topLeftIndex  x].
-	^ self grid cellAtRowIndex: aPosition y colIndex: aPosition x
+	(anIndex y < self topLeftCell rowIndex) ifTrue: [
+		^self grid cellAtIndex: (anIndex x - 1) @ self bottomRightCell rowIndex].
+	(anIndex y > self bottomRightCell rowIndex) ifTrue: [
+		^self grid cellAtIndex: (anIndex x + 1) @ self topLeftCell rowIndex ].
+	(anIndex x < self topLeftCell columnIndex) ifTrue: [
+		^self grid cellAtIndex: self bottomRightCell columnIndex @ (anIndex y - 1)].
+	(anIndex x > self bottomRightCell columnIndex) ifTrue: [
+		^self grid cellAtIndex: self topLeftCell columnIndex @ (anIndex y + 1)].
+	^ self grid cellAtIndex: anIndex

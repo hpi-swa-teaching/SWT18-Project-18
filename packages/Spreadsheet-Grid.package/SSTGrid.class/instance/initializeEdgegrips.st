@@ -1,9 +1,7 @@
-initialization
+edge grips
 initializeEdgegrips
 		
 		"Instance variable data needs to be initialized first."
 		
-		self data rows do: [:row |
-			self rowEdgeGrips add: (SSTRowGrip newFor: row on: self)].
-		self data columns do: [:column |
-			self columnEdgeGrips add: (SSTColumnGrip newFor: column on: self)].
+		self rowEdgeGrips: (self data rows collect: [ :row | SSTRowGrip newFor: row on: self]).
+		self columnEdgeGrips: (self data columns collect: [ :column | SSTColumnGrip newFor: column on: self])

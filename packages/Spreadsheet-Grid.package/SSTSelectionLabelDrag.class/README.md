@@ -1,0 +1,1 @@
+A SSTSelectionLabelDrag is the strategy for clicking on a SSTLabel and dragging the cursor to another in order to select entire rows or columns.

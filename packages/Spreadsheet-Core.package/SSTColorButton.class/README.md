@@ -1,0 +1,1 @@
+A SSTColorButton is a dropdown menu for choosing colors.

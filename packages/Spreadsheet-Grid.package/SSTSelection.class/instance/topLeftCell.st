@@ -1,4 +1,4 @@
 helper
 topLeftCell
 	
-	^ self grid cellAtIndex: self topLeftIndex
+	^ self cells originCell

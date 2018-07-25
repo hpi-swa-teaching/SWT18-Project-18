@@ -1,0 +1,1 @@
+A SSTCellTypeTime is the abstract datatype for time values.

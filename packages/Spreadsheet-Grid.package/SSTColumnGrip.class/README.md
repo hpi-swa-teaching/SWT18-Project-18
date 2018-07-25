@@ -1,0 +1,1 @@
+A SSTColumnGrip is an SSTEdgeGrip for SSTColumnLabel that can be dragged in order to alter the columns width.

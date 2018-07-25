@@ -1,0 +1,1 @@
+A SSTCellCollection is a collection of SSTCell 's implementing additional behavior in order to support accessing them via cell contents and imlementing functions over several cells.

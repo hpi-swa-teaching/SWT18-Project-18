@@ -5,7 +5,7 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				baseline: 'StatisticsWorkbench' with: [spec repository: 'github://hpi-swa-teachin/StatisticsWorkbench:submission/src'];
+				baseline: 'StatisticsWorkbench' with: [spec repository: 'github://hpi-swa-teaching/StatisticsWorkbench:submission'];
 				baseline: 'Pheno' with: [spec repository: 'github://tom95/Pheno:master/src'; loads: #(tests)];
 				package: 'Spreadsheet-Data'with:[spec requires: #('Pheno')];
 				package: 'Spreadsheet-Grid'with:[spec requires: #('Pheno')];

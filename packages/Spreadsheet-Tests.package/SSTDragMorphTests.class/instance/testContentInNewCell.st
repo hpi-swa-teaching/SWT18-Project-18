@@ -2,6 +2,7 @@ as yet unclassified
 testContentInNewCell
 
 	| newCell |
+	
 	newCell := gridCell bottomCell.
 	self mousePress: dragMorph buttons: #(left).
 	self simulateMouseEvent: #mouseMove at: newCell center buttons: #(left) start: 0@0 morph: dragMorph.

@@ -1,0 +1,16 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AS 7/26/2018 01:02",
+	"instvars" : [
+		"selection",
+		"startCell",
+		"currentCell" ],
+	"name" : "SSTSelectionStrategy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

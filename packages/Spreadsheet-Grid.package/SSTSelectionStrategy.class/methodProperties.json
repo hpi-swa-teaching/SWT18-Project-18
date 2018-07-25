@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"on:" : "AS 7/25/2018 19:41" },
+	"instance" : {
+		"adjustCurrentCell" : "AS 7/25/2018 18:44",
+		"currentCell" : "AS 7/25/2018 19:59",
+		"currentCell:" : "AS 7/25/2018 19:59",
+		"findNewPositionX:" : "AS 7/25/2018 18:41",
+		"findNewPositionY:" : "AS 7/25/2018 18:42",
+		"finishWith:" : "AS 7/25/2018 17:38",
+		"selection" : "AS 7/25/2018 17:40",
+		"selection:" : "AS 7/25/2018 17:40",
+		"selectionBounds" : "AS 7/25/2018 20:52",
+		"startCell" : "AS 7/25/2018 19:59",
+		"startCell:" : "AS 7/25/2018 19:59",
+		"startWith:" : "AS 7/25/2018 18:17",
+		"updatePosition:" : "AS 7/25/2018 17:26" } }

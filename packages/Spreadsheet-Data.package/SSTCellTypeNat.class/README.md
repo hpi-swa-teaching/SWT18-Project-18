@@ -1,0 +1,1 @@
+A SSTCellTypeNat is the default abstract datatype.

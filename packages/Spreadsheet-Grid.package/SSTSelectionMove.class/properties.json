@@ -1,0 +1,17 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AS 7/26/2018 01:36",
+	"instvars" : [
+		"targetMorph",
+		"targetCell",
+		"grabbedCell",
+		"cellOffset" ],
+	"name" : "SSTSelectionMove",
+	"pools" : [
+		 ],
+	"super" : "SSTSelectionStrategy",
+	"type" : "normal" }

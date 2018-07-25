@@ -12,5 +12,5 @@ initialize
 		initializeEdgegrips;
 		layoutPolicy: SSTGridLayout new;
 		enableDrop: true.
-	self selection startDragAt: (self cellAtRowIndex: 1 colIndex: 1).
+	self selection moveTo: (self cellAtRowIndex: 1 colIndex: 1).
 	self add: self selection
