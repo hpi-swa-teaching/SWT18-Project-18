@@ -8,4 +8,4 @@ notifyOf: aString in: aColor
 	aNotification
 		position: self position;
 		color: aColor;
-		displayFor: 2000 onDismiss: []
+		displayFor: self notificationTime onDismiss: []

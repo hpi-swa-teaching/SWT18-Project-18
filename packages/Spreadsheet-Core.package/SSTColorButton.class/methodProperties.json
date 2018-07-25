@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "AS 7/15/2018 22:04",
+		"buttonBorderRadius" : "JU 7/25/2018 20:44",
+		"buttonExtent" : "JU 7/25/2018 20:43",
+		"initialize" : "JU 7/25/2018 20:45",
 		"triggerClicked:" : "AS 7/15/2018 21:58" } }

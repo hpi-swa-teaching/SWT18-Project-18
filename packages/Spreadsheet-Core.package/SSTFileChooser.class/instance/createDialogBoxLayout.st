@@ -5,14 +5,14 @@ createDialogBoxLayout
 	| inset insetNeg captionTop captionBottom buttonsBottom buttonsTop 
 	contentTop contentBottom textEntryTop textEntryBottom |
 
-	inset := 6.
+	inset := self inset.
 	insetNeg := inset negated.
-	captionTop := 0.
-	captionBottom := 33.
+	captionTop := self captionTop.
+	captionBottom := self captionBottom.
 	contentTop := captionBottom + inset.
-	contentBottom := -50 - (inset*4).
+	contentBottom := self contentBottom - (inset * (self stepSize)).
 	textEntryTop := contentBottom + inset.
-	textEntryBottom := -30 - inset - inset.
+	textEntryBottom := self textEntryBottom - inset - inset.
 	buttonsTop := textEntryBottom + inset.
 	buttonsBottom := insetNeg.
 

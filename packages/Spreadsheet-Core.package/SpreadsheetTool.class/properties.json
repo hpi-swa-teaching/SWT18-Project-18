@@ -8,9 +8,9 @@
 	"instvars" : [
 		"functionWindow",
 		"grid",
-		"bgColorLabel",
-		"colorLabel",
-		"fontSizeLabel" ],
+		"fontSizeLabel",
+		"backgroundColorLabel",
+		"fontColorLabel" ],
 	"name" : "SpreadsheetTool",
 	"pools" : [
 		 ],

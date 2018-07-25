@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self
-		minSize: 760@20;
+		minSize: self minSize;
 		text: '';
 		addApplicationStyles: ((PHStyle for: #textArea)
-			border: 1 color: Color blue)
+			border: self standardBorder color: Color blue)

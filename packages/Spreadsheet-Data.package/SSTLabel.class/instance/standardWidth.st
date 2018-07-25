@@ -1,4 +1,4 @@
 initialization
 standardWidth
 
-	^ 100
+	^ 40
