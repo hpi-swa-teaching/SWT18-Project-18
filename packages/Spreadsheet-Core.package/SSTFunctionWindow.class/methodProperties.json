@@ -2,11 +2,14 @@
 	"class" : {
 		"for:" : "AS 7/12/2018 10:35" },
 	"instance" : {
+		"eventKey" : "JU 7/25/2018 20:55",
 		"grid" : "AS 5/22/2018 22:22",
 		"grid:" : "AS 5/22/2018 22:22",
-		"initialize" : "AS 7/15/2018 23:38",
-		"keyStroke:" : "AS 6/21/2018 16:54",
+		"initialize" : "JU 7/25/2018 20:55",
+		"keyStroke:" : "JU 7/25/2018 20:55",
+		"minSize" : "JU 7/25/2018 20:54",
 		"mouseDown:" : "AS 6/21/2018 10:25",
+		"standardBorder" : "JU 7/25/2018 20:54",
 		"update" : "AS 7/15/2018 19:24",
 		"updateFor:" : "AS 7/15/2018 20:00",
 		"updateForEditor:" : "AS 7/15/2018 19:59" } }

@@ -3,6 +3,6 @@ initialize
 
 	super initialize.
 	self 
-		width: 4;
-		height: 4;
+		width: self edgeWidth;
+		height: self edgeHeight;
 		color: Color transparent.

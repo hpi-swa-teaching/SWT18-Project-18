@@ -6,7 +6,7 @@ initializeStylePage: page
 	bgColorLabel := (PHButton new
 		color: (SSTStyle defaultFor: #backgroundColor);
 		disabled: true;
-		width: 10).
+		width: self buttonWidth).
 	
 	bgColorDropdown := PHDropdown new.
 	self addColorsTo: bgColorDropdown target: #changeBackgroundColor:.
@@ -14,7 +14,7 @@ initializeStylePage: page
 	colorLabel := (PHButton new
 		color: (SSTStyle defaultFor: #color);
 		disabled: true;
-		width: 10).
+		width: self buttonWidth).
 	
 	colorDropdown := PHDropdown new.
 	self addColorsTo: colorDropdown target: #changeColor:.

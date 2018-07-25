@@ -1,0 +1,4 @@
+constants
+asciiOffset
+
+	^ 26
