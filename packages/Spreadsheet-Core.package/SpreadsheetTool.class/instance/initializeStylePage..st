@@ -1,17 +1,17 @@
 initialization
 initializeStylePage: page
 
-	| bgColorDropdown colorDropdown |
+	| backgroundColorDropdown colorDropdown |
 	
-	bgColorLabel := (PHButton new
+	self backgroundColorLabel: (PHButton new
 		color: (SSTStyle defaultFor: #backgroundColor);
 		disabled: true;
 		width: self buttonWidth).
 	
-	bgColorDropdown := PHDropdown new.
-	self addColorsTo: bgColorDropdown target: #changeBackgroundColor:.
+	backgroundColorDropdown := PHDropdown new.
+	self addColorsTo: backgroundColorDropdown target: #changeBackgroundColor:.
 	
-	colorLabel := (PHButton new
+	self fontColorLabel: (PHButton new
 		color: (SSTStyle defaultFor: #color);
 		disabled: true;
 		width: self buttonWidth).
@@ -29,10 +29,10 @@ initializeStylePage: page
 			add: ((PHButton icon: #iconStrikethrough) when: #clicked evaluate: [self grid toggleStruckOut]));
 		add: (PHButtonGroup new
 			add: ((PHButton icon: #iconPaint_brush)
-				attach: bgColorDropdown);
-			add: bgColorLabel;			
+				attach: backgroundColorDropdown);
+			add: self backgroundColorLabel;			
 			add: ((PHButton icon: #iconFont)
 				attach: colorDropdown);
-			add: colorLabel;
+			add: self fontColorLabel;
 			add: fontSizeLabel).
 	self add: page.
