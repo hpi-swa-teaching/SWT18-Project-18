@@ -1,13 +1,11 @@
 event handling
 mouseUp: anEvent
-	| currentPosition diff newHeight |
+	| diff |
 	
 	super mouseUp: anEvent.
 	self drag ifTrue: [	
-		currentPosition := self moveLine position y.
-		diff := currentPosition - (self label position y + self label height). 
-		newHeight := self label height + diff.
-		self label height: newHeight.
+		diff := (self moveLine position y)  - (self label position y + self label height). 
+		self label height: self label height + diff.
 		self drag: false.
-		self label changed].
+		label changed].
 	

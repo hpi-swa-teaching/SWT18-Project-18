@@ -5,8 +5,7 @@ layout: aMorph in: aBox
 	
 	editor := aMorph selection editor.
 	editor 
-		ifNil: [
-			"aMorph selection updateDependentMorphs"]
+		ifNil: ["aMorph selection updateDependentMorphs"]
 		ifNotNil: [
 			newEditorSize := (editor calculateSizeForWidth: editor width) minSize y.
 			aMorph selection selectedCell ifNotNilDo: [ :cell | 
