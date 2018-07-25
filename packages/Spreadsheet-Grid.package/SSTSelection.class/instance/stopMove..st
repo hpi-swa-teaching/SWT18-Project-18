@@ -1,13 +1,13 @@
 cell moving
 stopMove: evt
 
-	| cell | 
+	| cellTemp | 
 	
-	cell := self targetCell.
+	cellTemp := self targetCell.
 	self grid removeMorph: self targetMorph.
 	self targetMorph: nil.
-	cell text: self selectedCell text.
-	cell calcRepresentation: self selectedCell calcRepresentation.
-	(cell ~= self selectedCell) ifTrue: [ self selectedCell reset ].
+	cellTemp text: self selectedCell text.
+	cellTemp calcRepresentation: self selectedCell calcRepresentation.
+	(cellTemp ~= self selectedCell) ifTrue: [ self selectedCell reset ].
 	self editor ifNotNilDo: [ :editor | editor reset].
-	self fullMoveTo: cell.
+	self fullMoveTo: cellTemp.

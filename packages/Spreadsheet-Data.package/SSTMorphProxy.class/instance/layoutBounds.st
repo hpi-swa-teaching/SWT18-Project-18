@@ -1,6 +1,6 @@
 bounds
 layoutBounds
-	"Return the bounds for laying out children of the receiver"
+	"Copied from Morph"
 	| inset box |
 	
 	inset := self padding.

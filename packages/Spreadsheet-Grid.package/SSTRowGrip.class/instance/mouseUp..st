@@ -9,5 +9,5 @@ mouseUp: anEvent
 		newHeight := self label height + diff.
 		self label height: newHeight.
 		self drag: false.
-		label changed].
+		self label changed].
 	

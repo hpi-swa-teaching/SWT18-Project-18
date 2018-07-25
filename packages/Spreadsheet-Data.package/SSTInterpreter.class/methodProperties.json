@@ -8,13 +8,13 @@
 		"allocatedCells:" : "AS 7/18/2018 06:34",
 		"bindCellAccessors:" : "AS 7/17/2018 21:06",
 		"bindGridAccessor:" : "AS 7/16/2018 10:42",
-		"bindMorphAccessor:" : "AS 7/16/2018 10:41",
+		"bindMorphAccessor:" : "AS 7/25/2018 09:56",
 		"bindVariablesIn:" : "AS 7/16/2018 15:04",
 		"calculateContent:" : "AS 7/24/2018 17:32",
-		"calculateResult:for:" : "AS 7/18/2018 07:31",
+		"calculateResult:for:" : "AS 7/25/2018 09:25",
 		"cell" : "AS 7/17/2018 21:07",
 		"cell:" : "AS 7/17/2018 21:07",
-		"cellFromString:" : "AS 7/12/2018 07:32",
+		"cellFromString:" : "AS 7/25/2018 09:56",
 		"cellRegex" : "AS 7/12/2018 07:32",
 		"compiledResultFrom:for:" : "AS 7/18/2018 08:26",
 		"formatedString:for:" : "AS 7/18/2018 07:26",
@@ -24,4 +24,4 @@
 		"observeCell:" : "AS 7/18/2018 06:32",
 		"setUpCompilerFrom:for:" : "AS 7/24/2018 18:27",
 		"showError:" : "AS 7/17/2018 20:52",
-		"tearDownCompilerFrom:" : "AS 7/18/2018 06:50" } }
+		"tearDownCompilerFrom:" : "AS 7/25/2018 09:56" } }

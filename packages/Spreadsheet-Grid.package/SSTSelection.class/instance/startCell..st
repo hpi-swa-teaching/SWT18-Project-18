@@ -1,4 +1,4 @@
 accessing
 startCell: anObject
-	selectedCell := anObject.
+	self selectedCell: anObject.
 	startCell := anObject

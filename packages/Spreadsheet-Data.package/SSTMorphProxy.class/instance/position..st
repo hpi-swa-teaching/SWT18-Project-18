@@ -1,7 +1,6 @@
 accessing
 position: aPoint 
-	"Change the position of this morph and and all of its
-	submorphs. "
+	"Copied from Morph"
 	| delta |
 	delta := (aPoint - bounds topLeft) rounded.
 	(delta x = 0

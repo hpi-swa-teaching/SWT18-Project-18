@@ -2,7 +2,6 @@
 	"class" : {
 		"newInRow:column:on:with:" : "AS 7/12/2018 17:56" },
 	"instance" : {
-		"addDependent:" : "AS 7/24/2018 18:25",
 		"addDependentCell:" : "AS 7/24/2018 18:26",
 		"addTo:and:" : "AS 7/12/2018 18:18",
 		"bottomCell" : "AS 7/12/2018 17:56",
@@ -13,7 +12,7 @@
 		"calculateFunction:" : "AS 7/17/2018 20:40",
 		"cellType" : "JU 6/27/2018 09:02",
 		"cellType:" : "JU 6/27/2018 09:02",
-		"changeCellTypeTo:" : "JU 6/29/2018 20:35",
+		"changeCellTypeTo:" : "AS 7/25/2018 09:43",
 		"changed" : "AS 7/17/2018 21:01",
 		"column" : "AS 7/12/2018 18:02",
 		"columnIndex" : "AS 7/12/2018 17:52",

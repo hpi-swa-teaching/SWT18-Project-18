@@ -1,5 +1,5 @@
 accessing
 height: aNumber
-	" Set my height; my position (top-left corner) and width will remain the same "
+	"Copied from Morph"
 
 	self extent: self width@aNumber asInteger.

@@ -9,7 +9,6 @@
 		"grid",
 		"drag",
 		"moveLine",
-		"label",
 		"index" ],
 	"name" : "SSTEdgeGrip",
 	"pools" : [

@@ -1,13 +1,13 @@
 open
 getFileFromTextEntry
 	
-	| directory fileName |
+	| directoryTemp fileNameTemp |
 	
-	fileName := self textEntry text.
-	directory := self morphicView model directory.
+	fileNameTemp := self textEntry text.
+	directoryTemp := self morphicView model directory.
 	
 	ok == true ifFalse: [^ nil].
-	directory ifNil: [^ nil].
-	fileName ifEmpty: [^ nil].
-	^ (directory oldFileNamed: fileName) ifNil:
-			[directory readOnlyFileNamed: fileName]
+	directoryTemp ifNil: [^ nil].
+	fileNameTemp ifEmpty: [^ nil].
+	^ (directoryTemp oldFileNamed: fileNameTemp) ifNil:
+			[directoryTemp readOnlyFileNamed: fileNameTemp]

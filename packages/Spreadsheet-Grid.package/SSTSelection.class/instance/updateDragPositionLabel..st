@@ -9,7 +9,7 @@ updateDragPositionLabel: aPoint
 		ifTrue: [
 			(aPoint y < (self grid position y + self grid defaultSize y)) ifTrue: [^self].
 			self updateDragPosition: aPoint alignment: #y].
-	(self startLabel ~= self currentLabel and: [self dragging = false]) ifTrue: [ 
+	(self startLabel ~= self currentLabel and: [self dragging not]) ifTrue: [ 
 		self dragging: true.
 		self removeDependentMorphs ].
 	self adjustSize.
