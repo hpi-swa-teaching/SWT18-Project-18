@@ -1,0 +1,4 @@
+constants
+edgeHeight
+
+	^ 4

@@ -2,11 +2,13 @@
 	"class" : {
 		"newWithIndex:on:" : "AS 7/25/2018 09:45" },
 	"instance" : {
+		"asciiOffset" : "JU 7/25/2018 21:23",
 		"leftLabel" : "LH 6/28/2018 13:45",
 		"openInSpreadsheet" : "LH 7/1/2018 00:40",
 		"predecessor" : "AS 6/13/2018 17:25",
 		"rightLabel" : "LH 6/28/2018 13:45",
+		"standardWidth" : "JU 7/25/2018 21:36",
 		"successor" : "AS 6/13/2018 17:24",
 		"updateIndex" : "AS 7/12/2018 18:14",
-		"updateLabelText" : "lh 6/9/2018 02:51",
+		"updateLabelText" : "JU 7/25/2018 21:23",
 		"updatePosition:" : "LH 6/28/2018 20:54" } }

@@ -2,7 +2,7 @@ event handling
 keyStroke: evt
 	
 	super keyStroke: evt.
-	evt keyValue = 13 
+	evt keyValue = self eventKey 
 		ifFalse: [
 			self update
 		]

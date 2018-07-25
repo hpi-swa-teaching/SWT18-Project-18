@@ -1,0 +1,4 @@
+constants
+stepSize
+
+	^ 4

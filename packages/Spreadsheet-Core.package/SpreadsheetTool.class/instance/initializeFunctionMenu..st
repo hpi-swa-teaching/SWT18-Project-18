@@ -6,7 +6,7 @@ initializeFunctionMenu: aPage
 			add: ((PHDropdownItem label: 'Sum')
 				when: #clickedWithEvent send: #show:function: to: self grid withArguments: {nil.#sum});
 			add: ((PHDropdownItem label: 'Count')
-				when: #clickedWithEvent send: #show:function: to: self grid withArguments: {nil.#count});
+				when: #clickedWithEvent send: #show:function: to: self grid withArguments: {nil.#size});
 			add: ((PHDropdownItem label: 'Average')
 				when: #clickedWithEvent send: #show:function: to: self grid withArguments: {nil.#average});
 			add: ((PHDropdownItem label: 'Min')

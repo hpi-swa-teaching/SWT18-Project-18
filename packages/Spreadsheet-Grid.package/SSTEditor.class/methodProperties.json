@@ -3,8 +3,7 @@
 		"on:" : "AS 7/24/2018 17:06" },
 	"instance" : {
 		"crAction:" : "AS 6/21/2018 15:47",
-		"initialize" : "AS 7/24/2018 16:45",
-		"internalText:" : "AS 7/24/2018 17:29",
+		"initialize" : "JU 7/25/2018 21:09",
 		"keyStroke:" : "AS 6/21/2018 22:02",
 		"moveTo:event:" : "AS 6/30/2018 08:11",
 		"replaceCell:" : "AS 7/24/2018 17:29",
@@ -15,4 +14,6 @@
 		"struckOut:" : "AS 7/24/2018 17:27",
 		"underlined" : "AS 7/24/2018 17:28",
 		"underlined:" : "AS 7/24/2018 17:27",
+		"standardBorder" : "JU 7/25/2018 21:09",
+		"standardPadding" : "JU 7/25/2018 21:08",
 		"update" : "AS 7/15/2018 19:59" } }

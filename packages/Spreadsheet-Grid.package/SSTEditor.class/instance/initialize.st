@@ -6,10 +6,8 @@ initialize
 		text: '';
 		addApplicationStyles: ((PHStyle forAny)
 			boxSizing: #contentBox;
-			padding: 4 @ 2;
+			padding: self standardPadding;
 			color: Color black;
-			border: 2 color: Color blue);
-		addApplicationStyles: ((PHStyle for: #textEntry)
-			border: 2 color: Color blue);				
+			border: self standardBorder color: Color blue);
 		addApplicationStyles: ((PHStyle for: #selection) 
 			backgroundColor: (Color r: 0 g: 0 b: 255 alpha: 0.3))

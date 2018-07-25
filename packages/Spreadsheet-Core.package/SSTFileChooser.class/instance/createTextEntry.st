@@ -2,12 +2,12 @@ ui creation
 createTextEntry
 
 	self textEntry: (PHTextEntry new
-			minSize: 300@20;
+			minSize: self minSize;
 			text: '';
 			addFallbackStyles: ((PHStyle for: #textEntry)
 				boxSizing: #contentBox;
-				padding: 4 @ 2;
+				padding: self standardPadding;
 				color: Color black;
 				backgroundColor: Color transparent;
-				border: 1 color: Color black)).
+				border: self standardBorder color: Color black)).
 	^ self textEntry

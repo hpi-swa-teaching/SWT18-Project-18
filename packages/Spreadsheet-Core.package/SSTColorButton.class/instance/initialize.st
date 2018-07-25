@@ -1,9 +1,9 @@
-as yet unclassified
+initialization
 initialize 
 
 	super initialize.
 	self 
-		extent: 8@8;
+		extent: self buttonExtent;
 		addApplicationStyles: ((PHStyle for: #button)
-			borderRadius: 0)
+			borderRadius: self buttonBorderRadius)
 			

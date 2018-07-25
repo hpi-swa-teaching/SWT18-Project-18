@@ -1,0 +1,4 @@
+constants
+inset
+	
+	^ 6

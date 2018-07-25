@@ -1,4 +1,4 @@
 as yet unclassified
 typeRepresentation: aText
 
-	^ aText
+	^ [aText asNumber] on:  NumberParserError do: [aText]
