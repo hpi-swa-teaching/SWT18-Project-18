@@ -2,5 +2,5 @@ grid access
 cellFromString: aString
 	
 	| gridPosition |
-	gridPosition := SSTRegexMatcher getColumnAndRowFromCellLabel: aString.
+	gridPosition := self data getColumnAndRowFromCellLabel: aString.
 	^ self data cellAtIndex: gridPosition

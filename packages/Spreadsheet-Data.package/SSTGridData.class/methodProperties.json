@@ -18,6 +18,8 @@
 		"defaultGridSize" : "AS 7/12/2018 16:30",
 		"findColumnAndRowIndex:" : "AS 7/26/2018 00:10",
 		"getCellsFrom:to:" : "AS 7/12/2018 18:00",
+		"getColumnAndRowFromCellLabel:" : "AS 7/26/2018 19:05",
+		"getNumberFromChar:" : "AS 7/26/2018 19:03",
 		"grid" : "AS 6/27/2018 12:01",
 		"grid:" : "AS 6/27/2018 12:01",
 		"innerGridBounds" : "AS 7/14/2018 10:16",

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing cells
 getColumnAndRowFromCellLabel: aLabel
 	"split a cell label into a char and a digit and convert the char to a digit >> return column and row as vector"
 
@@ -6,4 +6,4 @@ getColumnAndRowFromCellLabel: aLabel
 	char := aLabel first.
 	charAsDigit := self getNumberFromChar: char.
 	digit := aLabel allButFirst asNumber.
-	^charAsDigit@digit
+	^ charAsDigit@digit
