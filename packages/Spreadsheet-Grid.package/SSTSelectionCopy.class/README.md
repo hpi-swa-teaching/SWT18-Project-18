@@ -1,0 +1,1 @@
+A SSTSelectionCopy is the strategy for copying the selected morphs using SSTCopyMorph.

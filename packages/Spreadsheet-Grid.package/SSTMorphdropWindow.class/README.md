@@ -1,0 +1,1 @@
+A SSTMorphdropWindow is a window that opens when a morph is dragged and dropped into the SpreadsheetTool. It can be used to connect specific attributes of the respective morph to the content of a  specific a SSTCell.

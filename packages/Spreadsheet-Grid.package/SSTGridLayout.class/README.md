@@ -1,0 +1,1 @@
+A SSTGridLayout is a class that is responsible for updating the layout of the SSTGrid everytime one of its submorphs changes. 

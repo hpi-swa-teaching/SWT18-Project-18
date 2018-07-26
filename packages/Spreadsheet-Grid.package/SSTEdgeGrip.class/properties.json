@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "AS 7/26/2018 00:47",
 	"instvars" : [
 		"grid",
 		"drag",
 		"moveLine",
-		"label",
 		"index" ],
 	"name" : "SSTEdgeGrip",
 	"pools" : [

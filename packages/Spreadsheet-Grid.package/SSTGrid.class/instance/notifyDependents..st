@@ -1,4 +1,4 @@
-as yet unclassified
+perform calculations
 notifyDependents: aCell
 
 	aCell observingCells do: [ :cell |

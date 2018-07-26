@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 acceptContents
 
 	self functionString: functionInput text.

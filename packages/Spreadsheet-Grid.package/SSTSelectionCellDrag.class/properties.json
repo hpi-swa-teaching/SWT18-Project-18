@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AS 7/26/2018 01:36",
+	"instvars" : [
+		"dragging" ],
+	"name" : "SSTSelectionCellDrag",
+	"pools" : [
+		 ],
+	"super" : "SSTSelectionStrategy",
+	"type" : "normal" }

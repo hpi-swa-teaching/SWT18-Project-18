@@ -1,5 +1,5 @@
 helper
-newSelection: startCell to: endCell
+newSelection: aStartCell to: anEndCell
 
-	self cells: (startCell to: endCell).
+	self cells: (aStartCell to: anEndCell).
 	self selectionChanged

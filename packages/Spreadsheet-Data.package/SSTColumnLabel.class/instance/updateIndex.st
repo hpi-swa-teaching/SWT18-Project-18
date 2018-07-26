@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateIndex
 	
 	self index: (self data columns indexOf: self ifAbsent: [self index]);

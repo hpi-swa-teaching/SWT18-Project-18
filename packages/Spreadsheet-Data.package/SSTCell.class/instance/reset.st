@@ -2,5 +2,4 @@ initialization
 reset
 
 	self 
-		text: '';
-		calcRepresentation: ''
+		calculateFunction: ''

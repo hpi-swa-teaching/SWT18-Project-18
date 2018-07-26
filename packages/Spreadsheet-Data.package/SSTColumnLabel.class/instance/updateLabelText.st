@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateLabelText
 
 	| characterIndex labelText numberOfCharacters |

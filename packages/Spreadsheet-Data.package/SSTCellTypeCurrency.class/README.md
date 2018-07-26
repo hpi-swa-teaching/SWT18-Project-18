@@ -1,0 +1,1 @@
+A SSTCellTypeCurrency is the abstract datatype currency values.

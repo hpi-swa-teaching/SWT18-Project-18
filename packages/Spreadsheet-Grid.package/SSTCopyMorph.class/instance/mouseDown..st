@@ -1,4 +1,4 @@
 event handling
 mouseDown: evt
 
-	self morph startCopy: evt
+	self morph startWith: evt position strategy: #copy

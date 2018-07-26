@@ -1,0 +1,1 @@
+A SSTRowGrip is an SSTEdgeGrip for SSTRowLabel that can be dragged in order to alter the row width.

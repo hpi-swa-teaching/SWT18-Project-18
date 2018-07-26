@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updatePosition: aPoint
 
 	self position: aPoint.

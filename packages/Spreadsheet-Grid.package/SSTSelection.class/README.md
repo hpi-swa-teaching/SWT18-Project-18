@@ -1,0 +1,1 @@
+A SSTSelection is a Morph that marks all currently selected cells in a light blue color.

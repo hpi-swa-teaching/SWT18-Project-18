@@ -1,12 +1,8 @@
 helper
-selectFrom: startCell to: endCell
+selectFrom: aStartCell to: anEndCell
 
 	self 
-		startCell: startCell;
-		currentCell: endCell;
-		startLabel: nil;
-		currentLabel: nil;
-		cells: (startCell to: endCell);
+		cells: (aStartCell to: anEndCell);
 		startSelection;
 		adjustSize;
 		updateDependentMorphs

@@ -1,0 +1,1 @@
+A SSTCopyMorph is a small rectangle morph in the corner of the selcted cell that can be dragged in order to copy its contents to other cells.

@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"defaultFor:" : "AS 7/15/2018 23:13",
-		"defaultValues" : "AS 7/15/2018 23:10",
+		"defaultFor:" : "AS 7/24/2018 16:58",
+		"defaultValues" : "AS 7/26/2018 00:20",
 		"new" : "AS 7/13/2018 16:23" },
 	"instance" : {
-		"defaultFor:" : "AS 7/13/2018 17:22",
 		"getProperty:" : "AS 7/15/2018 23:10",
-		"initialize" : "AS 7/14/2018 21:47" } }
+		"struckOut" : "AS 7/24/2018 16:54",
+		"struckOut:" : "AS 7/24/2018 16:54",
+		"underlined" : "AS 7/24/2018 16:54",
+		"underlined:" : "AS 7/24/2018 16:54" } }

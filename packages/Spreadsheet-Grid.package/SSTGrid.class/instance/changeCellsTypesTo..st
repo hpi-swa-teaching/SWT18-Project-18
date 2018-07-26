@@ -1,4 +1,4 @@
-as yet unclassified
+public
 changeCellsTypesTo: aTypeSymbol
 	"change all cell types in the current selection"
 	| type |

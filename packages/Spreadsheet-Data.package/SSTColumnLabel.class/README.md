@@ -1,0 +1,1 @@
+A SSTColumnLabel is a SSTLabel for a column.

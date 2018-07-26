@@ -1,0 +1,1 @@
+A SSTCellTypeAbstract is an abstract class for the datatypes of cells implementing the flyweight pattern.

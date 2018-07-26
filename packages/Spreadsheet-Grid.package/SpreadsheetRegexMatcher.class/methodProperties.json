@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"getCellIndicesForString:" : "AS 7/1/2018 15:53",
-		"getCellstringFromString:" : "AS 6/17/2018 21:37",
-		"getColumnAndRowFromCellLabel:" : "JU 5/29/2018 16:27",
-		"getNumberFromChar:" : "JU 5/29/2018 16:17" },
-	"instance" : {
-		 } }

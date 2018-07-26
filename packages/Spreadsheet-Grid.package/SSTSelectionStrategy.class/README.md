@@ -1,0 +1,1 @@
+A SSTSelectionStrategy is the superclass for the different strategies the SSTSelection implements for mouse event handling depending on which morph was clicked.

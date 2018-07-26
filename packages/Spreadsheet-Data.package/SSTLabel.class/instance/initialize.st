@@ -1,6 +1,5 @@
 initialization
 initialize 
-
 	super initialize.	
 	self 
 		backgroundColor: Color gray;
@@ -8,4 +7,3 @@ initialize
 		height: self standardHeight;
 		alignment:  #center;
 		borderColor: Color black.
-		

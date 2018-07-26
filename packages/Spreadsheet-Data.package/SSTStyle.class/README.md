@@ -1,0 +1,1 @@
+A SSTStyle is a custom PHStyle class for the SpreadsheetTool.

@@ -1,3 +1,3 @@
 accessing
 dependentCells
-	^ dependentCells ifNil: [ dependentCells := Set new ].
+	^ dependentCells ifNil: [ dependentCells := Set new ]

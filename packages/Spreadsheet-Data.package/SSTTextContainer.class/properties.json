@@ -1,0 +1,22 @@
+{
+	"category" : "Spreadsheet-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AS 7/26/2018 01:20",
+	"instvars" : [
+		"bounds",
+		"text",
+		"layout",
+		"padding",
+		"layoutWidth",
+		"style",
+		"struckOut",
+		"underlined",
+		"borderColor" ],
+	"name" : "SSTTextContainer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

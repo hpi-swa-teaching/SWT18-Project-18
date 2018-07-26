@@ -1,15 +1,2 @@
-Each cell belongs to one row and to one column.
-
-Instance Variables
-	column:		<Object>
-	grid:		<Object>
-	row:		<Object>
-
-column
-	- xxxxx
-
-grid
-	- xxxxx
-
-row
-	- xxxxx
+A SSTCell is a morph that contains all the data for a spreadsheet cell within a spreadsheet table. 
+Each SSTCell belongs to one SSTRowLabel, one SSTColumnLabel and one SSTGridData.

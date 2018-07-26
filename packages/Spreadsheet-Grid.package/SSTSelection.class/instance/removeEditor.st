@@ -3,7 +3,7 @@ removeEditor
 
 	self editor ifNil: [ ^ self ]. 
 	self selectedCell calculateFunction: self editor text. 
-	editor delete.
+	self editor delete.
 	self editor: nil.
-	self dragging 
+	self currentStrategie = #cellDrag 
 		ifFalse: [self addDependentMorphs]

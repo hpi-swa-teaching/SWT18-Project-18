@@ -1,0 +1,1 @@
+A SSTCellTypeDate is the abstract datatype for dates.

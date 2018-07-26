@@ -1,6 +1,5 @@
-as yet unclassified
+event handling
 keyStroke: evt
-	"Handle a keystroke event."
 	
 	super keyStroke: evt.
 	evt keyValue = self eventKey 

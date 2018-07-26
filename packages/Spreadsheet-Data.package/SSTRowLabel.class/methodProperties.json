@@ -1,9 +1,8 @@
 {
 	"class" : {
-		"newWithIndex:on:" : "LH 6/28/2018 13:13" },
+		"newWithIndex:on:" : "lb 7/14/2018 19:36" },
 	"instance" : {
 		"bottomLabel" : "LH 6/28/2018 13:45",
-		"initialize" : "AS 5/24/2018 07:32",
 		"openInSpreadsheet" : "JU 7/25/2018 21:24",
 		"predecessor" : "AS 6/13/2018 17:25",
 		"successor" : "AS 6/13/2018 17:25",

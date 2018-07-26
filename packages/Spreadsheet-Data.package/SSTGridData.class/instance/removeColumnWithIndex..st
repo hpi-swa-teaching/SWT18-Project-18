@@ -5,7 +5,7 @@ removeColumnWithIndex: anIndex
 	
 	positionCollection := self grid getSelectionPositions.
 	
-	(self columns size < anIndex) ifTrue: [^ self] .
+	(self columns size < anIndex or: [anIndex = 0]) ifTrue: [^ self] .
 	(self columns removeAt: anIndex) removeCells.
 	self columns do: [:aColumn | aColumn updateIndex].
 	self rows do: [:aRow |  aRow cells removeAt: anIndex].

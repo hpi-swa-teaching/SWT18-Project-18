@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LH 5/5/2018 23:25",
+	"commentStamp" : "AS 7/26/2018 00:50",
 	"instvars" : [
-		"grid",
-		"cell",
-		"state" ],
+		"selection",
+		"struckOut",
+		"underlined" ],
 	"name" : "SSTEditor",
 	"pools" : [
 		 ],

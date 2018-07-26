@@ -1,6 +1,4 @@
 accessing rows
 addRow
 	
-	self	addRowWithIndex: (self rows
-		ifEmpty: [1] 
-		ifNotEmpty: [rows last index + 1]).
+	self	addRowWithIndex: (self rows size + 1)

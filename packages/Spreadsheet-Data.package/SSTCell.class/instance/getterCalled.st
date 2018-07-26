@@ -7,4 +7,4 @@ getterCalled
 		( cell isConnectedTo: self)
 			ifTrue: [ self error: 'Circular dependency detected' ]
 			ifFalse: [self observingCells add: cell.
-				cell observedCells add: self.]]
+				cell observe: self.]]

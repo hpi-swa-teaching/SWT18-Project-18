@@ -1,0 +1,4 @@
+accessing
+successor
+
+	^ self subclassResponsibility

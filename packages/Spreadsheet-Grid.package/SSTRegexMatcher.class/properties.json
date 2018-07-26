@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Grid",
+	"classinstvars" : [
+		"statements" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AS 7/26/2018 00:59",
+	"instvars" : [
+		 ],
+	"name" : "SSTRegexMatcher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

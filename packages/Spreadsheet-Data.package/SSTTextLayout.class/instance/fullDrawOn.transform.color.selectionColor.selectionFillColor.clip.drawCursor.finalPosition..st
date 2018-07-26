@@ -18,7 +18,8 @@ finalPosition: aPoint
 		unfocusedSelectionColor: aSelectionFillColor;
 		showCaret: aBoolean;
 		focused: true;
-		positionWhenComposed: aPoint.
+		positionWhenComposed: aPoint;
+		yourself.
 	
 	area := aTransform offset extent: self extent.
 	

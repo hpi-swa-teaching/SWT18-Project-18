@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 extent
 	| extent |
 	extent := self paragraph extent.

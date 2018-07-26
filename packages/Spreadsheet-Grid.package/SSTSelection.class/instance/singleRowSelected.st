@@ -3,8 +3,8 @@ singleRowSelected
 
 	| aRow |
 	
-	self cells ifEmpty: [^ false].
-	aRow := self cells asOrderedCollection first row.
+	self cells cellHeight = 1 ifFalse: [^ false].
+	aRow := self cells first row.
 	aRow cells do: [:aCell |
 		(self cells includes: aCell) ifFalse: [^ false]].
 	^ true

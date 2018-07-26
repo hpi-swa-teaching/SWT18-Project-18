@@ -1,0 +1,1 @@
+A SSTTextContainer is a morph that contains all the data for a textfield within a spreadsheet table i.e. a cell, row label or column label.

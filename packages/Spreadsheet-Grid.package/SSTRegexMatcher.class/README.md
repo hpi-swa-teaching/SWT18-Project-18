@@ -1,0 +1,1 @@
+A SSTRegexMatcher is a utility class that offers functionality to parse the contents of spreadsheet cells e.g. for function evalutation.

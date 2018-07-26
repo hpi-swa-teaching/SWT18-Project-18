@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateLabelText
 
 	self text: self index asString.

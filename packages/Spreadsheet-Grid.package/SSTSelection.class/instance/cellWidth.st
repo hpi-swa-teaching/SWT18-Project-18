@@ -1,4 +1,4 @@
 helper
 cellWidth
 
-	^ self bottomRightIndex x - self topLeftIndex x + 1
+	^ self cells cellWidth

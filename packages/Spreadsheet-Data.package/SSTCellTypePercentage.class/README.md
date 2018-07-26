@@ -1,0 +1,1 @@
+A SSTCellTypePercentage is the abstract datatype for percentages.

@@ -1,0 +1,1 @@
+A SSTCellTypeNumber is the abstract datatype for numeric values.

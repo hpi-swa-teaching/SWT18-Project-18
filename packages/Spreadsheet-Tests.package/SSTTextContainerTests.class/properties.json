@@ -1,0 +1,14 @@
+{
+	"category" : "Spreadsheet-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cell" ],
+	"name" : "SSTTextContainerTests",
+	"pools" : [
+		 ],
+	"super" : "SSTEventTestCase",
+	"type" : "normal" }

@@ -1,5 +1,5 @@
 as yet unclassified
-on: aGrid
+on: aSelection
 
 	^ self new
-		grid: aGrid
+		selection: aSelection

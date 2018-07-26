@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cellFrom:with:" : "AS 7/25/2018 22:03",
+		"cellOffset" : "AS 7/25/2018 21:51",
+		"cellOffset:" : "AS 7/25/2018 21:51",
+		"finishWith:" : "AS 7/25/2018 23:44",
+		"grabbedCell" : "AS 7/25/2018 21:47",
+		"grabbedCell:" : "AS 7/25/2018 21:47",
+		"offsetFor:and:" : "AS 7/26/2018 00:41",
+		"startWith:" : "AS 7/25/2018 23:34",
+		"targetCell" : "AS 7/25/2018 21:33",
+		"targetCell:" : "AS 7/25/2018 21:33",
+		"targetMorph" : "AS 7/25/2018 21:25",
+		"targetMorph:" : "AS 7/25/2018 21:25",
+		"updatePosition:" : "AS 7/26/2018 00:03" } }

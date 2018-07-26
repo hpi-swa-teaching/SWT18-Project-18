@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 maximumContainerExtent
-	^9999999 asPoint.
+	^9999999 asPoint
